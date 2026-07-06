@@ -1,0 +1,4 @@
+# G-Theory verification suite — dependencies
+# install with:  pip install -r requirements.txt
+sympy>=1.12
+pytest>=7.0
