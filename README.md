@@ -58,7 +58,7 @@ In the intended reading order:
 | # | work | DOI |
 |---|------|-----|
 | 1 | *G-Theory — An Introduction* | [10.5281/zenodo.21212293](https://doi.org/10.5281/zenodo.21212293) |
-| 2 | *Schrödinger's Piano* — the thought experiment | [10.5281/zenodo.21211077](https://doi.org/10.5281/zenodo.21211077) |
+| 2 | *Schrödinger's Piano* — the thought experiment | [10.5281/zenodo.21246918](https://doi.org/10.5281/zenodo.21246918) |
 | 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | [10.5281/zenodo.21212113](https://doi.org/10.5281/zenodo.21212113) |
 | 4 | *The Fine-Structure Constant on Discrete Terms* | [10.5281/zenodo.21211051](https://doi.org/10.5281/zenodo.21211051) |
 | 5 | *Navier–Stokes: A Solution on Discrete Terms* | [10.5281/zenodo.21197045](https://doi.org/10.5281/zenodo.21197045) |
