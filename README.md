@@ -2,14 +2,14 @@
 
 [![tests](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml/badge.svg)](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml)
 
-365 machine-checked assertions underlying the G-Theory research program: an
+382 machine-checked assertions underlying the G-Theory research program: an
 investigation of dimensionless structure in physics from the arithmetic
 relation of 2 and 3, developed with zero adjustable parameters.
 
 ```bash
 pip install -r requirements.txt
 pytest
-# 365 passed
+# 382 passed
 ```
 
 ## What green means
@@ -58,16 +58,16 @@ In the intended reading order:
 | # | work | DOI |
 |---|------|-----|
 | 1 | *G-Theory — An Introduction* | [10.5281/zenodo.21212293](https://doi.org/10.5281/zenodo.21212293) |
-| 2 | *Schrödinger's Piano* — the thought experiment | [10.5281/zenodo.21246918](https://doi.org/10.5281/zenodo.21246918) |
-| 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | [10.5281/zenodo.21212113](https://doi.org/10.5281/zenodo.21212113) |
+| 2 | *Schrödinger's Piano* — the thought experiment | [10.5281/zenodo.21270357](https://doi.org/10.5281/zenodo.21270357) |
+| 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | [10.5281/zenodo.21432752](https://doi.org/10.5281/zenodo.21432752) |
 | 4 | *The Fine-Structure Constant on Discrete Terms* | [10.5281/zenodo.21211051](https://doi.org/10.5281/zenodo.21211051) |
 | 5 | *Navier–Stokes: A Solution on Discrete Terms* | [10.5281/zenodo.21197045](https://doi.org/10.5281/zenodo.21197045) |
 | 6 | *π on Discrete Terms* | [10.5281/zenodo.21205369](https://doi.org/10.5281/zenodo.21205369) |
-| 7 | *Sevenths — A Constant Hidden in Plain Sight* | [10.5281/zenodo.21206864](https://doi.org/10.5281/zenodo.21206864) |
-| 8 | *The Enneagram Is a Theorem* | [10.5281/zenodo.21206949](https://doi.org/10.5281/zenodo.21206949) |
+| 7 | *Sevenths — A Constant Hidden in Plain Sight* | [10.5281/zenodo.21432733](https://doi.org/10.5281/zenodo.21432733) |
+| 8 | *The Enneagram Is a Theorem* | [10.5281/zenodo.21270991](https://doi.org/10.5281/zenodo.21270991) |
 | 9 | *Zero and Infinity on Discrete Terms* | [10.5281/zenodo.21209364](https://doi.org/10.5281/zenodo.21209364) |
 | 10 | *The Vanishing Point on Discrete Terms* | [10.5281/zenodo.21209421](https://doi.org/10.5281/zenodo.21209421) |
-| 11 | *Predictions on Discrete Terms* — the registered stakes | [10.5281/zenodo.21206819](https://doi.org/10.5281/zenodo.21206819) |
+| 11 | *Predictions on Discrete Terms* — the registered predictions | [10.5281/zenodo.21206819](https://doi.org/10.5281/zenodo.21206819) |
 
 Begin at the piano; it asks nothing but a moment's listening.
 
