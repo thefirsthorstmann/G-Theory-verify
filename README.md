@@ -2,14 +2,14 @@
 
 [![tests](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml/badge.svg)](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml)
 
-382 machine-checked assertions underlying the G-Theory research program: an
+1,009 machine-checked assertions underlying the G-Theory research program: an
 investigation of dimensionless structure in physics from the arithmetic
 relation of 2 and 3, developed with zero adjustable parameters.
 
 ```bash
 pip install -r requirements.txt
 pytest
-# 382 passed
+# 1009 passed
 ```
 
 ## What green means
@@ -41,6 +41,7 @@ carries a grade, and the grades are kept apart on purpose — see
 
 ```
 verify/            the suite — each file states its claims in its docstring
+catalog/           the paper source a battery pins its text claims against
 verify/gtheory.py  the engine: the banked objects and registered choices
 verify/stakes.py   pre-registered falsification conditions: every live claim
                    carries a falsification band, an adjudicator, and a horizon;
@@ -52,6 +53,12 @@ Docstring `Source:` lines cite the program's internal working documents; the
 public statements of these results are the papers below.
 
 ## The papers
+
+- **Gravity on Discrete Terms** (August 2026) — gravitation as the tonal
+  center of a discrete harmonic system; the anomalies, the coupling, and a
+  dimensionless cosmological ratio. The `test_the_*` and `test_gravity_*`
+  batteries in this suite are its section-24 claim map, and
+  `catalog/GRAVITY-AS-TONAL-CENTER.md` is the paper source they pin.
 
 In the intended reading order:
 

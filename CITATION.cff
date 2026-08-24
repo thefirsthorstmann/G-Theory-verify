@@ -6,8 +6,8 @@ authors:
   - family-names: Horstmann
     given-names: Christian
     orcid: "https://orcid.org/0009-0006-8623-9937"
-version: 1.0.0
-date-released: 2026-07-06
+version: 2.0.0
+date-released: 2026-08-24
 abstract: >-
   365 machine-checked assertions underlying the G-Theory research program:
   dimensionless structure in physics from the arithmetic relation of 2 and 3,
