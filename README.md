@@ -54,7 +54,7 @@ public statements of these results are the papers below.
 
 ## The papers
 
-- **Gravity on Discrete Terms** (August 2026) — gravitation as the tonal
+- **Gravity on Discrete Terms** (August 2026, DOI 10.5281/zenodo.22087600) — gravitation as the tonal
   center of a discrete harmonic system; the anomalies, the coupling, and a
   dimensionless cosmological ratio. The `test_the_*` and `test_gravity_*`
   batteries in this suite are its section-24 claim map, and
@@ -75,6 +75,7 @@ In the intended reading order:
 | 9 | *Zero and Infinity on Discrete Terms* | [10.5281/zenodo.21209364](https://doi.org/10.5281/zenodo.21209364) |
 | 10 | *The Vanishing Point on Discrete Terms* | [10.5281/zenodo.21209421](https://doi.org/10.5281/zenodo.21209421) |
 | 11 | *Predictions on Discrete Terms* — the registered predictions | [10.5281/zenodo.21206819](https://doi.org/10.5281/zenodo.21206819) |
+| 12 | *Gravity on Discrete Terms* | 10.5281/zenodo.22087600 |
 
 Begin at the piano; it asks nothing but a moment's listening.
 
