@@ -75,7 +75,7 @@ In the intended reading order:
 | 9 | *Zero and Infinity on Discrete Terms* | [10.5281/zenodo.21209364](https://doi.org/10.5281/zenodo.21209364) |
 | 10 | *The Vanishing Point on Discrete Terms* | [10.5281/zenodo.21209421](https://doi.org/10.5281/zenodo.21209421) |
 | 11 | *Predictions on Discrete Terms* — the registered predictions | [10.5281/zenodo.21206819](https://doi.org/10.5281/zenodo.21206819) |
-| 12 | *Gravity on Discrete Terms* | 10.5281/zenodo.22087600 |
+| 12 | *Gravity on Discrete Terms* | [10.5281/zenodo.22087600](https://doi.org/10.5281/zenodo.22087600) |
 
 Begin at the piano; it asks nothing but a moment's listening.
 
