@@ -22,7 +22,7 @@ THE CRITERION: gapped <=> the carrier is charged (non-abelian, C_A > 0)
 C_A = 0, no 11/3 term, b0 < 0 — infinite budget, no landing, gapless.
 A2 reading: the uncharged carrier is workless (never reads itself);
 the charged carrier must register its own output — self-reading is an
-E-face engagement, so every excitation requires at least one carry.
+E-face engagement, so every excitation costs at least one carry.
 
 DIMENSIONAL TRANSMUTATION = THE CLOCK: the pure number alpha^-1(mu) is
 an octave COUNT; the scale where the count runs out, Lambda =

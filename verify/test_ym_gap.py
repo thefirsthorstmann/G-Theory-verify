@@ -52,7 +52,7 @@ def test_the_flavor_ceiling_is_33_over_2():
 
 
 def test_the_abelian_side_is_gapless_sign():
-    """C_A = 0 removes the 11/3 term: b0 < 0 for any matter — no landing."""
+    """C_A = 0 kills the 11/3 term: b0 < 0 for any matter — no landing."""
     for nf in range(1, 7):
         assert abelian_b0(nf) < 0
 
