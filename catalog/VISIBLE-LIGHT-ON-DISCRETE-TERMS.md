@@ -182,7 +182,7 @@ There, the block 142857 has two canonical orderings: the positional order
 that division writes, and the multiplicative order that doubling walks.
 The companion volumes identify the pair with the electric and magnetic
 faces of the field (The Origin on Discrete Terms,
-doi.org/10.5281/zenodo.21432752; Gravity on Discrete Terms,
+doi.org/10.5281/zenodo.22119129; Gravity on Discrete Terms,
 doi.org/10.5281/zenodo.22087600). The faces are the read
 face and the circulation face, exchanged by an involution that is its own
 inverse, and radiation begins at the dipole. Here, the same block is read by its
@@ -313,6 +313,6 @@ is labeled where it stands.
 doi.org/10.5281/zenodo.22087600) · Tonal Function on Discrete Terms (the
 functions of the scale from the same seats) · Sevenths — A Constant Hidden
 in Plain Sight (the reptend itself; doi.org/10.5281/zenodo.21432733) · The
-Origin on Discrete Terms (the figure; doi.org/10.5281/zenodo.21432752).*
+Origin on Discrete Terms (the figure; doi.org/10.5281/zenodo.22119129).*
 
 <div class="copyright" style="margin-top:80pt">Copyright<br>Christian Horstmann · August 25th, 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>

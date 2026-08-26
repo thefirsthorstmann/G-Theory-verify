@@ -64,7 +64,7 @@ The intended reading order, each item on the public record:
 |---|---|---|
 | 1 | this introduction | 10.5281/zenodo.21212293 |
 | 2 | *Schrödinger's Piano* — the thought experiment | 10.5281/zenodo.21270357 |
-| 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | 10.5281/zenodo.21432752 |
+| 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | 10.5281/zenodo.22119129 |
 | 4 | *The Fine-Structure Constant on Discrete Terms* | 10.5281/zenodo.21211051 |
 | 5 | *Navier–Stokes: A Solution on Discrete Terms* | 10.5281/zenodo.21197045 |
 | 6 | *π on Discrete Terms* | 10.5281/zenodo.21205369 |
@@ -72,7 +72,7 @@ The intended reading order, each item on the public record:
 | 8 | *The Enneagram Is a Theorem* | 10.5281/zenodo.21270991 |
 | 9 | *Zero and Infinity on Discrete Terms* | 10.5281/zenodo.21209364 |
 | 10 | *The Vanishing Point on Discrete Terms* | 10.5281/zenodo.21209421 |
-| 11 | *Predictions on Discrete Terms* — the registered predictions | 10.5281/zenodo.21206819 |
+| 11 | *Predictions on Discrete Terms* — the registered predictions | 10.5281/zenodo.22118840 |
 | 12 | *Gravity on Discrete Terms* | 10.5281/zenodo.22087600 |
 | 13 | *Tonal Function on Discrete Terms* | DOI-13 |
 | 14 | *Visible Light on Discrete Terms* | DOI-14 |

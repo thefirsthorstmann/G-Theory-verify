@@ -438,7 +438,7 @@ Terms carries the operation-supply theorem and u_min
 Terms carries the integer 137 (doi.org/10.5281/zenodo.21211051). The Origin
 on Discrete Terms carries the two-tier reading of §5 — the seat and the
 dress, in its definitions — and the hexad's two orderings, in its first
-volume (doi.org/10.5281/zenodo.21432752). A fuller treatment of the reading
+volume (doi.org/10.5281/zenodo.22119129). A fuller treatment of the reading
 map is in preparation.
 
 <div class="copyright" style="margin-top:80pt">Copyright<br>Christian Horstmann · August 26th, 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>

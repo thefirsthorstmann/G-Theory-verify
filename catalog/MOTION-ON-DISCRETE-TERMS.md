@@ -286,7 +286,7 @@ rule is the paper's single named principle; nothing else is assumed.
 *Companions: Gravity on Discrete Terms (the form, the coupling, and the
 kinematics of §16; doi.org/10.5281/zenodo.22087600) · Units on Discrete
 Terms (the dimensional boundary; posted with this revision) · The Origin
-on Discrete Terms (the figure; doi.org/10.5281/zenodo.21432752) ·
+on Discrete Terms (the figure; doi.org/10.5281/zenodo.22119129) ·
 Schrödinger's Piano (the thought experiment;
 doi.org/10.5281/zenodo.21270357).*
 

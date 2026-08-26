@@ -340,7 +340,7 @@ this paper's source are public at github.com/thefirsthorstmann/g-theory-verify.
 seats of §14; doi.org/10.5281/zenodo.22087600) · Units on Discrete Terms
 (the reference theorem, the classes of constants, §12b; posted with this
 revision) · The Origin on Discrete Terms (the figure;
-doi.org/10.5281/zenodo.21432752) · The Vanishing Point on Discrete Terms
+doi.org/10.5281/zenodo.22119129) · The Vanishing Point on Discrete Terms
 (the nines and the horizon; doi.org/10.5281/zenodo.21209421).*
 
 <div class="copyright" style="margin-top:80pt">Copyright<br>Christian Horstmann · August 25th, 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>

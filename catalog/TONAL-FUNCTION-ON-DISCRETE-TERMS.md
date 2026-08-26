@@ -363,7 +363,7 @@ the derivations use no quantity the companion volumes had not already fixed.
 
 *Companions: Gravity on Discrete Terms (the form, the coupling, the interlude on
 tonality for the physicist; doi.org/10.5281/zenodo.22087600) · The Origin on
-Discrete Terms (the figure; doi.org/10.5281/zenodo.21432752) · Units on
+Discrete Terms (the figure; doi.org/10.5281/zenodo.22119129) · Units on
 Discrete Terms and The Vacuum on Discrete Terms (the dimensional boundary; the
 drone — both in preparation).*
 
