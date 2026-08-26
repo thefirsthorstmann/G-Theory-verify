@@ -10,6 +10,9 @@ abstract: A physical magnitude is a dimensionless structure multiplied by one me
 <!-- CONTENTS -->
 <div style="page-break-before:always"></div>
 
+<style>table:first-of-type { width: 96%; }
+table:first-of-type td:last-child { text-align: right; }</style>
+
 | | |
 |---|---|
 | **1 · Introduction** | 3 |
@@ -109,7 +112,7 @@ This is §3 instantiated in the operative system. The theorem states that one re
 
 **The status of *c* follows and should be stated without ambiguity.** The 1983 stipulation of *c* = 299792458 m·s⁻¹ constituted no measurement of light and improved no determination of its speed. It transferred the reference out of the metre and into a definition, after which the metre is *defined* as the distance light travels in 1/299792458 of a second. The exactness is a property of the definition; what the definition constructs is the metre. The integer is not a fact about light and carries no structure: it is the numerical residue of an earlier metre, retained so that the new definition would not disturb existing measurements. Any attempt to read significance into its digits is reading the length of a French survey, and the same holds for the digits of *h*, *e*, *k* and *K*_cd.
 
-The 2019 stipulation of *h* performed the corresponding transfer for the kilogram, with the consequence that the atomic mass unit, previously exact by definition, became a measured quantity with an uncertainty. Nothing was created or destroyed in either transfer. The reference moved — and the measurability moved with it: the same revision that fixed *h* returned μ₀, stipulated since 1948, to the class of measured quantities. §6.1 sets out what that stipulation had purchased, and what it had silenced.
+The 2019 stipulation of *h* performed the corresponding transfer for the kilogram, with the consequence that the atomic mass unit, previously exact by definition, became a measured quantity with an uncertainty. Nothing was created or destroyed in either transfer. The reference moved — and the measurability moved with it: the same revision that fixed *h* returned μ₀, stipulated since 1948, to the class of measured quantities. §6.1 sets out what that stipulation had provided, and what it had silenced.
 
 ## 6 · Invariance under rescaling
 

@@ -199,9 +199,9 @@ million years ago, at the moment its two horizons touched, as the vacuum's
 fraction passed its rest.
 
 **Standing, and the office of this section.** The account's own position
-is staked and unhedged: w = −1 exactly, at every redshift, with no
+is committed outright: w = −1 exactly, at every redshift, with no
 fallback, because the term is a constant of integration. The registered
-schedule stakes the null (Predictions on Discrete Terms, version 2;
+schedule registers the null (Predictions on Discrete Terms, version 2;
 Gravity on Discrete Terms, §14). The model of this section is therefore
 not the account's position, and it is claimed nowhere in this paper. Its
 office is discrimination. It characterizes what evolving dark energy
@@ -212,7 +212,7 @@ equation of state relaxes toward −1/3 into the past — while the current
 DESI preference runs the other way. In a Gaussian reading of the DR2
 contours the model is competitive with ΛCDM, within one to two standard
 deviations, and at today's precision it is inseparable from ΛCDM. A
-confirmed evolution of the equation of state refutes the staked position
+confirmed evolution of the equation of state refutes the registered position
 outright; no retreat to this section is available, and none is claimed.
 Within the refutation's anatomy, two signatures would distinguish
 seat-geometry evolution from generic evolution: positive running, and a
@@ -221,7 +221,7 @@ nowhere.
 
 ## 7 · Two registered forks
 
-Both decidable by measurement, neither claimed now; neither touches the staked null on the equation of state.
+Both decidable by measurement, neither claimed now; neither touches the registered null on the equation of state.
 
 **The anatomy fork.** The fine-structure integer is expressed as
 137 + 36/1000. The vacuum fraction's additive excess over its seat reads
@@ -270,7 +270,7 @@ drone's interval.
 converging, at σ ≈ 0.002, away from both branches of the anatomy fork and
 inconsistent with seat plus clock would leave the fraction's reading without
 its excess accounted for.
-2. **The equation of state.** The staked position is w = −1 exactly, with
+2. **The equation of state.** The registered position is w = −1 exactly, with
    no fallback: a confirmed evolution refutes the account outright, and
    the registered schedule carries the null. Within that refutation's
    anatomy, a measured phantom crossing located away from the Ω_Λ = 2/3
@@ -312,7 +312,7 @@ weighs it once per horizon, and §3 is the entire correction. The coincidence pr
 the single epoch reference of Theorem 3. Two observations attach to it. The
 present epoch sits within three percent of the seat crossing. In the candidate
 model that crossing is also the phantom crossing and the horizon coincidence. The present observational situation is a preference of two to four sigma for
-evolving dark energy with negative running. It presses on the staked null
+evolving dark energy with negative running. It presses on the registered null
 directly: confirmed, it refutes the account, and it removes §6's
 characterization together with ΛCDM. The account stands or falls with
 named measurements rather than with argument.

@@ -41,7 +41,7 @@ def test_the_higgs_razor_row_is_correct():
     stake = V * 32 / 63
     gap_mev = (rival - stake) * 1000
     assert 95 < gap_mev < 110                      # the doc says 102 MeV above
-    assert "nearest register rival 102 MeV above" in FLAT
+    assert "nearest register alternative 102 MeV above" in FLAT
     assert abs(gap_mev - 102) < 1
 
 
@@ -52,7 +52,7 @@ def test_stake_nine_matches_the_gravity_paper_and_its_placement():
     assert "6.6735902(41)" in " ".join(GRAVITY.split())   # same value, same source
     ppm = (6.6735902 - 6.67430) / 6.67430 * 1e6
     assert abs(ppm + 106) < 1                      # 106 ppm below the CODATA centre
-    assert "promoted to stake 9" in FLAT           # the watched-column promotion, logged
+    assert "promoted to commitment 9" in FLAT           # the watched-column promotion, logged
 
 
 # --- stake 10: the chain pair -------------------------------------------------------
@@ -79,10 +79,10 @@ def test_the_five_nulls_are_on_the_face():
 # --- conduct: additive, logged, and version one intact ------------------------------
 
 def test_the_change_log_is_on_the_face():
-    assert "## 9 · Change log" in DOC
+    assert "## 8 · Change log" in DOC
     assert "Version 2 — August 25th, 2026" in FLAT
-    assert "No version-1 stake was altered or removed" in FLAT
-    assert "Ten live stakes and five exact nulls are registered" in FLAT
+    assert "No version-1 commitment was altered or removed" in FLAT
+    assert "Ten live commitments and five exact nulls are registered" in FLAT
     assert "10.5281/zenodo.22087600" in FLAT
 
 
@@ -92,4 +92,8 @@ def test_every_version_one_stake_still_stands_verbatim():
               "1 − 17/81 − 13/1000", "17/10 = 1.700 exactly"):
         assert s in FLAT, s
     assert "5/17 = 0.294118" in FLAT               # the watched abstention, untouched
-    assert "391/140" in FLAT                        # the retired column, untouched
+    # the register is normalized (2026-08-26): commitment vocabulary throughout,
+    # the withdrawn items carried in the internal record only
+    assert "staked" not in FLAT
+    assert "at risk" not in FLAT
+    assert "Retired, with reasons" not in DOC

@@ -292,9 +292,9 @@ decline — is recorded as a signpost and nothing more.
 Newton's precedent bounds the claim from the other side. His seven spectral
 names were chosen to match the octave, and the choice was fertile for three
 centuries while deriving nothing. A reading of color from arithmetic must
-therefore expect to earn its standing the slow way, by finding the
+therefore expect to establish its standing the slow way, by finding the
 constraint the wheel imposes; this paper contributes the structure and the
-honest statement of what is still owed.
+plain statement of what remains open.
 
 ## 10 · Verification
 

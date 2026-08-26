@@ -1,7 +1,7 @@
 %%TITLE: Tonal Function on Discrete Terms
-%%SUBTITLE: Why the scale pulls: the diatonic functions derived from the arithmetic of the seats — the unique root theorem, the two joints, the mirror that exchanges dominant and subdominant, the cadence that spends one three and one two, and the physical offices the functions already hold in the companion volumes.
+%%SUBTITLE: Why the scale pulls: the diatonic functions derived from the arithmetic of the seats — the unique root theorem, the two joints, the mirror that exchanges dominant and subdominant, the cadence that uses one three and one two, and the physical offices the functions already hold in the companion volumes.
 %%META: Christian Horstmann · thefirsthorstmann@gmail.com · August 25th, 2026 · manuscript for the public record
-%%ABSTRACT: Tonal function is the observation that the degrees of a scale are not interchangeable: each carries a characteristic office, stable across repertoires and listeners. The standard accounts — the fundamental bass of Rameau, the three functions of Riemann, the probe-tone hierarchies of the perception laboratory — describe the offices with precision but take function as primitive. This paper derives the offices from arithmetic, using only the exact ratios at which the companion volumes seat the tones. Four theorems carry the derivation. First, a set supports a unique tonic only if no transposition maps it onto itself; the diatonic and pentatonic sets pass, while the whole-tone, octatonic and chromatic sets — Messiaen's modes of limited transposition — cannot name a root on their own arithmetic, and three centuries of practice corroborate the prohibition. Second, function is located at the diatonic step word's two semitone seams, Mi–Fa and Si–Do, exactly where functional harmony moves; the whole-tone word has no seam, and nothing in it leads. Third, the reflection that exchanges tonic and dominant carries the major set onto its parallel minor and the dominant seventh onto the subdominant minor sixth: dominant and subdominant are one object read in two orientations. Fourth, the dominant seventh's tritone spans the ring's one unseated address and resolves by two just semitones in contrary motion, spending one unit of each generator: three up, two down. A table then states the physical office each function holds in the companion volumes, and conditions of refutation are given section by section. Every arithmetic claim re-derives in a public suite at github.com/thefirsthorstmann/g-theory-verify.
+%%ABSTRACT: Tonal function is the observation that the degrees of a scale are not interchangeable: each carries a characteristic office, stable across repertoires and listeners. The standard accounts — the fundamental bass of Rameau, the three functions of Riemann, the probe-tone hierarchies of the perception laboratory — describe the offices with precision but take function as primitive. This paper derives the offices from arithmetic, using only the exact ratios at which the companion volumes seat the tones. Four theorems carry the derivation. First, a set supports a unique tonic only if no transposition maps it onto itself; the diatonic and pentatonic sets pass, while the whole-tone, octatonic and chromatic sets — Messiaen's modes of limited transposition — cannot name a root on their own arithmetic, and three centuries of practice corroborate the prohibition. Second, function is located at the diatonic step word's two semitone seams, Mi–Fa and Si–Do, exactly where functional harmony moves; the whole-tone word has no seam, and nothing in it leads. Third, the reflection that exchanges tonic and dominant carries the major set onto its parallel minor and the dominant seventh onto the subdominant minor sixth: dominant and subdominant are one object read in two orientations. Fourth, the dominant seventh's tritone spans the ring's one unseated address and resolves by two just semitones in contrary motion, applying one unit of each generator: three up, two down. A table then states the physical office each function holds in the companion volumes, and conditions of refutation are given section by section. Every arithmetic claim re-derives in a public suite at github.com/thefirsthorstmann/g-theory-verify.
 %%
  
 ## 1 · Introduction
@@ -20,7 +20,7 @@ leading tone's axis — and derived the functions nowhere. This paper closes tha
 account. It claims six things. The existence of a unique tonic is decided by a
 symmetry count — a theorem. The location of function is the semitone joints — a
 theorem. The relation of dominant to subdominant is a reflection — a theorem.
-The authentic cadence's resolution spends exactly one unit of each generator —
+The authentic cadence's resolution applies exactly one unit of each generator —
 a theorem on the lattice the series fixed long before this paper. Each function
 holds a named physical office in the companion volumes — a table with its
 translation grammar stated. And the measured perceptual hierarchy is consonant
@@ -82,7 +82,7 @@ relabeling of it.
 **Theorem 1 (the unique root condition).** A pitch class set supports a unique
 tonic only if its transpositional stabilizer is trivial — only if no nonzero
 shift of the ring maps the set onto itself. If a shift t fixes the set, every
-candidate root has an indistinguishable rival at distance t, and no interior
+candidate root has an indistinguishable alternative at distance t, and no interior
 evidence can decide between them.
 
 The count, run on the standing scales: the diatonic set and the pentatonic set
@@ -155,7 +155,7 @@ the fifth read backwards. This is why the relative minor rests there. It is
 also why the companion volume on gravitation seats the same 2/3 as the
 vacuum's fraction of the cosmological budget, in its §14.
 
-## 6 · The cadence spends one three and one two
+## 6 · The cadence uses one three and one two
 
 The strongest progression in tonal music is the dominant seventh resolving to
 the tonic, and its unrest has a single source: the chord contains Si against
@@ -167,7 +167,7 @@ the stretch is the tension.
 
 **Theorem 4 (the resolution's ledger).** The tritone resolves by contrary
 motion, both voices moving the same just semitone 16/15: Si rises 45 → 48 and
-Fa falls 32 → 30. In lattice units the voices spend +3 and −2 — one unit of
+Fa falls 32 → 30. In lattice units the voices move +3 and −2 — one unit of
 each generator, in opposite directions — and the opened interval is
 45/32 × (16/15)² = 8/5, the Mi–Do frame of the tonic chord.
 
@@ -179,7 +179,7 @@ musician feels at the dominant seventh is the arithmetic's own pair, enacted in
 contrary motion through the one address the figure declines to occupy. The
 companion volume derived a force from a one-signed miss at Fa; this is the same
 grammar at the scale of a phrase. **Tension is an unseated address, resolution
-is the spending of the generators, and arrival is the occupied fixed point.**
+is the application of the generators, and arrival is the occupied fixed point.**
 
 One layer deeper, stated as the structural parallel it is. The series' wheels
 carry two families of moduli: the all nines integers, which close a period, and
@@ -195,7 +195,7 @@ and machine checked in the companion suite.
 ## 7 · The two wheels stand a fourth apart
 
 The program's two working wheels are the master wheel of the sevenths, period
-six, and the fine-structure wheel of 137, period eight. Midy's theorem prices
+six, and the fine-structure wheel of 137, period eight. Midy's theorem fixes
 each period in nines — 54 and 72 — and the ratio of the two wheels' completions
 is 72/54 = 4/3: **the lift interval. The two engines of the series stand in
 subdominant relation to one another**, a fourth apart, the same interval
@@ -283,11 +283,26 @@ measure it and file it. The companion volume found it is not an arbitrary
 number: it is a five circulating on a wheel one hundred fifty-one places long —
 a single tone, held on a very long string. You already own the skill this
 series runs on. When you hear a dominant seventh and know, before it moves,
-where it must go, you are reading unseated addresses and counting the cost of
-closure — the same reading this series does on the constants of nature. The
+where it must go, you are reading unseated addresses and counting what closure requires — the same reading this series does on the constants of nature. The
 claim of these papers, said for the player: the universe's numbers behave like
 voices, because voices and numbers are both built from two and three, and
 nothing built from two and three gets to be arbitrary.
+
+One theorist deserves naming in this interlude. George Russell's *Lydian
+Chromatic Concept of Tonal Organization* (1953) organized harmony around
+what he called tonal gravity: the pull of every tone toward a tonic. He
+located its source in the ladder of fifths, the same generator this paper
+counts, and the companion volume on gravitation — which reads the
+gravitational field as a tonal center — meets his phrase from the other
+side, seven decades on. The difference is structural and instructive.
+Russell generates his parent scale one-sidedly, by consecutive fifths
+upward from the tonic; this yields the Lydian set and omits the
+subdominant. The present construction seats the diatonic set two-sidedly,
+one generator step below the tonic and five above, and the mirror of
+Theorem 3 — dominant and subdominant as one object in two orientations —
+lives exactly in the step his stack omits. On this account his instinct
+was arithmetic fact, and the two-sided placement is what makes it
+provable.
 
 ## 11 · What would refute this
 
@@ -301,7 +316,7 @@ nothing built from two and three gets to be arbitrary.
 3. **Theorem 3 and the triads.** The reflection identities are a line of
    arithmetic each; an error in any is decisive and checkable by hand.
 4. **Theorem 4.** The ledger is exact on the lattice: if the just cadence's
-   voices do not move 16/15 in contrary motion spending +3 and −2, the
+   voices do not move 16/15 in contrary motion applying +3 and −2, the
    resolution reading fails. The check is four integers.
 5. **The offices.** The table of §8 falls wherever a companion volume's
    mechanism falls; it has no independent life, and claims none.
@@ -317,7 +332,7 @@ nothing built from two and three gets to be arbitrary.
 ## 12 · Relation to the standard accounts
 
 Rameau derived harmony from the fundamental bass and the corps sonore. Riemann
-gave the three functions and proposed the undertone dualism his critics spent a
+gave the three functions and proposed the undertone dualism his critics took a
 century contesting. The negative harmony tradition rediscovered the mirror as a
 compositional resource, and the perception laboratory measured the hierarchies. To
 each, this paper adds the same two things. A derivation: the offices follow
