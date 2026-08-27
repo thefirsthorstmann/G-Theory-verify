@@ -67,7 +67,7 @@ public statements of these results are the papers below.
   `catalog/TONAL-FUNCTION-ON-DISCRETE-TERMS.md` is the paper source.
 
 - **Predictions on Discrete Terms, version 2** (August 2026, DOI
-  [10.5281/zenodo.21206819](https://doi.org/10.5281/zenodo.21206819)) —
+  [10.5281/zenodo.22118840](https://doi.org/10.5281/zenodo.22118840)) —
   the registry gains the gravitational sector: three live stakes and five
   exact nulls, added under the registry's additive conduct rules.
   `verify/test_the_registry_v2.py` pins the new rows against
@@ -89,7 +89,7 @@ public statements of these results are the papers below.
   `catalog/WATER-ON-DISCRETE-TERMS.md` is the paper source.
 
 - **The Origin on Discrete Terms, version 2** (August 2026, DOI
-  [10.5281/zenodo.21432752](https://doi.org/10.5281/zenodo.21432752)) —
+  [10.5281/zenodo.22119129](https://doi.org/10.5281/zenodo.22119129)) —
   the flagship gains an interlude between Volumes IV and V, "The forces,
   in order of appearance": the four interactions dated inside the
   unfolding, gravitation seated as the register's reference level, its
@@ -98,7 +98,7 @@ public statements of these results are the papers below.
   `catalog/THE-ORIGIN-ON-DISCRETE-TERMS.md`.
 
 - **G-Theory — An Introduction, version 2** (August 2026, DOI
-  [10.5281/zenodo.21212293](https://doi.org/10.5281/zenodo.21212293)) —
+  [10.5281/zenodo.22121665](https://doi.org/10.5281/zenodo.22121665)) —
   the front door notes the gravitational account on the record and the
   shelf grows to fifteen rows. `verify/test_the_introduction_v2.py` pins
   it against `catalog/G-THEORY-AN-INTRODUCTION.md`.
@@ -148,9 +148,9 @@ In the intended reading order:
 
 | # | work | DOI |
 |---|------|-----|
-| 1 | *G-Theory — An Introduction* | [10.5281/zenodo.21212293](https://doi.org/10.5281/zenodo.21212293) |
+| 1 | *G-Theory — An Introduction* | [10.5281/zenodo.22121665](https://doi.org/10.5281/zenodo.22121665) |
 | 2 | *Schrödinger's Piano* — the thought experiment | [10.5281/zenodo.21270357](https://doi.org/10.5281/zenodo.21270357) |
-| 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | [10.5281/zenodo.21432752](https://doi.org/10.5281/zenodo.21432752) |
+| 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | [10.5281/zenodo.22119129](https://doi.org/10.5281/zenodo.22119129) |
 | 4 | *The Fine-Structure Constant on Discrete Terms* | [10.5281/zenodo.21211051](https://doi.org/10.5281/zenodo.21211051) |
 | 5 | *Navier–Stokes: A Solution on Discrete Terms* | [10.5281/zenodo.21197045](https://doi.org/10.5281/zenodo.21197045) |
 | 6 | *π on Discrete Terms* | [10.5281/zenodo.21205369](https://doi.org/10.5281/zenodo.21205369) |
@@ -158,8 +158,17 @@ In the intended reading order:
 | 8 | *The Enneagram Is a Theorem* | [10.5281/zenodo.21270991](https://doi.org/10.5281/zenodo.21270991) |
 | 9 | *Zero and Infinity on Discrete Terms* | [10.5281/zenodo.21209364](https://doi.org/10.5281/zenodo.21209364) |
 | 10 | *The Vanishing Point on Discrete Terms* | [10.5281/zenodo.21209421](https://doi.org/10.5281/zenodo.21209421) |
-| 11 | *Predictions on Discrete Terms* — the registered predictions | [10.5281/zenodo.21206819](https://doi.org/10.5281/zenodo.21206819) |
+| 11 | *Predictions on Discrete Terms* — the registered predictions | [10.5281/zenodo.22118840](https://doi.org/10.5281/zenodo.22118840) |
 | 12 | *Gravity on Discrete Terms* | [10.5281/zenodo.22087600](https://doi.org/10.5281/zenodo.22087600) |
+| 13 | *Tonal Function on Discrete Terms* | [10.5281/zenodo.22119147](https://doi.org/10.5281/zenodo.22119147) |
+| 14 | *Visible Light on Discrete Terms* | [10.5281/zenodo.22119205](https://doi.org/10.5281/zenodo.22119205) |
+| 15 | *Water on Discrete Terms* | [10.5281/zenodo.22119259](https://doi.org/10.5281/zenodo.22119259) |
+| 16 | *The Vacuum on Discrete Terms* | [10.5281/zenodo.22119288](https://doi.org/10.5281/zenodo.22119288) |
+| 17 | *Motion on Discrete Terms* | [10.5281/zenodo.22119337](https://doi.org/10.5281/zenodo.22119337) |
+| 18 | *Units on Discrete Terms* | [10.5281/zenodo.22119361](https://doi.org/10.5281/zenodo.22119361) |
+| 19 | *Yang–Mills: Existence on Discrete Terms* | [10.5281/zenodo.22119378](https://doi.org/10.5281/zenodo.22119378) |
+| 20 | *QED on Discrete Terms* | [10.5281/zenodo.22119529](https://doi.org/10.5281/zenodo.22119529) |
+| 21 | *G-Theory — The Falsification Schedule* | [10.5281/zenodo.22119550](https://doi.org/10.5281/zenodo.22119550) |
 
 Begin at the piano; it asks nothing but a moment's listening.
 
