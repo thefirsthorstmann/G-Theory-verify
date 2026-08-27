@@ -1,31 +1,96 @@
 %%TITLE: G-Theory — The Falsification Schedule
 %%SUBTITLE: An overview and guide to the G-Theory corpus — a catalogue of its library, a summary of each record, and the assembled register of its falsification conditions.
-%%META: Christian Horstmann · thefirsthorstmann@gmail.com · August 26th, 2026 · companion sheet to the discrete-terms series
-%%ABSTRACT: This document is the overview and guide to the published corpus of G-Theory: a catalogue of its library, a summary of each record, and the assembled register of its falsification conditions. G-Theory is a research programme that derives the dimensionless structure of physics from a single arithmetic fact, the incommensurability of two and three, realized as the mode structure of a vibrating string. The repeating structure of the reciprocal of seven completes the foundation. From those facts the construction proceeds with no adjustable parameters, and nothing is fitted to observation. Where a dimensionful magnitude is required, the single borrowed reference is declared rather than derived, a boundary the series states and proves as a theorem. The corpus comprises twenty-one records: a twelve-volume monograph carrying the construction; papers on gravitation, the vacuum, renormalization, the Yang–Mills and Navier–Stokes problems, the fine-structure constant, motion, units, water, visible light and tonal function; and the framing documents. Every record is taken in turn below. Each entry gives the problem the record addresses in the field's terms, the position it takes, and the conditions under which it fails. The deciding instrument and date are named where a measurement decides, and where argument decides instead, that is stated plainly. Every claim is graded for what it is, every exact claim is verified by machine in a public suite of 1,161 assertions, and every paper states the findings that would refute it. Readers new to the series should begin with G-Theory — An Introduction (doi.org/10.5281/zenodo.21212292).
+%%META: Christian Horstmann · thefirsthorstmann@gmail.com · August 26th, 2026 · the corpus guide and falsification schedule
+%%ABSTRACT: This document is the overview and guide to the published corpus of G-Theory: a catalogue of its library, a summary of each record, and the assembled register of its falsification conditions. It opens with a brief survey of falsifiability in modern physics and the position this programme takes within that question. G-Theory derives the dimensionless structure of physics from a single arithmetic fact, the incommensurability of two and three, realized physically in the mode structure of a vibrating string, together with the repeating structure of the reciprocal of seven. From those facts the construction proceeds with no adjustable parameters, and nothing is fitted to observation. The theory derives the ratios — every mass, length and time in terms of any one of them — and the single scale-setting reference is declared rather than derived, a boundary the series states and proves as a theorem. The corpus comprises twenty-one records: a twelve-volume monograph carrying the construction; papers on gravitation, the vacuum, renormalization, the Yang–Mills and Navier–Stokes problems, the fine-structure constant, motion, units, water, visible light and tonal function; and the framing documents. Every record is taken in turn below. Each entry gives the problem the record addresses in the field's terms, the position it takes, and the conditions under which it fails, with the deciding instrument and date wherever a measurement decides. Every claim is graded for what it is, every exact claim is verified by machine in a public suite of 1,161 assertions, and every paper states the findings that would refute it. Readers new to the series should begin with G-Theory — An Introduction (doi.org/10.5281/zenodo.21212292).
 %%
 
-## 1 · What is G-Theory?
+## 1 · A brief survey of falsifiability in modern physics
 
-**What is it?** A research programme that derives the dimensionless structure of
-physics — coupling constants, mass ratios, the shape of physical law — from the
-arithmetic of the first incommensurable pair, 2 and 3, realized as the mode
-structure of a vibrating string. The construction carries no adjustable
-parameters: nothing is tuned to match observation, so every derived number
-stands exposed rather than fitted.
+The criterion is due to Popper: a theory is scientific to the degree that it
+forbids — that it exposes itself to observations which could refute it [1]. The
+criterion has known limitations, examined at length in the philosophy of
+science, and its core has not been displaced: a claim that no observation could
+ever fail is not doing empirical work.
 
-**What does it not claim?** No dimensionful magnitude — no length, mass or time
-in metres, kilograms or seconds — is derived. A magnitude is a dimensionless
-structure multiplied by one measured reference, and the corpus proves that
-boundary as a theorem and works inside it. Where the single borrowed reference
-enters, it is declared.
+For most of the twentieth century, fundamental physics needed no reminding.
+General relativity was confirmed at the 1919 eclipse by a prediction that could
+have failed. The Standard Model predicted the W and Z bosons, the top quark and
+the Higgs boson decades before the machines that found them, and each
+prediction carried the risk of being wrong. The authority physics now holds was
+earned exactly this way — by forbidding, and surviving.
 
-**How is it held to account?** Three ways. Every claim is graded for exactly
-what it is. Every exact claim re-derives by machine, in a public suite of 1,161
-assertions, before it is asserted. And every paper states, on its own face, the
-findings that would refute it. This document assembles those conditions in one
-place.
+The present situation at the foundations is different, and the field has said
+so about itself. The leading candidate frameworks — the string landscape, with
+its immense space of possible vacua; eternal inflation and its multiverse;
+anthropic selection among the possibilities — have between them exposed no
+measurement, accessible to any foreseeable instrument, by which they could
+fail. In 2014, in the journal Nature, the cosmologists George Ellis and Joseph
+Silk warned that accommodating such frameworks was moving the field away from
+centuries of defining scientific knowledge empirically, and asked the community
+to defend the integrity of physics [2]. A school of response argues that
+theoretical virtues can stand in for measurement — non-empirical confirmation
+[3]. The dispute is genuine, it is conducted by serious people, and it is
+unresolved.
 
-## 2 · How to read this sheet
+One further consideration belongs here, stated carefully. Physics is not one
+enterprise among many: it is the inquiry into the nature of reality itself, and
+the world depends on its results twice over — materially, in every technology
+and economy built on its findings, and in its picture of what is real, which
+quietly shapes what people understand themselves and the world to be. An
+inquiry carrying that weight owes honesty as its first obligation, before
+elegance, before ambition, before institutional success. Falsifiability is
+where the obligation becomes operational: it is the discipline by which an
+inquiry remains correctable, and a claim protected from every possible failure
+borrows an authority it has not earned. A field that tolerates such claims at
+its foundations lends them the authority its own falsifiable past earned, and
+what the loan places at hazard is not a career or a school but the reliability
+of humanity's deepest account of the world.
+
+Hence this document, and its position at the front of the series: the
+conditions on which this corpus can fail, gathered in one place, before any of
+its results are pressed.
+
+## 2 · What is G-Theory?
+
+**The theory.** G-Theory is a research programme in fundamental physics
+organised, from its first record, as an answer to the concern of the preceding
+section: every construction it publishes is built to be refutable, and its
+foundation is chosen so that nothing can be tuned. That foundation is not a new
+field, symmetry group or geometry, but the arithmetic of the register in which
+physical structure is counted. Its primitives are the incommensurability of
+2 and 3 — no power of one ever equalling a power of the other — and the exact
+repeating structure of the sevenths; the vibrating string realizes this
+arithmetic physically, as every musician who has tuned an octave against a
+fifth has handled it by ear. From that foundation, developed under least action
+with no adjustable parameters, the corpus derives structure across a range no
+single existing framework attempts. Its records include the electric charge
+table of a fermion generation, obtained as a uniqueness theorem; the primordial
+helium fraction; the filling order of the periodic table, in a closed form
+ending at element 118; and the integer of the fine-structure constant. They
+extend to the couplings and classical tests of gravitation, the structure of
+the colour wheel, the tonal functions of the musical scale, and discrete-terms
+treatments of two of the Clay Institute's Millennium Prize Problems.
+
+**The boundary.** What the theory does not do is stated as precisely as what it
+does, because both are settled by the same theorem. A magnitude in metres,
+kilograms or seconds is a dimensionless structure multiplied by one measured
+reference, and the corpus proves that the reference cannot come from inside the
+arithmetic: one reference is required, and no more. Everything up to that
+single reference is in scope. The theory derives the ratios — which is to say
+every mass, length and time in terms of any one of them — and once the one
+reference is declared, absolute magnitudes are determined throughout the
+system. A framework supplying one reference is not thereby indifferent to
+magnitude: a failed prediction within the system is a failure of ratio on the
+framework's own ground, and the boundary has no bearing on it. What is never
+done is deriving the reference itself; where it enters, it is declared.
+
+**The discipline.** Every claim is graded for exactly what it is — theorem,
+derivation, reading, conjecture — and never presented as more. Every exact
+claim re-derives by machine, in a public suite of 1,161 assertions, before it
+is asserted. And every paper states the findings that would refute it; this
+document assembles those conditions in one place.
+
+## 3 · How to read this document
 
 Every record of the corpus is taken in turn, grouped in four parts: the
 construction and the results a measurement decides; the results settled by
@@ -42,7 +107,7 @@ between the two kinds of condition is as visible as the conditions themselves.
 
 <div style="font-family:'DIN Condensed','DIN Alternate',sans-serif; color:#a81810; font-weight:700; font-size:15pt; letter-spacing:1.4px; text-transform:uppercase; border-bottom:2px solid #a81810; padding-bottom:3pt; margin:26pt 0 10pt;">PART I · THE CONSTRUCTION AND THE RESULTS A MEASUREMENT DECIDES</div>
 
-## 3 · G-Theory — The Origin on Discrete Terms
+## 4 · G-Theory — The Origin on Discrete Terms
 
 This is the twelve-volume monograph carrying the construction from initial
 conditions to the present. It is the theory itself; the papers that follow are
@@ -73,7 +138,7 @@ account has merely not observed.
 
 *The monograph: doi.org/10.5281/zenodo.21212112*
 
-## 4 · Gravity on Discrete Terms
+## 5 · Gravity on Discrete Terms
 
 This paper addresses the standing problem of gravitation's place in fundamental
 physics: why it resists the quantum description every other interaction accepts,
@@ -107,7 +172,7 @@ uncertainty.
 
 *The paper: doi.org/10.5281/zenodo.22087600*
 
-## 5 · The Vacuum on Discrete Terms
+## 6 · The Vacuum on Discrete Terms
 
 This paper addresses the cosmological constant problem — the largest numerical
 disagreement in physics, in which the field-theoretic estimate of the vacuum
@@ -130,7 +195,7 @@ wherever that evolution lies.
 
 *The paper: doi.org/10.5281/zenodo.22119288*
 
-## 6 · Yang–Mills: Existence on Discrete Terms
+## 7 · Yang–Mills: Existence on Discrete Terms
 
 This paper addresses the Clay Institute's Yang–Mills existence and mass gap
 problem. The position, argued by theorem, is that the object the axioms demand requires
@@ -158,7 +223,7 @@ strength.
 
 *The paper: doi.org/10.5281/zenodo.22119378*
 
-## 7 · QED on Discrete Terms
+## 8 · QED on Discrete Terms
 
 This paper addresses renormalization: the procedure that makes quantum
 electrodynamics the most accurately verified theory in physics, and which has
@@ -174,7 +239,7 @@ the register does. The coupling's integer is derived as the unique prime whose
 reciprocal has base-ten period eight and seventeen cyclic families, an
 exhaustive check over five candidates. What the paper does not compute — the
 magnitude of the running, and the anomalous magnetic moment, both of which are
-dimensionless and therefore inside its boundary — it states as open on its face.
+dimensionless and therefore inside its boundary — it states as open.
 
 | claim | what refutes it | instrument | timeline |
 |---|---|---|---|
@@ -183,7 +248,7 @@ dimensionless and therefore inside its boundary — it states as open on its fac
 
 *The paper: doi.org/10.5281/zenodo.22119529*
 
-## 8 · Water on Discrete Terms
+## 9 · Water on Discrete Terms
 
 This paper addresses the anomalies of liquid water: the density maximum near 4
 °C, expansion on freezing, the compressibility minimum, and the behaviour of
@@ -203,7 +268,7 @@ negative that would end the reading.
 
 *The paper: doi.org/10.5281/zenodo.22119259*
 
-## 9 · Tonal Function on Discrete Terms
+## 10 · Tonal Function on Discrete Terms
 
 This paper addresses tonal function: the observation that the degrees of a
 scale carry characteristic offices — tonic, dominant, subdominant and the rest
@@ -222,7 +287,7 @@ ring's one unseated address and resolves by applying one unit of each generator.
 
 | claim | what refutes it | instrument | timeline |
 |---|---|---|---|
-| the unique root theorem — no scale of limited transposition supports a unique tonic | convergent root inference inside the whole-tone set, in repertoire or laboratory | the stabilizer experiment (protocol published beside this sheet); the musicological record | the laboratory test is runnable now |
+| the unique root theorem — no scale of limited transposition supports a unique tonic | convergent root inference inside the whole-tone set, in repertoire or laboratory | the stabilizer experiment (protocol published beside this document); the musicological record | the laboratory test is runnable now |
 
 *The paper: doi.org/10.5281/zenodo.22119147*
 
@@ -234,7 +299,7 @@ The papers in this part make claims no instrument adjudicates. Each states what
 would settle it — an exhibited counterexample, a failed arithmetic check, a
 structural fact — and each is verified by machine in the public suite.
 
-## 10 · Navier–Stokes: A Solution on Discrete Terms
+## 11 · Navier–Stokes: A Solution on Discrete Terms
 
 This paper addresses the Clay Institute's Navier–Stokes regularity problem: it
 is not known whether smooth solutions of the incompressible equations can
@@ -256,7 +321,7 @@ which is a finite arithmetic check the public suite performs.
 
 *The paper: doi.org/10.5281/zenodo.21197045*
 
-## 11 · The Fine-Structure Constant on Discrete Terms
+## 12 · The Fine-Structure Constant on Discrete Terms
 
 This paper addresses the derivation of the fine-structure constant, a target
 with a long record of failure. The failures share an anatomy: a formula tuned to
@@ -277,7 +342,7 @@ finite and can be repeated in a few lines.
 
 *The paper: doi.org/10.5281/zenodo.21211051*
 
-## 12 · Motion on Discrete Terms
+## 13 · Motion on Discrete Terms
 
 This paper addresses the foundations of classical kinematics, which assumes
 rather than derives its own starting points. Inertia is posited as a law, and
@@ -299,7 +364,7 @@ the public suite executes on every revision.
 
 *The paper: doi.org/10.5281/zenodo.22119337*
 
-## 13 · Units on Discrete Terms
+## 14 · Units on Discrete Terms
 
 This paper addresses the relationship between dimensionless structure and
 dimensioned magnitude, and what that relationship implies for the present system
@@ -321,7 +386,7 @@ rather than by instrument. The invitation stands open to every reader.
 
 *The paper: doi.org/10.5281/zenodo.22119361*
 
-## 14 · Visible Light on Discrete Terms
+## 15 · Visible Light on Discrete Terms
 
 This paper addresses the structure of the colour wheel, which no standard
 account derives from anything smaller. Six hues stand in a circle, three of
@@ -349,7 +414,7 @@ These papers contain no physical claims. Each is a statement about number, prove
 and machine-checked, and each is refuted the way mathematics is refuted: by a
 counterexample or an error in the proof.
 
-## 15 · π on Discrete Terms
+## 16 · π on Discrete Terms
 
 The paper argues that the sciences do not, in practice, obey the identification
 analysis makes between two constructions that agree in the limit. π is the clearest case: the working coefficients of physics are construction
@@ -359,7 +424,7 @@ eight of anything. Three exhibits carry the case, each machine-verified.
 
 *The paper: doi.org/10.5281/zenodo.21205369*
 
-## 16 · The Seventh — A Constant Hidden in Plain Sight
+## 17 · The Seventh — A Constant Hidden in Plain Sight
 
 The decimal period of one-seventh, 142857, is the most famous curiosity in
 elementary arithmetic. The paper credits the classical results up front — the
@@ -370,7 +435,7 @@ vibrating string and the reptend's own label set.
 
 *The paper: doi.org/10.5281/zenodo.21432733*
 
-## 17 · The Enneagram Is a Theorem
+## 18 · The Enneagram Is a Theorem
 
 A figure of nine points with a six-point path and an untouched triangle has
 circulated for a century through esoteric literature, where its connection to
@@ -382,7 +447,7 @@ of any prime in any base.
 
 *The paper: doi.org/10.5281/zenodo.21270991*
 
-## 18 · Zero and Infinity on Discrete Terms
+## 19 · Zero and Infinity on Discrete Terms
 
 Every famous crisis of modern physics lives at one of two addresses. The
 ultraviolet catastrophe, the self-energy divergences, the singularity theorems,
@@ -394,7 +459,7 @@ rather than places where anything stands.
 
 *The paper: doi.org/10.5281/zenodo.21209364*
 
-## 19 · The Vanishing Point on Discrete Terms
+## 20 · The Vanishing Point on Discrete Terms
 
 No equation is asserted more often and understood less than 0.999… = 1. The
 paper's position is that both familiar camps talk past the theorem, because both
@@ -408,7 +473,7 @@ invariance of the digital root at every finite stage.
 
 <div style="font-family:'DIN Condensed','DIN Alternate',sans-serif; color:#a81810; font-weight:700; font-size:15pt; letter-spacing:1.4px; text-transform:uppercase; border-bottom:2px solid #a81810; padding-bottom:3pt; margin:26pt 0 10pt;">PART IV · THE FRAMING DOCUMENTS</div>
 
-## 20 · G-Theory — An Introduction
+## 21 · G-Theory — An Introduction
 
 The document that opens the series. It surveys the present situation in fundamental physics: two frameworks, each
 confirmed to extraordinary precision, incompatible with each other, surrounded
@@ -421,7 +486,7 @@ no derivations and no claims of result.
 
 *The document: doi.org/10.5281/zenodo.21212292*
 
-## 21 · Schrödinger's Piano
+## 22 · Schrödinger's Piano
 
 This paper is a thought experiment in twelve movements: the programme exhibited
 from inside, for the reader who wants to hear the construction before studying
@@ -436,13 +501,13 @@ refute the paper that proves it.
 
 *The paper: doi.org/10.5281/zenodo.21270357*
 
-## 22 · Predictions on Discrete Terms — the registry
+## 23 · Predictions on Discrete Terms — the registry
 
-This sheet's companion, and the place where numbers are put at risk. It records,
+This document's companion, and the place where numbers are put at risk. It records,
 in advance and under a timestamp, ten live commitments and five exact nulls,
 each with an exact value, a falsification band, a named adjudicating experiment
 and a horizon. Where a number is registered there, that registry is canonical;
-this sheet carries the instrument and the date. It also records what the
+this document carries the instrument and the date. It also records what the
 programme declines to commit, and why, so that neither a hit nor a miss can be
 narrated after the fact.
 
@@ -450,7 +515,7 @@ narrated after the fact.
 
 ---
 
-## 23 · What no measurement can decide
+## 24 · What no measurement can decide
 
 Stated so the boundary is as visible as the exposures. The dimensional boundary
 itself — that no dimensionless construction yields a magnitude — is a theorem
@@ -462,7 +527,7 @@ once and cannot be derived — is refuted only by someone deriving the present
 epoch from dimensionless structure, an invitation the vacuum paper extends to
 every reader.
 
-## 24 · Verification
+## 25 · Verification
 
 The public suite is at github.com/thefirsthorstmann/g-theory-verify. Every exact
 claim in the corpus re-derives there on any reader's machine, from the paper
@@ -470,5 +535,16 @@ sources kept alongside it, and the count on the suite's own face at any date is
 the count at that date. Readers new to the series should begin with *G-Theory —
 An Introduction* (doi.org/10.5281/zenodo.21212292), which carries the reading
 order of every record.
+
+## References
+
+[1] K. Popper, *Logik der Forschung*, Springer (1934); *The Logic of Scientific
+Discovery*, Hutchinson (1959).
+
+[2] G. Ellis and J. Silk, *Scientific method: Defend the integrity of physics*,
+Nature **516**, 321–323 (2014).
+
+[3] R. Dawid, *String Theory and the Scientific Method*, Cambridge University
+Press (2013).
 
 <div class="copyright" style="margin-top:80pt">Copyright<br>Christian Horstmann · August 26th, 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>
