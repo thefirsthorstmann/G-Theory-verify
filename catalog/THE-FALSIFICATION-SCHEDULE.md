@@ -490,7 +490,7 @@ figure carries scalar structure in its digits and directed structure in its
 stroke, and the position is that it is a far deeper mathematical object than
 its esoteric history suggests.
 
-*The paper: doi.org/10.5281/zenodo.21270991*
+*The paper: doi.org/10.5281/zenodo.22132579*
 
 ## 19 · Zero and Infinity on Discrete Terms
 

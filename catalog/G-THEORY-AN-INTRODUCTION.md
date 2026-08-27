@@ -69,7 +69,7 @@ The intended reading order, each item on the public record:
 | 5 | *Navier–Stokes: A Solution on Discrete Terms* | 10.5281/zenodo.21197045 |
 | 6 | *π on Discrete Terms* | 10.5281/zenodo.21205369 |
 | 7 | *Sevenths — A Constant Hidden in Plain Sight* | 10.5281/zenodo.21432733 |
-| 8 | *The Enneagram Is a Theorem* | 10.5281/zenodo.21270991 |
+| 8 | *The Enneagram Is a Theorem* | 10.5281/zenodo.22132579 |
 | 9 | *Zero and Infinity on Discrete Terms* | 10.5281/zenodo.21209364 |
 | 10 | *The Vanishing Point on Discrete Terms* | 10.5281/zenodo.21209421 |
 | 11 | *Predictions on Discrete Terms* — the registered predictions | 10.5281/zenodo.22118840 |
