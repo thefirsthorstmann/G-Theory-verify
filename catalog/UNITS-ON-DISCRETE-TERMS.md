@@ -794,8 +794,9 @@ decomposition in `verify/test_path_length.py`. The identities 459 = 3³·17 = 3�
 − 12³ and 4·459 = 1836 are in the first of these. The boundary of §2 and the count of §3 are proved rather than computed. The 2019 SI values (§5), the running of the electromagnetic coupling (§8) and the nucleosynthesis pathway (§12) are standard results. The batteries and this paper's source are public at github.com/thefirsthorstmann/g-theory-verify.*
 
 *Companions: Gravity on Discrete Terms (the coupling this paper's §12b
-places; doi.org/10.5281/zenodo.22087600) · The Vacuum on Discrete Terms and
-Motion on Discrete Terms (posted with this revision) · The Origin on
+places; doi.org/10.5281/zenodo.22087600) · The Vacuum on Discrete Terms
+(doi.org/10.5281/zenodo.22119288) and Motion on Discrete Terms
+(doi.org/10.5281/zenodo.22119337) · The Origin on
 Discrete Terms (the figure; doi.org/10.5281/zenodo.22119129).*
 
 <div class="copyright" style="margin-top:80pt">Copyright<br>Christian Horstmann · August 25th, 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>

@@ -311,7 +311,8 @@ is labeled where it stands.
 
 *Companions: Gravity on Discrete Terms (the unit shortfall as the deficit;
 doi.org/10.5281/zenodo.22087600) · Tonal Function on Discrete Terms (the
-functions of the scale from the same seats) · Sevenths — A Constant Hidden
+functions of the scale from the same seats;
+doi.org/10.5281/zenodo.22119147) · Sevenths — A Constant Hidden
 in Plain Sight (the reptend itself; doi.org/10.5281/zenodo.21432733) · The
 Origin on Discrete Terms (the figure; doi.org/10.5281/zenodo.22119129).*
 

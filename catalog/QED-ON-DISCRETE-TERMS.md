@@ -432,7 +432,7 @@ The reader with Python can re-derive the paper's entire exact content: the batte
 ---
 
 *Companion volumes.* Units on Discrete Terms carries the Scale Theorem and
-the classes of constants (posted with this revision). Gravity on Discrete
+the classes of constants (doi.org/10.5281/zenodo.22119361). Gravity on Discrete
 Terms carries the operation-supply theorem and u_min
 (doi.org/10.5281/zenodo.22087600). The Fine-Structure Constant on Discrete
 Terms carries the integer 137 (doi.org/10.5281/zenodo.21211051). The Origin
