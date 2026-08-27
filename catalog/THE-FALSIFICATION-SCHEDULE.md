@@ -6,21 +6,26 @@
 
 ## 1 · A brief survey of falsifiability in modern physics
 
-The criterion is due to Popper: a theory is scientific to the degree that it
-forbids — that it exposes itself to observations which could refute it [1]. The
-criterion has known limitations, examined at length in the philosophy of
-science, and its core has not been displaced: a claim that no observation could
-ever fail is not doing empirical work.
+Falsifiability is fundamental to science. A theory whose statements admit no
+way of being confirmed or refuted can hardly be considered science at all,
+because science itself proceeds by the proof and disproof of hypotheses against
+experiment and evidence. The classical formalization of this criterion is due
+to Popper — a theory is scientific to the degree that it forbids, exposing
+itself to observations that could refute it [1] — and while the formalization
+has known limitations, examined at length in the philosophy of science, the
+core has never been displaced: a claim that no observation could ever fail is
+not doing empirical work.
 
-For most of the twentieth century, fundamental physics needed no reminding.
+For most of the twentieth century, fundamental physics needed no reminding of
+this seemingly self-evident requirement.
 General relativity was confirmed at the 1919 eclipse by a prediction that could
 have failed. The Standard Model predicted the W and Z bosons, the top quark and
 the Higgs boson decades before the machines that found them, and each
 prediction carried the risk of being wrong. The authority physics now holds was
 earned exactly this way — by forbidding, and surviving.
 
-The present situation at the foundations is different, and the field has said
-so about itself. The leading candidate frameworks — the string landscape, with
+The present situation at the foundations is different, and both the field and
+its public have begun to say so. The leading candidate frameworks — the string landscape, with
 its immense space of possible vacua; eternal inflation and its multiverse;
 anthropic selection among the possibilities — have between them exposed no
 measurement, accessible to any foreseeable instrument, by which they could
@@ -54,16 +59,20 @@ its results are pressed.
 
 **The theory.** G-Theory is a research programme in fundamental physics
 organised, from its first record, as an answer to the concern of the preceding
-section: every construction it publishes is built to be refutable, and its
-foundation is chosen so that nothing can be tuned. That foundation is not a new
-field, symmetry group or geometry, but the arithmetic of the register in which
-physical structure is counted. Its primitives are the incommensurability of
-2 and 3 — no power of one ever equalling a power of the other — and the exact
-repeating structure of the sevenths; the vibrating string realizes this
-arithmetic physically, as every musician who has tuned an octave against a
-fifth has handled it by ear. From that foundation, developed under least action
-with no adjustable parameters, the corpus derives structure across a range no
-single existing framework attempts. Its records include the electric charge
+section: every construction it publishes is built to be refutable, and the
+construction is derived from forced arithmetic governed by least action, with
+no free parameters. The foundation is not a new field, symmetry group or
+geometry, but the arithmetic of the register in which physical structure is
+counted. Its primitives are the incommensurability of 2 and 3 — no power of one
+ever equalling a power of the other — and the exact repeating structure of the
+sevenths, realized physically in the mode structure of a vibrating string. The
+register so built is lossless. A state carries its magnitudes and its phases as
+exact integers, nothing is rounded anywhere in the construction, and
+measurement enters as a reading that returns exactly half of what the state
+carries — the squared magnitudes — while the phases remain in the state.
+Several features ordinarily taken as quantum mysteries arrive, on this account,
+as the bookkeeping of that reading. From this foundation the corpus derives
+structure across a range no single existing framework attempts. Its records include the electric charge
 table of a fermion generation, obtained as a uniqueness theorem; the primordial
 helium fraction; the filling order of the periodic table, in a closed form
 ending at element 118; and the integer of the fine-structure constant. They
@@ -109,18 +118,20 @@ between the two kinds of condition is as visible as the conditions themselves.
 
 ## 4 · G-Theory — The Origin on Discrete Terms
 
-This is the twelve-volume monograph carrying the construction from initial
-conditions to the present. It is the theory itself; the papers that follow are
-its results taken one at a time. The position is that a substantial part of what
-the Standard Model takes as input is derivable from arithmetic alone. The fermion charge table is obtained as a uniqueness theorem, from four
+This is the twelve-volume monograph, and it is the theory itself: the
+construction carried from origin to the present era of the cosmos, in forced
+arithmetic under least action. The papers that follow are its results taken one
+at a time. The position is that a substantial part of what the Standard Model
+takes as input is derivable from arithmetic alone. The fermion charge table is obtained as a uniqueness theorem, from four
 constraints each inherited from earlier structure. Its corollaries are exact:
 the proton's charge is +1, the neutron's 0, and hydrogen is exactly neutral.
 The most precisely verified null in physics thereby ceases to be a coincidence
 and becomes a measurement of how well a generation closes. The primordial helium
 fraction comes out at exactly one quarter against a measured 0.245. The filling
 order of the periodic table is derived in a single closed form that terminates
-at element 118. Quantum measurement is read as filtering, with Bell's inequality
-given its account by machine. Position and diffusion are derived as counting
+at element 118. Quantum measurement is read as filtering, and Bell's inequality is expanded
+on: the ceiling of every pre-written account is derived by machine as an exact
+rational rest value — two — with the measured violations located beyond it. Position and diffusion are derived as counting
 identities, with π emerging where no circle is drawn.
 
 Its exposures are among the sharpest in the corpus, because several are
@@ -143,9 +154,11 @@ account has merely not observed.
 This paper addresses the standing problem of gravitation's place in fundamental
 physics: why it resists the quantum description every other interaction accepts,
 and where the value of Newton's constant comes from. The position is that
-gravitation is the reference level of the register — the tonal centre against
-which every other quantity is read, unsounded itself — and that its coupling
-follows from the arithmetic with no fitted parameter. The inverse-square law is
+gravitation is the reference level of the register: the tonal centre against
+which every other quantity is read as a displacement, much as a musical key is
+organized around the pull of its harmonic functions toward the root. The centre
+itself is unsounded, and the coupling follows from the arithmetic with no
+fitted parameter. The inverse-square law is
 obtained by counting rather than assumed. Newton's constant is derived and put on record in advance of the metrology that
 will decide it, at a value 106 parts per million below the CODATA centre. That
 value lies well inside the 551-ppm spread of the input determinations, and is
@@ -158,10 +171,22 @@ four of the sharpest are below, and two are asymmetric in the programme's
 favour. The equivalence-principle claim cannot be adjusted: any confirmed
 provenance dependence of free fall, ever, at any precision, removes the
 mechanism outright, and each improvement of the null deepens the commitment
-while tightening nothing. The value of Newton's constant cuts both ways, since
-convergence on the low group of determinations near 6.6736 would be
-corroboration at a precision thirty-five times finer than the recommended
-uncertainty.
+while tightening nothing. The value of Newton's constant is exposed in both directions: convergence of
+the metrology on the CODATA centre refutes it, while convergence on the low
+group of determinations near 6.6736 would be corroboration at a precision
+thirty-five times finer than the recommended uncertainty.
+
+The account also states its own composition physics, so that the position is
+exact. Composition shapes the mass itself — the binding ledger measures it at
+the percent level — and the theory contains exactly one composition-correlated
+effect of its own: commensurable orbital periods meet more often, by exactly
+the factor gcd(p, q). That effect is quantified rather than hidden. It is
+selective per register cell, it averages away as the inverse of the window,
+and at laboratory separations it sits some thirty orders below the sensitivity
+the equivalence experiments reach. Free fall therefore remains blind to
+provenance at every accessible precision, with the theory's one
+composition-correlated term stated and located. The companion note *The Eötvös
+Line* classifies the channels for any composition-correlated signal.
 
 | claim | what refutes it | instrument | timeline |
 |---|---|---|---|
@@ -420,7 +445,11 @@ The paper argues that the sciences do not, in practice, obey the identification
 analysis makes between two constructions that agree in the limit. π is the clearest case: the working coefficients of physics are construction
 routes wearing a value. 2π is one closure of a cycle, 4π is a point's flux into
 three-space, and 8π in the Einstein field equations is doubled flux rather than
-eight of anything. Three exhibits carry the case, each machine-verified.
+eight of anything. Three exhibits carry the case, each machine-verified. The position
+beneath them is that a value and its construction route are distinct objects,
+that physics computes with routes, and that the notational identification of
+the two is where several standing confusions about π's appearances in physical
+law begin.
 
 *The paper: doi.org/10.5281/zenodo.21205369*
 
@@ -429,9 +458,15 @@ eight of anything. Three exhibits carry the case, each machine-verified.
 The decimal period of one-seventh, 142857, is the most famous curiosity in
 elementary arithmetic. The paper credits the classical results up front — the
 cyclic property, the multiplication behaviour, Midy's theorem of 1836 — because
-its own claims lie elsewhere. Four exact and machine-pinned exhibits
-follow, beginning with the correspondence between the first six harmonics of a
-vibrating string and the reptend's own label set.
+its own claims lie elsewhere. The position ties directly to the title: the
+reptend is a full-fledged mathematical constant that has never been named as
+one. It is exact in the sense in which π and e are exact — structural, not
+measured — a lossless six-digit object whose halves sum to nine, whose label
+set coincides with the first six harmonics of a vibrating string, and whose two
+exact orders, positional and doubling, carry the structure this corpus builds
+on. To a reader interested in the fundamental constants, the claim is that one
+has been missing from the tables, hidden by its own familiarity as a schoolroom
+curiosity. Four exact and machine-pinned exhibits carry the case.
 
 *The paper: doi.org/10.5281/zenodo.21432733*
 
@@ -443,7 +478,17 @@ the decimal period of one-seventh was long noticed and never proved to be
 anything. The paper treats the figure as what it provably is — a combinatorial object
 generated by modular arithmetic — and establishes, apparently for the first
 time, the theorem family it carries. The theorems hold for the reptend figure
-of any prime in any base.
+of any prime in any base. The centre of the family is the Line Theorem: the
+figure is a single closed stroke through distinct points exactly when the base
+is a primitive root modulo the prime, with the stroke count given in closed
+form. For the pair (7, 10) the figure is complete in a sense made exact by five
+machine-pinned facts. The stroke is unicursal through six distinct points;
+those points form the doubling orbit of 1 modulo nine, so the one line is
+simultaneously a shift orbit and a multiplicative orbit; and the untouched
+triangle 3–6–9 is exactly the conservation axis the line never crosses. The
+figure carries scalar structure in its digits and directed structure in its
+stroke, and the position is that it is a far deeper mathematical object than
+its esoteric history suggests.
 
 *The paper: doi.org/10.5281/zenodo.21270991*
 
@@ -455,7 +500,10 @@ the renormalization industry, the measurement problem's instantaneous collapse,
 Zeno's arrows: each is a physical claim placed at an end of the number line. The paper
 states as one doctrine a position argued piecewise across the series — that zero
 and infinity are boundary markers of a bounded quantized system, names for edges
-rather than places where anything stands.
+rather than places where anything stands. Each crisis is then read the same way:
+the notation permits a claim at an edge the bounded system never occupies, and
+the crisis is what it costs to mistake the edge for a place. The paper states
+the doctrine once and locates each companion result within it.
 
 *The paper: doi.org/10.5281/zenodo.21209364*
 
@@ -465,7 +513,11 @@ No equation is asserted more often and understood less than 0.999… = 1. The
 paper's position is that both familiar camps talk past the theorem, because both
 mistake a statement about an equivalence class for a statement about stages.
 Four exact results fix what happens beneath the notation, beginning with the
-invariance of the digital root at every finite stage.
+invariance of the digital root at every finite stage. The results separate what
+the equivalence class asserts from what any finite stage exhibits, and the
+position is that the famous equation is true, its usual defences are about a
+different object, and the distinction between the two is exactly the one this
+corpus's register keeps.
 
 *The paper: doi.org/10.5281/zenodo.21209421*
 
@@ -535,6 +587,16 @@ sources kept alongside it, and the count on the suite's own face at any date is
 the count at that date. Readers new to the series should begin with *G-Theory —
 An Introduction* (doi.org/10.5281/zenodo.21212292), which carries the reading
 order of every record.
+
+## 26 · A note to the reader
+
+It is our hope that the reader take none of this on our word. The public suite
+exists so that every exact claim can be checked on the reader's own machine,
+and the refutation conditions exist so that disagreement has solid ground to
+stand on. If this document does its work, it does it by informing rather than
+by persuading — and by opening to others what can be done with rigorous
+harmonic mathematics: the register, the sevenths, and the discipline of
+stating, in advance, what would prove one wrong.
 
 ## References
 
