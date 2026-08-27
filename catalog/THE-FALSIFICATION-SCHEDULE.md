@@ -1,34 +1,48 @@
 %%TITLE: G-Theory — The Falsification Schedule
-%%SUBTITLE: The corpus paper by paper — what each derives, what would refute it, on what instrument, and by when.
+%%SUBTITLE: An overview and guide to the G-Theory corpus — a catalogue of its library, a summary of each record, and the assembled register of its falsification conditions.
 %%META: Christian Horstmann · thefirsthorstmann@gmail.com · August 26th, 2026 · companion sheet to the discrete-terms series
-%%ABSTRACT: This document records, in one place, what would refute each record of a published corpus in fundamental physics. It stands at the front of the series deliberately: a programme asking for a reader's time should first say what would show it to be wrong. The corpus comprises twenty-one records developing physics on a discrete arithmetic register rather than on a continuum. The foundation is elementary and fixed before any result is sought: the incommensurability of two and three, no power of either equalling a power of the other, together with the repeating structure of the reciprocal of seven. From those facts about number the construction proceeds with no adjustable parameters, and nothing is fitted to observation. Where a dimensionful magnitude is required, the single borrowed reference is declared rather than derived, a boundary the series states and proves as a theorem. The sheet is organised in four parts. Part I takes the results a measurement decides, each with the instrument expected to decide it and the date it comes due. Among them are Newton's constant, the dark-energy equation of state, the Yang–Mills mass gap, and four outright prohibitions. Part II takes the results settled by argument, with the counterexample each invites. Part III takes the mathematical papers, and Part IV the framing documents, including the registry that timestamps every committed number in advance of its measurement. Every claim is graded for what it is, every exact claim is verified by machine in a public suite of 1,161 assertions, and readers new to the series should begin with G-Theory — An Introduction (doi.org/10.5281/zenodo.21212292).
+%%ABSTRACT: This document is the overview and guide to the published corpus of G-Theory: a catalogue of its library, a summary of each record, and the assembled register of its falsification conditions. G-Theory is a research programme that derives the dimensionless structure of physics from a single arithmetic fact, the incommensurability of two and three, realized as the mode structure of a vibrating string. The repeating structure of the reciprocal of seven completes the foundation. From those facts the construction proceeds with no adjustable parameters, and nothing is fitted to observation. Where a dimensionful magnitude is required, the single borrowed reference is declared rather than derived, a boundary the series states and proves as a theorem. The corpus comprises twenty-one records: a twelve-volume monograph carrying the construction; papers on gravitation, the vacuum, renormalization, the Yang–Mills and Navier–Stokes problems, the fine-structure constant, motion, units, water, visible light and tonal function; and the framing documents. Every record is taken in turn below. Each entry gives the problem the record addresses in the field's terms, the position it takes, and the conditions under which it fails. The deciding instrument and date are named where a measurement decides, and where argument decides instead, that is stated plainly. Every claim is graded for what it is, every exact claim is verified by machine in a public suite of 1,161 assertions, and every paper states the findings that would refute it. Readers new to the series should begin with G-Theory — An Introduction (doi.org/10.5281/zenodo.21212292).
 %%
 
-## 1 · How to read this sheet
+## 1 · What is G-Theory?
 
-Every record of the corpus is taken in turn. Each is introduced by the problem
-it addresses, in the terms the field uses for that problem, followed by the
-position the paper takes and the conditions under which it fails. Where a
-measurement decides the question, the measurement is named with its instrument
-and the date it comes due. Where the question is settled by argument instead —
-by arithmetic, by a counterexample, or by a structural fact — that is said
-plainly, so the boundary between the two is as visible as the exposures
-themselves.
+**What is it?** A research programme that derives the dimensionless structure of
+physics — coupling constants, mass ratios, the shape of physical law — from the
+arithmetic of the first incommensurable pair, 2 and 3, realized as the mode
+structure of a vibrating string. The construction carries no adjustable
+parameters: nothing is tuned to match observation, so every derived number
+stands exposed rather than fitted.
 
-Three entries are asymmetric in the programme's favour and are marked where
-they appear. The equivalence-principle claim cannot be adjusted: any confirmed
-composition dependence, ever, at any precision, removes the gravitational
-mechanism outright, and each improvement of the null deepens the commitment
-while tightening nothing. The vacuum's sign is already decided. The value of
-Newton's constant cuts both ways, since convergence on the low group of
-determinations near 6.6736 would be corroboration at a precision thirty-five
-times finer than the recommended uncertainty.
+**What does it not claim?** No dimensionful magnitude — no length, mass or time
+in metres, kilograms or seconds — is derived. A magnitude is a dimensionless
+structure multiplied by one measured reference, and the corpus proves that
+boundary as a theorem and works inside it. Where the single borrowed reference
+enters, it is declared.
+
+**How is it held to account?** Three ways. Every claim is graded for exactly
+what it is. Every exact claim re-derives by machine, in a public suite of 1,161
+assertions, before it is asserted. And every paper states, on its own face, the
+findings that would refute it. This document assembles those conditions in one
+place.
+
+## 2 · How to read this sheet
+
+Every record of the corpus is taken in turn, grouped in four parts: the
+construction and the results a measurement decides; the results settled by
+argument; the mathematical papers; and the framing documents. Each entry gives
+the problem the record addresses, in the terms the field uses for it; the
+position the record takes; and the conditions under which it fails. Where a
+measurement decides the question, the entry carries a table naming the claim,
+what refutes it, the instrument expected to decide it, and the date it comes
+due. Where the question is settled by argument — by arithmetic, a
+counterexample, or a structural fact — that is said plainly, so the boundary
+between the two kinds of condition is as visible as the conditions themselves.
 
 ---
 
-# PART I · THE CONSTRUCTION AND THE RESULTS A MEASUREMENT DECIDES
+<div style="font-family:'DIN Condensed','DIN Alternate',sans-serif; color:#a81810; font-weight:700; font-size:15pt; letter-spacing:1.4px; text-transform:uppercase; border-bottom:2px solid #a81810; padding-bottom:3pt; margin:26pt 0 10pt;">PART I · THE CONSTRUCTION AND THE RESULTS A MEASUREMENT DECIDES</div>
 
-## 2 · G-Theory — The Origin on Discrete Terms
+## 3 · G-Theory — The Origin on Discrete Terms
 
 This is the twelve-volume monograph carrying the construction from initial
 conditions to the present. It is the theory itself; the papers that follow are
@@ -59,7 +73,7 @@ account has merely not observed.
 
 *The monograph: doi.org/10.5281/zenodo.21212112*
 
-## 3 · Gravity on Discrete Terms
+## 4 · Gravity on Discrete Terms
 
 This paper addresses the standing problem of gravitation's place in fundamental
 physics: why it resists the quantum description every other interaction accepts,
@@ -74,19 +88,26 @@ therefore genuinely at risk. The classical tests
 are carried, and the paper closes with a cosmological chain that reaches the
 horizon-to-nucleon ratio as a dimensionless, parameter-free number.
 
-The paper carries seventeen conditions of refutation and a public claim map.
-Four of the sharpest are below.
+The paper carries seventeen conditions of refutation and a public claim map;
+four of the sharpest are below, and two are asymmetric in the programme's
+favour. The equivalence-principle claim cannot be adjusted: any confirmed
+provenance dependence of free fall, ever, at any precision, removes the
+mechanism outright, and each improvement of the null deepens the commitment
+while tightening nothing. The value of Newton's constant cuts both ways, since
+convergence on the low group of determinations near 6.6736 would be
+corroboration at a precision thirty-five times finer than the recommended
+uncertainty.
 
 | claim | what refutes it | instrument | timeline |
 |---|---|---|---|
 | G = 6.6735902(41)×10⁻¹¹, 106 ppm below CODATA-18 | convergence of determinations on the CODATA centre at ≤ 25 ppm combined refutes at > 4σ | the torsion-balance and atom-interferometry programs; the coordinated metrology campaigns; CODATA 2026 | ongoing; each new determination moves the account |
-| the one-ledger equivalence principle — η = 0 identically, composition-blind by theorem | any confirmed composition dependence of free fall, at any precision | MICROSCOPE final data stand at η < 3×10⁻¹⁵, consistent; successor missions at 10⁻¹⁷ | a standing prediction with zero adjustable room |
+| the equivalence principle — gravitational charge and inertial mass are one count read twice, so free fall is blind to the provenance of the ticks; composition shapes the mass and cannot separate the two readings | any confirmed provenance dependence of free fall — a tick of Higgs provenance and a tick of chromodynamic provenance carrying different deficits | MICROSCOPE final data stand at η < 3×10⁻¹⁵, consistent; successor missions at 10⁻¹⁷ | a standing prediction with zero adjustable room |
 | the near field — any deviation from the inverse square must take the form V = −GmM/(r+λ₁), never a Yukawa exponential | a confirmed short-range deviation with Yukawa shape; a period residual with exponential approach | torsion-balance short-range programs; precision orbital ephemerides | shape-based and scale-free: any detection at any range decides |
 | the echo odometer — post-merger echo trains, if present, at 2 r_s ln10/c per rung; reflectivity R = 99/101 or 9/11 | an echo train whose delays defy the logarithmic law or whose damping fits neither branch | LIGO–Virgo–KAGRA O5; Einstein Telescope and Cosmic Explorer | O5 late decade; next generation 2030s |
 
 *The paper: doi.org/10.5281/zenodo.22087600*
 
-## 4 · The Vacuum on Discrete Terms
+## 5 · The Vacuum on Discrete Terms
 
 This paper addresses the cosmological constant problem — the largest numerical
 disagreement in physics, in which the field-theoretic estimate of the vacuum
@@ -109,7 +130,7 @@ wherever that evolution lies.
 
 *The paper: doi.org/10.5281/zenodo.22119288*
 
-## 5 · Yang–Mills: Existence on Discrete Terms
+## 6 · Yang–Mills: Existence on Discrete Terms
 
 This paper addresses the Clay Institute's Yang–Mills existence and mass gap
 problem. The position, argued by theorem, is that the object the axioms demand requires
@@ -137,7 +158,7 @@ strength.
 
 *The paper: doi.org/10.5281/zenodo.22119378*
 
-## 6 · QED on Discrete Terms
+## 7 · QED on Discrete Terms
 
 This paper addresses renormalization: the procedure that makes quantum
 electrodynamics the most accurately verified theory in physics, and which has
@@ -162,7 +183,7 @@ dimensionless and therefore inside its boundary — it states as open on its fac
 
 *The paper: doi.org/10.5281/zenodo.22119529*
 
-## 7 · Water on Discrete Terms
+## 8 · Water on Discrete Terms
 
 This paper addresses the anomalies of liquid water: the density maximum near 4
 °C, expansion on freezing, the compressibility minimum, and the behaviour of
@@ -182,7 +203,7 @@ negative that would end the reading.
 
 *The paper: doi.org/10.5281/zenodo.22119259*
 
-## 8 · Tonal Function on Discrete Terms
+## 9 · Tonal Function on Discrete Terms
 
 This paper addresses tonal function: the observation that the degrees of a
 scale carry characteristic offices — tonic, dominant, subdominant and the rest
@@ -207,13 +228,13 @@ ring's one unseated address and resolves by applying one unit of each generator.
 
 ---
 
-# PART II · THE RESULTS SETTLED BY ARGUMENT
+<div style="font-family:'DIN Condensed','DIN Alternate',sans-serif; color:#a81810; font-weight:700; font-size:15pt; letter-spacing:1.4px; text-transform:uppercase; border-bottom:2px solid #a81810; padding-bottom:3pt; margin:26pt 0 10pt;">PART II · THE RESULTS SETTLED BY ARGUMENT</div>
 
 The papers in this part make claims no instrument adjudicates. Each states what
 would settle it — an exhibited counterexample, a failed arithmetic check, a
 structural fact — and each is verified by machine in the public suite.
 
-## 9 · Navier–Stokes: A Solution on Discrete Terms
+## 10 · Navier–Stokes: A Solution on Discrete Terms
 
 This paper addresses the Clay Institute's Navier–Stokes regularity problem: it
 is not known whether smooth solutions of the incompressible equations can
@@ -235,7 +256,7 @@ which is a finite arithmetic check the public suite performs.
 
 *The paper: doi.org/10.5281/zenodo.21197045*
 
-## 10 · The Fine-Structure Constant on Discrete Terms
+## 11 · The Fine-Structure Constant on Discrete Terms
 
 This paper addresses the derivation of the fine-structure constant, a target
 with a long record of failure. The failures share an anatomy: a formula tuned to
@@ -256,7 +277,7 @@ finite and can be repeated in a few lines.
 
 *The paper: doi.org/10.5281/zenodo.21211051*
 
-## 11 · Motion on Discrete Terms
+## 12 · Motion on Discrete Terms
 
 This paper addresses the foundations of classical kinematics, which assumes
 rather than derives its own starting points. Inertia is posited as a law, and
@@ -278,7 +299,7 @@ the public suite executes on every revision.
 
 *The paper: doi.org/10.5281/zenodo.22119337*
 
-## 12 · Units on Discrete Terms
+## 13 · Units on Discrete Terms
 
 This paper addresses the relationship between dimensionless structure and
 dimensioned magnitude, and what that relationship implies for the present system
@@ -300,7 +321,7 @@ rather than by instrument. The invitation stands open to every reader.
 
 *The paper: doi.org/10.5281/zenodo.22119361*
 
-## 13 · Visible Light on Discrete Terms
+## 14 · Visible Light on Discrete Terms
 
 This paper addresses the structure of the colour wheel, which no standard
 account derives from anything smaller. Six hues stand in a circle, three of
@@ -322,13 +343,13 @@ is settled by the wheel itself rather than by an instrument.
 
 ---
 
-# PART III · THE MATHEMATICAL PAPERS
+<div style="font-family:'DIN Condensed','DIN Alternate',sans-serif; color:#a81810; font-weight:700; font-size:15pt; letter-spacing:1.4px; text-transform:uppercase; border-bottom:2px solid #a81810; padding-bottom:3pt; margin:26pt 0 10pt;">PART III · THE MATHEMATICAL PAPERS</div>
 
 These papers contain no physical claims. Each is a statement about number, proved
 and machine-checked, and each is refuted the way mathematics is refuted: by a
 counterexample or an error in the proof.
 
-## 14 · π on Discrete Terms
+## 15 · π on Discrete Terms
 
 The paper argues that the sciences do not, in practice, obey the identification
 analysis makes between two constructions that agree in the limit. π is the clearest case: the working coefficients of physics are construction
@@ -338,7 +359,7 @@ eight of anything. Three exhibits carry the case, each machine-verified.
 
 *The paper: doi.org/10.5281/zenodo.21205369*
 
-## 15 · The Seventh — A Constant Hidden in Plain Sight
+## 16 · The Seventh — A Constant Hidden in Plain Sight
 
 The decimal period of one-seventh, 142857, is the most famous curiosity in
 elementary arithmetic. The paper credits the classical results up front — the
@@ -349,7 +370,7 @@ vibrating string and the reptend's own label set.
 
 *The paper: doi.org/10.5281/zenodo.21432733*
 
-## 16 · The Enneagram Is a Theorem
+## 17 · The Enneagram Is a Theorem
 
 A figure of nine points with a six-point path and an untouched triangle has
 circulated for a century through esoteric literature, where its connection to
@@ -361,7 +382,7 @@ of any prime in any base.
 
 *The paper: doi.org/10.5281/zenodo.21270991*
 
-## 17 · Zero and Infinity on Discrete Terms
+## 18 · Zero and Infinity on Discrete Terms
 
 Every famous crisis of modern physics lives at one of two addresses. The
 ultraviolet catastrophe, the self-energy divergences, the singularity theorems,
@@ -373,7 +394,7 @@ rather than places where anything stands.
 
 *The paper: doi.org/10.5281/zenodo.21209364*
 
-## 18 · The Vanishing Point on Discrete Terms
+## 19 · The Vanishing Point on Discrete Terms
 
 No equation is asserted more often and understood less than 0.999… = 1. The
 paper's position is that both familiar camps talk past the theorem, because both
@@ -385,9 +406,9 @@ invariance of the digital root at every finite stage.
 
 ---
 
-# PART IV · THE FRAMING DOCUMENTS
+<div style="font-family:'DIN Condensed','DIN Alternate',sans-serif; color:#a81810; font-weight:700; font-size:15pt; letter-spacing:1.4px; text-transform:uppercase; border-bottom:2px solid #a81810; padding-bottom:3pt; margin:26pt 0 10pt;">PART IV · THE FRAMING DOCUMENTS</div>
 
-## 19 · G-Theory — An Introduction
+## 20 · G-Theory — An Introduction
 
 The document that opens the series. It surveys the present situation in fundamental physics: two frameworks, each
 confirmed to extraordinary precision, incompatible with each other, surrounded
@@ -400,7 +421,7 @@ no derivations and no claims of result.
 
 *The document: doi.org/10.5281/zenodo.21212292*
 
-## 20 · Schrödinger's Piano
+## 21 · Schrödinger's Piano
 
 This paper is a thought experiment in twelve movements: the programme exhibited
 from inside, for the reader who wants to hear the construction before studying
@@ -415,7 +436,7 @@ refute the paper that proves it.
 
 *The paper: doi.org/10.5281/zenodo.21270357*
 
-## 21 · Predictions on Discrete Terms — the registry
+## 22 · Predictions on Discrete Terms — the registry
 
 This sheet's companion, and the place where numbers are put at risk. It records,
 in advance and under a timestamp, ten live commitments and five exact nulls,
@@ -429,7 +450,7 @@ narrated after the fact.
 
 ---
 
-## 22 · What no measurement can decide
+## 23 · What no measurement can decide
 
 Stated so the boundary is as visible as the exposures. The dimensional boundary
 itself — that no dimensionless construction yields a magnitude — is a theorem
@@ -441,7 +462,7 @@ once and cannot be derived — is refuted only by someone deriving the present
 epoch from dimensionless structure, an invitation the vacuum paper extends to
 every reader.
 
-## 23 · Verification
+## 24 · Verification
 
 The public suite is at github.com/thefirsthorstmann/g-theory-verify. Every exact
 claim in the corpus re-derives there on any reader's machine, from the paper
