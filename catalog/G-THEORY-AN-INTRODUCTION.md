@@ -74,15 +74,15 @@ The intended reading order, each item on the public record:
 | 10 | *The Vanishing Point on Discrete Terms* | 10.5281/zenodo.21209421 |
 | 11 | *Predictions on Discrete Terms* — the registered predictions | 10.5281/zenodo.22118840 |
 | 12 | *Gravity on Discrete Terms* | 10.5281/zenodo.22087600 |
-| 13 | *Tonal Function on Discrete Terms* | DOI-13 |
-| 14 | *Visible Light on Discrete Terms* | DOI-14 |
-| 15 | *Water on Discrete Terms* | DOI-15 |
-| 16 | *The Vacuum on Discrete Terms* | DOI-16 |
-| 17 | *Motion on Discrete Terms* | DOI-17 |
-| 18 | *Units on Discrete Terms* | DOI-18 |
-| 19 | *Yang–Mills: Existence on Discrete Terms* | DOI-19 |
-| 20 | *QED on Discrete Terms* | DOI-20 |
-| 21 | *The Falsification Schedule* | DOI-21 |
+| 13 | *Tonal Function on Discrete Terms* | 10.5281/zenodo.22119147 |
+| 14 | *Visible Light on Discrete Terms* | 10.5281/zenodo.22119205 |
+| 15 | *Water on Discrete Terms* | 10.5281/zenodo.22119259 |
+| 16 | *The Vacuum on Discrete Terms* | 10.5281/zenodo.22119288 |
+| 17 | *Motion on Discrete Terms* | 10.5281/zenodo.22119337 |
+| 18 | *Units on Discrete Terms* | 10.5281/zenodo.22119361 |
+| 19 | *Yang–Mills: Existence on Discrete Terms* | 10.5281/zenodo.22119378 |
+| 20 | *QED on Discrete Terms* | 10.5281/zenodo.22119529 |
+| 21 | *G-Theory — The Falsification Schedule* | DOI-21 |
 
 Begin at the piano; it asks nothing but a moment's listening, and everything else follows from what it stages. Welcome.
 
