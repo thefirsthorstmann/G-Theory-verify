@@ -82,7 +82,7 @@ The intended reading order, each item on the public record:
 | 18 | *Units on Discrete Terms* | 10.5281/zenodo.22119361 |
 | 19 | *Yang–Mills: Existence on Discrete Terms* | 10.5281/zenodo.22119378 |
 | 20 | *QED on Discrete Terms* | 10.5281/zenodo.22119529 |
-| 21 | *G-Theory — The Falsification Schedule* | DOI-21 |
+| 21 | *G-Theory — The Falsification Schedule* | 10.5281/zenodo.22119550 |
 
 Begin at the piano; it asks nothing but a moment's listening, and everything else follows from what it stages. Welcome.
 
