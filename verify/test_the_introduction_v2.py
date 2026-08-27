@@ -44,6 +44,6 @@ def test_the_three_new_rows_exist_with_doi_or_placeholder():
                      (18, "Units on Discrete Terms"),
                      (19, "Yang–Mills: Existence on Discrete Terms"),
                      (20, "QED on Discrete Terms"),
-                     (21, "The Falsification Schedule")):
+                     (21, "G-Theory — The Falsification Schedule")):
         pat = rf"\| {n} \| \*{re.escape(title)}\* \| (DOI-{n}|10\.5281/zenodo\.\d+) \|"
         assert re.search(pat, DOC), title
