@@ -18,9 +18,9 @@
 | 5 · Source proportionality and the equivalence principle from one congruence | 13 |
 | 6 · The station of unit residue: the subdominant carries the reptend comma | 13 |
 | 7 · The mechanism: the closure defect is the gravitational potential | 15 |
-| 7.1 · The rest clock: where gravity enters its relation with mass | 15 |
-| 7.2 · Two experimental tests: the mass side and the clock side | 16 |
-| 8 · The inverse-square law, first route: the all-nines integer as a projective coordinate | 17 |
+| 7.1 · The rest clock: where gravity enters its relation with mass | 16 |
+| 7.2 · Two experimental tests: the mass side and the clock side | 17 |
+| 8 · The inverse-square law, first route: the all-nines integer as a projective coordinate | 18 |
 | **PART II · THE INTERACTION** | 19 |
 | 9 · The interaction event: unions occur only at carry boundaries | 19 |
 | 10 · The interaction rate: bilinear in the two masses | 20 |
@@ -28,22 +28,22 @@
 | 12 · No central singularity: the refinement census terminates | 22 |
 | **PART III · THE COUPLING** | 24 |
 | 13 · The coupling: αG(e) = 5/(2¹⁵¹ − 1), and the value of G | 24 |
-| 13.1 · The hierarchy problem, read as the register's reference level | 26 |
-| 14 · The cosmological chain: horizon over nucleon at 10⁴², the saturation density, and the expansion rate | 27 |
-| **PART IV · THE CORRESPONDENCE** | 33 |
-| 15 · The nine correspondences, each on an arithmetic pathway | 33 |
-| **PART V · STANDING AND RELATION TO EXISTING THEORY** | 35 |
-| 16 · The kinematics: the octave as a Lorentz boost | 35 |
-| 17 · Relation to general relativity | 39 |
-| 18 · The present state of the field, and what this account offers it | 40 |
-| **PART VI · THE REMAINING REGIMES** | 43 |
-| 19 · The dimension of space: the contact-count window at two, three and four | 43 |
-| 20 · Orbits: Kepler's third law exact, and the precessing conic family | 45 |
-| 21 · The strong field, the post-Newtonian order, and the structural accounts | 46 |
-| 21.1 The horizon — 21.2 The circular-orbit landmarks — 21.3 What replaces the singularity — 21.4 The wave sector — 21.5 The rotating sector — 21.6 The second-order construction — 21.7 The quadrupole coefficient — 21.8 The dimension of space — 21.9 Relation to curvature-squared gravity — 21.10 The dimensional crossing — 21.11 Repulsion — 21.12 The quantization apparatus | 46 |
-| 22 · Quantization reversed: integer sources, a finite spectrum, and the phase-blind readout | 68 |
-| **23 · What would refute this paper** | 72 |
-| **24 · Verification** | 74 |
+| 13.1 · The hierarchy problem, read as the register's reference level | 27 |
+| 14 · The cosmological chain: horizon over nucleon at 10⁴², the saturation density, and the expansion rate | 28 |
+| **PART IV · THE CORRESPONDENCE** | 34 |
+| 15 · The nine correspondences, each on an arithmetic pathway | 34 |
+| **PART V · STANDING AND RELATION TO EXISTING THEORY** | 36 |
+| 16 · The kinematics: the octave as a Lorentz boost | 36 |
+| 17 · Relation to general relativity | 40 |
+| 18 · The present state of the field, and what this account offers it | 41 |
+| **PART VI · THE REMAINING REGIMES** | 44 |
+| 19 · The dimension of space: the contact-count window at two, three and four | 44 |
+| 20 · Orbits: Kepler's third law exact, and the precessing conic family | 46 |
+| 21 · The strong field, the post-Newtonian order, and the structural accounts | 47 |
+| 21.1 The horizon — 21.2 The circular-orbit landmarks — 21.3 What replaces the singularity — 21.4 The wave sector — 21.5 The rotating sector — 21.6 The second-order construction — 21.7 The quadrupole coefficient — 21.8 The dimension of space — 21.9 Relation to curvature-squared gravity — 21.10 The dimensional crossing — 21.11 Repulsion — 21.12 The quantization apparatus | 48 |
+| 22 · Quantization reversed: integer sources, a finite spectrum, and the phase-blind readout | 71 |
+| **23 · What would refute this paper** | 74 |
+| **24 · Verification** | 77 |
 
 <div style="page-break-before:always"></div>
 
@@ -366,10 +366,10 @@ chord it functions as the chordal seventh, and the interval it forms with
 the leading tone is the tritone whose resolution defines the authentic
 cadence.
 
-One reading rule accompanies the table. Whenever a musical name appears in a derivation it can be replaced by its
-arithmetic referent with nothing lost. The subdominant becomes "the ÷3 station
-of the descent", the comma its exact ratio, and the cadence the ledger of §9. The derivations have been checked
-under that replacement.
+Every musical name can be replaced by its arithmetic referent with nothing lost:
+the subdominant is the ÷3 station of the descent, the comma its exact ratio, the
+cadence the ledger of §9. The derivations have been checked under that
+replacement.
 
 # PART I · THE FORM
 
@@ -796,17 +796,16 @@ deleting the word changes nothing in the argument. What the paragraph actually
 imports is the identification **depth n ↔ extension 10ⁿ − 1**, and that is
 where the argument leaves arithmetic for space.
 
-**Exclusivity: no other interaction reads this structure.** The identification of §7 would be idle if any other
-force read the same structure. None does. Electromagnetism is two-signed on the
-orbit pairs by the ±18 ledger of this theory — excluded by the one-signedness
-theorem. The strong interaction grows with separation — excluded by the
-inverse-square fall of this section. The arrow of time is a rate phenomenon, not a conservative quadratic form, and thus the wrong type. The cosmological constant is unsourced by definition, and is excluded at seat
-level by §5's proportionality to k. The base string's own single shortfall,
-sourced by nothing, has exactly Λ's shape: unsourced, universal and one-
-signed. That reading is recorded as a conjecture and carries nothing here. Mass itself is not an alternative but the complement: the local rounding *excess* (the deciders of §4, all high, all
-rounding up) is what a thing weighs; the global *deficit* (the total one short)
-is what pulls it. Midy's pairing of the two halves to nine is the statement
-that these are one structure: **the local excess is the mass, and the global deficit is the gravitation.**
+**Exclusivity: no other interaction reads this structure.** The identification of §7 would be idle if another force did. None does.
+Electromagnetism is two-signed on the orbit pairs by the ±18 ledger — excluded
+by the one-signedness theorem. The strong interaction grows with separation —
+excluded by the inverse-square fall above. The arrow of time is a rate
+phenomenon, not a conservative quadratic form: the wrong type. The cosmological
+constant is unsourced by definition, excluded at seat level by §5's
+proportionality to k. Mass is not an alternative but the complement: the local rounding *excess*
+(§4's deciders) is what a thing weighs; the global *deficit*, one short overall,
+is what pulls it. Midy's pairing of the halves to nine makes them one structure:
+**the local excess is the mass, the global deficit the gravitation.**
 
 # PART II · THE INTERACTION
 
@@ -1029,28 +1028,21 @@ far-field results are inherited whole, and only the orbit's shape depends
 on the rung, which is the comb once more. Pinned in
 `verify/test_the_small_rung_rule.py`.
 
-**The register coordinate and the Euclidean read: the standing relation, and its one free residue.** The derivations above are exact in the register's native coordinate, the
+**The register coordinate and the Euclidean read.** The derivations above are exact in the register's native coordinate, the
 shared-prefix depth at which two records first occupy one cell. That
 coordinate is an ultrametric: every triangle isosceles, every point of a cell
 its centre, and no betweenness anywhere. Observation, meanwhile, reads a
-Euclidean separation. The theory has one standing relation between the discrete substrate and its continuum read, and it applies here with nothing new: **the Euclidean separation is the envelope of the register coordinate.**
+Euclidean separation. The theory's one standing relation between substrate and continuum read applies here: **the Euclidean separation is the envelope of the register coordinate.**
 The dictionary between them is the distribution of shared-prefix depths at a
-fixed separation, which is exactly self-similar under doubling. The envelope
-read is exact in the mean: the octave-average of the interaction reproduces
+fixed separation, which is exactly self-similar under doubling. The envelope read is exact in the mean: the octave-average reproduces
 the inverse square as one scale-free constant, pinned to fifty binary digits.
-What survives of the former fork is its residue. Reading the substrate through
-the envelope leaves a fine structure periodic in log-separation with period
+Reading the substrate through the envelope leaves a fine structure periodic in log-separation with period
 one octave, forced by the carry layer. Its amplitude is the sharing profile's
 one free number. The register's stepped constructions put it near a tenth,
 which existing inverse-square nulls already exclude; the derived family's
-smooth members put it below one part in 10⁹. From this writing the amplitude
-is an experimental parameter, with a fixed-period reanalysis template
-published beside this paper. Two residues of the closure are carried forward by name. The
-substrate's *shape* — how three dimensions and their angles emerge from an
-ultrametric register — belongs to the theory's dimensional account, not to
-this part. The inherited sentence "locality is adjacency in the register" is replaced by
-the derived one: locality is shared prefix. Inside one cell there is no inside
-for anything to cross, which is the mechanism this account's "correlation is
+smooth members put it below one part in 10⁹. The amplitude is therefore an experimental parameter, with a fixed-period reanalysis template
+published beside this paper. The substrate's *shape* — how three dimensions and their angles emerge from an
+ultrametric register — belongs to the dimensional account, not to this part. Locality is not adjacency in the register but shared prefix. Inside one cell there is no inside for anything to cross — the mechanism this account's "correlation is
 not transmission" always required.
 
 # PART III · THE COUPLING
@@ -1342,7 +1334,8 @@ chain stands or falls with all three at once. Stated in full:
 
 ```
 DECLARED      cell   =  8/7 SI femtometres         the single borrow
-                      ( = 2³/7, the three-dimensional refinement count over the sevenths wheel it returns, since 8 ≡ 1 mod 7 )
+                      ( = 2³/7, the three-dimensional refinement count
+                        over the sevenths wheel it returns, since 8 ≡ 1 mod 7 )
 
 SEATS         Ω_m    =  1/3        Ω_Λ  =  2/3      the account's own
               depth  =  10⁴²                        values, not measurements
@@ -1924,7 +1917,7 @@ block is pinned in `verify/test_serial_order.py`.
 
 ## 18 · The present state of the field, and what this account offers it
 
-This section surveys the external programmes whose results bear on the same territory. Three are addressed, in their own best terms, from the published record as it stands this year.
+
 
 **Loop quantum gravity** shares this paper's central conviction — that the
 continuum is not fundamental — and holds, as its definite prediction, a
@@ -1932,8 +1925,7 @@ discrete spectrum for measured areas. Where it stands: its discreteness is insta
 experiment reaches. Its classical limit — recovering the smooth spacetime we
 measure — remains the named open problem of the programme. And quantization
 ambiguities have kept it from a crisp numerical prediction in the laboratory
-regime. What this paper offers that the other cannot is a different kind of
-discreteness. The discreteness here is the register's rather than a postulated
+regime. The discreteness here is the register's rather than a postulated
 geometry's, so the continuum limit is the envelope by construction, read
 against §19's still-open container account, rather than an unsolved dynamical
 recovery problem. The account also produces numbers with failure conditions
@@ -1948,8 +1940,7 @@ results no other programme possesses, including a statistical count of
 black-hole microstates for special charge configurations. Where it stands: its solutions form a landscape with no accepted selection principle, so it derives no measured coupling. Its constructions live at the Planck scale and in higher dimensions whose reduction to four is not fixed. It states no falsification condition of the kind §23 lists. What this paper
 offers that it cannot is a coupling with a number and a null attached, at
 bench precision. What it possesses that this paper does not is a complete
-perturbative quantum theory of the graviton, and the comparison is stated
-with both facts in view.
+perturbative quantum theory of the graviton.
 
 **Asymptotic safety** conjectures a nontrivial ultraviolet fixed point that
 would render quantum general relativity predictive with no new structure.
@@ -1965,10 +1956,7 @@ considerable economy. Where it stands: a₀ is fitted rather than derived, in ev
 theory. The current decisive test is the internal dynamics of wide binary
 stars, where no dark halo can hide. From the same Gaia data it has produced
 published claims of Newtonian behaviour at nineteen sigma and of MONDian
-behaviour at ten, a contradiction still standing in the literature. No relativistic completion is settled. Its external field effect also violates the strong equivalence principle, which is the line this account draws on the other side. The Nordtvedt parameter is exactly zero here (§21.6) and the composition dependence of free fall is excluded (§7.2), so the two are separable by the composition experiments as well as by the rotation curves. On this ground the present paper
-holds itself to the standard a claim of identity imposes: there are not
-several solutions to gravity, and a proposal that cedes a regime is an
-opinion about the others. The galactic regime is therefore carried here as
+behaviour at ten, a contradiction still standing in the literature. No relativistic completion is settled. Its external field effect also violates the strong equivalence principle, which is the line this account draws on the other side. The Nordtvedt parameter is exactly zero here (§21.6) and the composition dependence of free fall is excluded (§7.2), so the two are separable by the composition experiments as well as by the rotation curves. The galactic regime is carried here as
 an **open account, with the route named and the first exact results on the
 record.** The route is the register's far structure, and three results
 already stand. First, a refusal. A bare far ceiling on the register — the horizon — subtracts
@@ -1986,8 +1974,7 @@ exactly self-similar under the doubling of separation. Any residual this
 mechanism imprints on a rotation curve is therefore periodic in log r with
 period ln 2, which is one octave. Neither the halo nor the modified law
 predicts that signature, and it is a reanalysis target for the same survey
-data both of them fit. The routes to the regime's full dynamics are named in the record. The first of
-them, the ensemble statistics of chained union events, has produced a result
+data both of them fit. The first route, the ensemble statistics of chained union events, has produced a result
 that was not ordered in advance. Committed composites carry at exactly the sum
 of their parts' rates, and coincide with any test clock at the product law, so
 bound matter superposes exactly. Every laboratory and solar-system test of
@@ -1998,10 +1985,7 @@ pull exactly where matter is diffuse and none where it is bound and tested.
 That gives the dark sector's direction as a derivation rather than a fit; the
 magnitude awaits the period-mass map. The remaining routes —
 the geometry of orbits on the ultrametric horn, the enhancement over
-realistic spectra — stay open on the record. Beyond the account, this paper offers what a fitted constant cannot: a
-coupling that is derived, since the coupling wheel of §13 carries no dial to turn, and
-an interaction event with a ledger. Neither the halo picture nor the modified
-force law possesses either at any scale.
+realistic spectra — stay open on the record. Beyond the account, this paper offers what a fitted constant cannot: a coupling that is derived, the wheel of §13 carrying no dial to turn, and an interaction event with a ledger. Neither the halo picture nor the modified force law has either.
 
 **The experimental record this paper's conditions actually touch** is
 precise and mostly recent. The inverse square law is tested clean to gaps of roughly fifty micrometres,
@@ -2015,8 +1999,7 @@ has been slowed by seven orders and parked outright in atomic coherence —
 the dressed-rate physics §16 places on the record's side of the ledger. And
 the equivalence principle stands confirmed at parts in 10¹⁵, which is this
 paper's own §5 passing continuously. **The programs that reached these targets first, and what separates
-them.** Three lines of work arrived at parts of this paper's territory
-before it, and the outstanding item is stated explicitly.
+them.** Three lines of work arrived at parts of this paper's territory before it.
 *Thermodynamic and entropic derivations came first.* Jacobson recovered the
 field equations as an equation of state across local causal horizons, and
 Verlinde recovered Newton's law from entropy gradients on holographic screens.
@@ -2029,8 +2012,7 @@ a number with a null attached. And neither forbids a fine structure in the
 force law, where Part II does. *Causal set theory is the nearest relative, and the one whose language §17 approaches.* Order and number giving geometry is the formulation of Bombelli,
 Lee, Meyer and Sorkin. Discrete general covariance — the requirement that a
 growth dynamics not depend on the order of its steps — was posed for causal
-sets by Rideout and Sorkin before it was posed here. That literature also established the hard part this paper has not supplied,
-and the entry for the covariant trigger is written in its light. Only a random
+sets by Rideout and Sorkin before it was posed here. That literature also established the hard part this paper has not supplied. Only a random
 sprinkling is known to avoid a preferred frame, and a regular substrate
 generically defines one. What this account brings that the kinematics
 does not is a mechanism — an event with a rate, a coupling with a value,
@@ -2042,14 +2024,11 @@ parameter that decides everything — in that literature the preferred
 ratio is fitted per system, while here it is forced to two by the
 register's base and admits no adjustment. The template is theirs; the
 fixed period is this paper's, and it is what makes the reanalysis a test
-rather than a fit. One more, in the other direction. Causal dynamical triangulations obtains a
+rather than a fit. Causal dynamical triangulations obtains a
 spectral dimension flowing to four from a sum over discrete geometries. That
 is a dynamical answer to the question §19 leaves open, and a place where another programme has what this one does not.
 
-The position is this. The programmes above install discreteness by hand at
-scales no instrument reaches, or a constant by hand at scales every instrument
-reaches. This paper derives its discreteness, its constant and its event from
-one object, and places every claim within reach of existing instruments.
+The programmes above install discreteness by hand where no instrument reaches, or a constant by hand where every instrument does. This paper derives its discreteness, constant and event from one object, and places every claim within reach of existing instruments.
 
 # PART VI · THE REMAINING REGIMES
 
@@ -2308,8 +2287,9 @@ of GM/c².
      reaches light speed at        φ = 1/3        r = 3
        the photon sphere;  capture parameter  b² = 27,
        so the shadow radius is 3√3
+```
 
-
+```
      circular energy        =   E²  =  (1 − 2φ)² / (1 − 3φ)
 
      equals rest energy at         φ = 1/4        r = 4
@@ -3806,7 +3786,11 @@ and the list above is those joints.
 
 ## 24 · Verification
 
-Every exact statement in this paper is a re-runnable test in the theory's public suite, github.com/thefirsthorstmann/g-theory-verify — 2,671 tests passing at this writing, distributed with the companion deposits. The suite re-derives the entire exact skeleton in about three minutes on an ordinary machine. The map from
+Every exact statement in this paper is a re-runnable test in the theory's
+suite — 2,671 tests passing at this writing. The paper's own claim map,
+1,009 assertions together with this paper's source, is public at
+github.com/thefirsthorstmann/g-theory-verify and re-derives the paper's
+exact skeleton in under four minutes on an ordinary machine. The map from
 claim to test:
 
 | claim | section | test |
@@ -3887,10 +3871,21 @@ claim to test:
 | the assembly: the seven accounts, the cross-constants, the inventory of outstanding items | the Summary | `verify/test_gravity_complete.py` |
 | big G: the ensemble's internal inconsistency, the comb–discordance incompatibility, the planetary quadrature floor, the fit engine | §13 | `verify/test_the_g_file.py` |
 
-The identifications and the one conjecture are named where they stand; nothing
-else in the paper is soft. A reader who distrusts every sentence of prose here
-is invited to distrust it, run the suite, and re-read the tables: the paper's
-case is the tables.
+The identifications and the one conjecture presented in this paper are indicated
+as such; every other statement in the paper is exact, and the table above maps
+each one to the test that establishes it. The account is complete in the sense
+set out in the Summary: open in five places, each recorded where it occurs. From
+a single closure defect in a positional register the account derives the
+one-signed pull, source proportionality, the equivalence principle and the
+impossibility of screening. It derives quadrupole-first radiation, the
+inverse-square law by two routes, the coupling, and the absence of a central
+singularity. The tonal center as experienced in music is therefore a microcosmic
+expression, in the domain of harmonic structure, of the general principle of
+gravitation. It offers a tool with which to build a deeper understanding of the
+phenomenon, one closer to an explanation than to a description. Section 23 states
+the seventeen conditions under which the account fails, and the test suite
+verifying every mathematical claim is public at
+github.com/thefirsthorstmann/g-theory-verify.
 
 ## References
 
