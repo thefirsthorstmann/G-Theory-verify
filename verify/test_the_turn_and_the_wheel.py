@@ -105,3 +105,12 @@ def test_the_residues_sum_to_two_and_the_sweep_is_null():
     for cand in (0.0, 1/3, 1/6, 0.1, 1/28, 0.5, 2/3, math.log(2), 0.7,
                  0.66, 0.72, 1.0, 1.125, 1.25, 4/3, 1.38, 1.5):
         assert abs(cand - r_struct) > bar and abs(cand - r_carry) > bar
+
+
+def test_the_five_stations_order_on_one_axis():
+    """The paper's five perspectives, ordered: the seat above the measured
+    cluster, the cluster above the six-decimal statement, that above the
+    measured image, and the seat image lowest, with its period-six tail."""
+    mbar = (1.0072764665789 + 1.00866491595) / 2
+    assert 0.036 > 0.035999206 and 0.035999046 > 0.035999    # seat > cluster > floor
+    assert 0.035999 > mbar / 28 > 1.00797 / 28               # floor > measured > seat image

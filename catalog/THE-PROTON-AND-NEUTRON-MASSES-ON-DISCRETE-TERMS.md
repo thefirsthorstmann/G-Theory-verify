@@ -186,6 +186,18 @@ The entire experimental discrepancy occupies the last unit of the seat's own tur
 
 where m̄ is the measured nucleon average in u. This is an identity, not a fit. Read at the register's own six-digit depth, the image rounds to 137.035999 — exactly the prefix on which every determination of the past fifteen years agrees, with the experimental disagreement confined to what lies beyond. The six-decimal statement is therefore derived, from the mass table, and confirmed by every instrument's own testimony. The third depth is the full image, 137.0359989533(1): the unison row of any transport between the mass and fine-structure residuals, registered here under the name the mechanism gives it — the fine-structure value with no transport applied. Every current determination sits above it. Dividing the seats themselves, rather than the measured masses, gives the exact rational 100797/2800000 = 0.035998928571..., whose expansion past the seventh digit is the period-six cycle of one seventh; the measured image sits 0.025 millionths above it, the composite residual carried through the bridge.
 
+**The five stations.** The constant is therefore stated from five perspectives on one axis, ordered here as they sit:
+
+| station | value | perspective |
+|---|---|---|
+| the seat | 137.036 | arithmetic: T(8)/1000, one turn |
+| the determinations | 137.035999046 – 206 | measurement: the cluster inside the seat's last unit |
+| the six-decimal statement | 137.035999 | the image at the register's depth; the agreed prefix |
+| the measured image | 137.0359989533(1) | the measured masses over 28 |
+| the seat image | 137.035998928571... | the seats over 28; the period-six tail |
+
+The two ends are pure arithmetic, the middle row is pure measurement, and the two images between are each built from both. Every gap between adjacent stations is a named object of this paper: the first is the transport question of the table above, the second is the lift of Section 8, the third is the rounding depth of the register, and the fourth is the composite residual over 28.
+
 **The transported values.** If the mass residual and the fine-structure residual are related by a just-intonation interval r, in the natural currency of parts per million of their own seats, then each licensed interval implies a value of the constant. The implied values are exact consequences of the measured masses:
 
 | interval r | implied α⁻¹ | nearest determination |
