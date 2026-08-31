@@ -6,10 +6,10 @@ authors:
   - family-names: Horstmann
     given-names: Christian
     orcid: "https://orcid.org/0009-0006-8623-9937"
-version: 2.1.0
-date-released: 2026-08-25
+version: 2.2.0
+date-released: 2026-09-01
 abstract: >-
-  365 machine-checked assertions underlying the G-Theory research program:
+  1,210 machine-checked tests underlying the G-Theory research program:
   dimensionless structure in physics from the arithmetic relation of 2 and 3,
   with zero adjustable parameters. Each result carries an explicit grade;
   forced structural results and selection-bearing numerical results are kept

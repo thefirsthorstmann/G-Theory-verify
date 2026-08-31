@@ -2,14 +2,14 @@
 
 [![tests](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml/badge.svg)](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml)
 
-1,161 machine-checked assertions underlying the G-Theory research program: an
+1,210 machine-checked tests underlying the G-Theory research program: an
 investigation of dimensionless structure in physics from the arithmetic
 relation of 2 and 3, developed with zero adjustable parameters.
 
 ```bash
 pip install -r requirements.txt
 pytest
-# 1161 passed
+# 1210 passed
 ```
 
 ## What green means
@@ -54,7 +54,15 @@ public statements of these results are the papers below.
 
 ## The papers
 
-- **Gravity on Discrete Terms** (August 2026, DOI 10.5281/zenodo.22087600) — gravitation as the tonal
+- **The Proton and Neutron Masses on Discrete Terms** (September 2026) —
+  the six-digit seats derived, the residuals beyond them read as the
+  elapsed epoch, and the ratio of the two excesses at 23/32.
+  `verify/test_the_carry_bridge.py`, `verify/test_the_turn_and_the_wheel.py`,
+  and `verify/test_the_wheel_pair_machine.py` are its claim map — forty-nine
+  tests — and `catalog/THE-PROTON-AND-NEUTRON-MASSES-ON-DISCRETE-TERMS.md`
+  is the paper source they pin.
+
+- **Gravity on Discrete Terms** (August 2026, DOI 10.5281/zenodo.22087599) — gravitation as the tonal
   center of a discrete harmonic system; the anomalies, the coupling, and a
   dimensionless cosmological ratio. The `test_the_*` and `test_gravity_*`
   batteries in this suite are its section-24 claim map, and
@@ -67,7 +75,7 @@ public statements of these results are the papers below.
   `catalog/TONAL-FUNCTION-ON-DISCRETE-TERMS.md` is the paper source.
 
 - **Predictions on Discrete Terms, version 2** (August 2026, DOI
-  [10.5281/zenodo.22118840](https://doi.org/10.5281/zenodo.22118840)) —
+  [10.5281/zenodo.21206818](https://doi.org/10.5281/zenodo.21206818)) —
   the registry gains the gravitational sector: three live stakes and five
   exact nulls, added under the registry's additive conduct rules.
   `verify/test_the_registry_v2.py` pins the new rows against
@@ -158,7 +166,7 @@ In the intended reading order:
 | 8 | *The Enneagram Is a Theorem* | [10.5281/zenodo.21270991](https://doi.org/10.5281/zenodo.21270991) |
 | 9 | *Zero and Infinity on Discrete Terms* | [10.5281/zenodo.21209364](https://doi.org/10.5281/zenodo.21209364) |
 | 10 | *The Vanishing Point on Discrete Terms* | [10.5281/zenodo.21209421](https://doi.org/10.5281/zenodo.21209421) |
-| 11 | *Predictions on Discrete Terms* — the registered predictions | [10.5281/zenodo.22118840](https://doi.org/10.5281/zenodo.22118840) |
+| 11 | *Predictions on Discrete Terms* — the registered predictions | [10.5281/zenodo.21206818](https://doi.org/10.5281/zenodo.21206818) |
 | 12 | *Gravity on Discrete Terms* | [10.5281/zenodo.22087600](https://doi.org/10.5281/zenodo.22087600) |
 | 13 | *Tonal Function on Discrete Terms* | [10.5281/zenodo.22119147](https://doi.org/10.5281/zenodo.22119147) |
 | 14 | *Visible Light on Discrete Terms* | [10.5281/zenodo.22119205](https://doi.org/10.5281/zenodo.22119205) |
