@@ -198,7 +198,7 @@ where m̄ is the measured nucleon average in u. This is an identity, not a fit. 
 
 The two ends are pure arithmetic, the middle row is pure measurement, and the two images between are each built from both. Every gap between adjacent stations is a named object of this paper. The first is the transport question of the table above; the second, the standing addressed in the conditional below; the third, the rounding depth of the register; the fourth, the composite residual over 28.
 
-**A registered conditional.** Every determination stands above the derived image, one-signed, by 0.09 to 0.25 millionths. Whether that standing belongs to the constant or to the act of measuring it is not decided here. It is registered as a conditional instead: if the standing is ever shown to be produced in measurement, then the constant's exact statement is the six-decimal one, and at that depth the derivation of this paper and every determination agree exactly.
+**A registered conditional.** Every determination stands above the derived image, one-signed, by 0.09 to 0.25 millionths. Whether the digits past the sixth decimal are further precision, or are instead diffuse content belonging to the register's circulation rather than to the constant, is not decided here. The period-six structure gives the second possibility its ground: the turn is six digits because the reciprocal of seven has period six, and the seat image's own expansion past its head is that cycle and nothing else. The conditional is therefore registered: if the digits beyond six decimals are ever shown to be diffuse rather than more accurate, the constant's exact statement is the six-decimal one, 137.035999. At that depth the derivation of this paper and every determination agree exactly.
 
 **The transported values.** If the mass residual and the fine-structure residual are related by a just-intonation interval r, in the natural currency of parts per million of their own seats, then each licensed interval implies a value of the constant. The implied values are exact consequences of the measured masses:
 
@@ -242,7 +242,7 @@ Each of the following was tested against the same data and fails at the stated s
 6. The interval correspondence of Section 9: the resolution of the present discrepancy selects one licensed interval; the paper leans toward 4/3 and 7/4, the rubidium side, for the structural reasons stated, and records that lean before the fact.
 7. No epoch dependence of the ratio: 23/32 is a constant, and any secular drift of the ratio refutes the partition.
 8. The living clock: the nucleon masses in u grow today at 1.3 × 10⁻¹⁷ per year (neutron) and 9 × 10⁻¹⁸ (proton), the electron not participating. A proton-to-electron drift bound tightening past 5 × 10⁻¹⁸ per year with no signal refutes the continuing deposition.
-9. The conditional of Section 9: if the determinations' standing above the derived image is shown to be produced in measurement, the constant's exact statement is 137.035999, and derivation and measurement agree exactly at that depth.
+9. The conditional of Section 9: if the digits beyond six decimals are shown to be diffuse content rather than added precision, the constant's exact statement is 137.035999, and derivation and measurement agree exactly at that depth.
 
 ## 13 · Verification
 
