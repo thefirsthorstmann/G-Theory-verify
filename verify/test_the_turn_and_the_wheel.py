@@ -114,3 +114,17 @@ def test_the_five_stations_order_on_one_axis():
     mbar = (1.0072764665789 + 1.00866491595) / 2
     assert 0.036 > 0.035999206 and 0.035999046 > 0.035999    # seat > cluster > floor
     assert 0.035999 > mbar / 28 > 1.00797 / 28               # floor > measured > seat image
+
+
+def test_the_rest_grammar_parallels_the_published_pi_value():
+    """The seat image and the published rest value of pi share one grammar:
+    each is the mean of two register statements, each denominator carries
+    2^7 and a single seven, and each decimal is a finite head followed by
+    the period-six cycle, held by its measured constant a residual away."""
+    rest_pi = F(2815, 896)
+    assert rest_pi == (F(22, 7) + F(201, 64)) / 2
+    assert 896 == 2 ** 7 * 7 and 2800000 == 2 ** 7 * 5 ** 5 * 7
+    digits = str(rest_pi.numerator * 10 ** 20 // rest_pi.denominator)
+    assert digits[:8] == "31417410" and digits[8:14] in "142857142857"
+    assert 3.14159265 < float(rest_pi)                     # pi holds it from below
+    assert (float(rest_pi) / 3.14159265358979 - 1) * 1e6 < 48   # by 47 ppm

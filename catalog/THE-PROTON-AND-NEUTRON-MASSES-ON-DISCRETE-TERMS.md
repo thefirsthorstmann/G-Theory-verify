@@ -184,7 +184,7 @@ The entire experimental discrepancy occupies the last unit of the seat's own tur
 0.036 × ( m̄ / 1.008 )  =  m̄ / 28  =  0.0359989533(1)
 ```
 
-where m̄ is the measured nucleon average in u. This is an identity, not a fit. Read at the register's own six-digit depth, the image rounds to 137.035999 — exactly the prefix on which every determination of the past fifteen years agrees, with the experimental disagreement confined to what lies beyond. The six-decimal statement is therefore derived, from the mass table, and confirmed by every instrument's own testimony. The third depth is the full image, 137.0359989533(1): the unison row of any transport between the mass and fine-structure residuals, registered here under the name the mechanism gives it — the fine-structure value with no transport applied. Every current determination sits above it. Dividing the seats themselves, rather than the measured masses, gives the exact rational 100797/2800000 = 0.035998928571..., whose expansion past the seventh digit is the period-six cycle of one seventh; the measured image sits 0.025 millionths above it, the composite residual carried through the bridge.
+where m̄ is the measured nucleon average in u. This is an identity, not a fit. Read at the register's own six-digit depth, the image rounds to 137.035999 — exactly the prefix on which every determination of the past fifteen years agrees, with the experimental disagreement confined to what lies beyond. The six-decimal statement is therefore derived, from the mass table, and confirmed by every instrument's own testimony. The third depth is the full image, 137.0359989533(1): the unison row of any transport between the mass and fine-structure residuals, registered here under the name the mechanism gives it — the fine-structure value with no transport applied. Every current determination sits above it. Dividing the seats themselves, rather than the measured masses, gives the exact rational 100797/2800000 = 0.035998928571..., whose expansion past the seventh digit is the period-six cycle of one seventh. The measured image sits 0.025 millionths above it — the composite residual carried through the bridge. This two-part form — a finite head, then the cycle — is this series' published grammar for a rest value. The rest value of the circle's number, 2815/896 with denominator 2⁷ · 7, reads 3.1417410 and then the cycle, and π holds it from below by 47 parts per million [11]. The parallel is exact in construction as well as in form: both are means of two register statements, and both denominators carry 2⁷ and one seven. The seat image is the tail's statement in the same grammar.
 
 **The five stations.** The constant is therefore stated from five perspectives on one axis, ordered here as they sit:
 
@@ -196,7 +196,9 @@ where m̄ is the measured nucleon average in u. This is an identity, not a fit. 
 | the measured image | 137.0359989533(1) | the measured masses over 28 |
 | the seat image | 137.035998928571... | the seats over 28; the period-six tail |
 
-The two ends are pure arithmetic, the middle row is pure measurement, and the two images between are each built from both. Every gap between adjacent stations is a named object of this paper: the first is the transport question of the table above, the second is the lift of Section 8, the third is the rounding depth of the register, and the fourth is the composite residual over 28.
+The two ends are pure arithmetic, the middle row is pure measurement, and the two images between are each built from both. Every gap between adjacent stations is a named object of this paper. The first is the transport question of the table above; the second, the standing addressed in the conditional below; the third, the rounding depth of the register; the fourth, the composite residual over 28.
+
+**A registered conditional.** Every determination stands above the derived image, one-signed, by 0.09 to 0.25 millionths. Whether that standing belongs to the constant or to the act of measuring it is not decided here. It is registered as a conditional instead: if the standing is ever shown to be produced in measurement, then the constant's exact statement is the six-decimal one, and at that depth the derivation of this paper and every determination agree exactly.
 
 **The transported values.** If the mass residual and the fine-structure residual are related by a just-intonation interval r, in the natural currency of parts per million of their own seats, then each licensed interval implies a value of the constant. The implied values are exact consequences of the measured masses:
 
@@ -240,6 +242,7 @@ Each of the following was tested against the same data and fails at the stated s
 6. The interval correspondence of Section 9: the resolution of the present discrepancy selects one licensed interval; the paper leans toward 4/3 and 7/4, the rubidium side, for the structural reasons stated, and records that lean before the fact.
 7. No epoch dependence of the ratio: 23/32 is a constant, and any secular drift of the ratio refutes the partition.
 8. The living clock: the nucleon masses in u grow today at 1.3 × 10⁻¹⁷ per year (neutron) and 9 × 10⁻¹⁸ (proton), the electron not participating. A proton-to-electron drift bound tightening past 5 × 10⁻¹⁸ per year with no signal refutes the continuing deposition.
+9. The conditional of Section 9: if the determinations' standing above the derived image is shown to be produced in measurement, the constant's exact statement is 137.035999, and derivation and measurement agree exactly at that depth.
 
 ## 13 · Verification
 
@@ -268,3 +271,5 @@ Every exact identity, every scan, every exclusion, and every registered value in
 [9] C. Horstmann, The Fine-Structure Constant on Discrete Terms, Zenodo (2026), DOI 10.5281/zenodo.21211050.
 
 [10] C. Horstmann, Gravity on Discrete Terms, Zenodo (2026), DOI 10.5281/zenodo.22087599.
+
+[11] C. Horstmann, π on Discrete Terms, Zenodo (2026), DOI 10.5281/zenodo.21205368.
