@@ -275,7 +275,7 @@ def test_the_excess_is_the_count_gap():
     assert len(ks_lat) == 17 and 27 in ks_lat and 28 in ks_lat  # the lattice-bar menu (the paper's)
 
 
-def test_the_alpha_is_a_current_not_a_store():
+def test_the_alpha_residual_is_a_flux_not_an_accumulation():
     """Sections 6 and 11: the two split grammars — arithmetic for the masses, positional at the half for the fine-structure seat — and the excluded six-deposit steady state."""
     s6 = "137036"
     assert s6[:3] == "137" and s6[3:] == "036"             # the Midy split IS positional
@@ -358,11 +358,11 @@ def test_the_stress_attacks():
         assert 1.1e-17 < 0.0125166e-5 * rate / 1.00866 < 1.5e-17
 
 
-def test_the_gate_toll_candidate():
-    """Section 10's gate toll: the deposit excess derived as a two-candidate
-    gate, with its exposure — the septimal 28/27 (nearer nineteen-fold) and
-    the chromatic 25/24 (the smaller parts, the deposit's own limit); the
-    next neutron adjustment separates them.  Write
+def test_the_seating_deposit_candidate():
+    """Section 10's seating deposit: the excess derived as a two-candidate
+    receipt zero, with its exposure — the septimal 28/27 (nearer
+    nineteen-fold) and the chromatic 25/24 (the smaller parts, the deposit's
+    own limit); the next neutron adjustment separates them.  Write
     load = (N + X)/80: the one-time excess is X = 0.052123(3200) octaves.  In
     the pre-registered class (log2 of 7-smooth superparticulars n<=50 + the
     standard commas), TWO candidates sit inside 3 sigma: log2(28/27) at -0.11
