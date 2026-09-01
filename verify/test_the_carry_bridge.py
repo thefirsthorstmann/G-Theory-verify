@@ -135,7 +135,7 @@ def test_the_displacement_family_frame():
 
 
 def test_the_timeline_exclusions_are_pinned():
-    """Section 13, exclusion 6 and the seating context: the exact-integer receipt counts fail at eleven standard deviations; the syntonic-per-octave arithmetic of the Watch row."""
+    """Section 13, exclusion 6 and the seating context: the exact-integer increment counts fail at eleven standard deviations; the syntonic-per-octave arithmetic of the Watch row."""
     Dp = (1.008 - MP) * 1e5 - 72
     Dn = (MN - 1.008) * 1e5 - 66
     sig = 4.0e-10 * 1e5
@@ -146,7 +146,7 @@ def test_the_timeline_exclusions_are_pinned():
 
 
 def test_the_seating_rung_derives_as_the_hexad_part():
-    """Section 9: the divisor scan, the lattice concurrence at one sixth of the proton mass, the count of 39.28 octaves, and the deposit it fixes."""
+    """Section 9: the divisor scan, the lattice concurrence at one sixth of the proton mass, the count of 39.28 octaves, and the increment it fixes."""
     import math
     mp, Tc, uTc = 938.27208816, 156.5, 1.5
     assert abs(mp / 6 - Tc) < uTc                          # the hexad hits the lattice
@@ -156,7 +156,7 @@ def test_the_seating_rung_derives_as_the_hexad_part():
     assert 39.27 < N < 39.29                               # the duration readout
     load, uload = 0.4916060, 0.0000400
     s = load / N
-    assert 0.012514 < s < 0.012518                         # the boxed deposit
+    assert 0.012514 < s < 0.012518                         # the boxed increment
     assert abs(s - 1 / 80) / (uload / N) > 10              # exact syntonic: excluded
     assert abs(load / (N * math.log10(2)) - 1 / 24) / (uload / (N * math.log10(2))) > 10
     Dp = (1.008 - MP) * 1e5 - 72
@@ -173,8 +173,8 @@ def test_the_why_of_six():
     assert mp * 2 / 42 < 100 and mp * 2 / 90 < 100         # deeper rungs: no office
 
 
-def test_the_deposit_exceeds_the_syntonic():
-    """Section 10's quantitative state: the per-octave deposit exceeds 1/80 by 0.13 percent; an exactly syntonic deposit needs 162 MeV, which the lattice value excludes."""
+def test_the_increment_exceeds_the_syntonic():
+    """Section 10's quantitative state: the per-octave increment exceeds 1/80 by 0.13 percent; an exactly syntonic increment needs 162 MeV, which the lattice value excludes."""
     import math
     mp, Tcmb = 938.27208816, 2.72548 * 8.617333262e-5
     load, uload = 0.4916060, 0.0000400
@@ -254,7 +254,7 @@ def test_the_axis_touching_schedule():
 
 
 def test_the_excess_is_the_count_gap():
-    """Section 10: the deposit's 0.13 percent excess equals the count gap identically; the share variant fails its own second prediction at 565 sigma; the factor sits between 28/27 and 29/28."""
+    """Section 10: the increment's 0.13 percent excess equals the count gap identically; the share variant fails its own second prediction at 565 sigma; the factor sits between 28/27 and 29/28."""
     import math
     mp22, mn22 = MP, MN
     Dp, Dn = (1.008 - mp22) * 1e5 - 72, (mn22 - 1.008) * 1e5 - 66
@@ -276,7 +276,7 @@ def test_the_excess_is_the_count_gap():
 
 
 def test_the_alpha_residual_is_a_flux_not_an_accumulation():
-    """Sections 6 and 11: the two split grammars — arithmetic for the masses, positional at the half for the fine-structure seat — and the excluded six-deposit steady state."""
+    """Sections 6 and 11: the two split grammars — arithmetic for the masses, positional at the half for the fine-structure seat — and the excluded six-increment steady state."""
     s6 = "137036"
     assert s6[:3] == "137" and s6[3:] == "036"             # the Midy split IS positional
     # the storage split is ARITHMETIC, not positional: the borrow crosses digits
@@ -294,12 +294,12 @@ def test_the_alpha_residual_is_a_flux_not_an_accumulation():
 
 
 def test_the_present_epoch_and_the_drift():
-    """Section 12, corrected in the 2026-09-01 review pass: the neutron rises and the proton falls; the law is event-coincident, so the present laboratory rate is zero; the observable is the step across receipts — the ratio of proton to electron mass stood 0.9e-7 higher at redshift 0.886, at the current bar of that sightline; the early splitting was half a percent smaller at weak freeze-out; the run to the asymptotic de Sitter floor meets the horizon count to a third of an octave."""
+    """Section 12, corrected in the 2026-09-01 review pass: the neutron rises and the proton falls; the law is event-coincident, so the present laboratory rate is zero; the observable is the step across increments — the ratio of proton to electron mass stood 0.9e-7 higher at redshift 0.886, at the current bar of that sightline; the early splitting was half a percent smaller at weak freeze-out; the run to the asymptotic de Sitter floor meets the horizon count to a third of an octave."""
     import math
     N = math.log2(938.27208816 / 6 * 1e6 / (2.72548 * 8.617333262e-5))
     assert 0.27 < N - 39 < 0.29                            # 27.6% through the fortieth
     T39 = 156.379e6 / 2 ** 39
-    assert 0.20 < T39 / 2.3486e-4 - 1 < 0.22               # receipt 39 at z = 0.21
+    assert 0.20 < T39 / 2.3486e-4 - 1 < 0.22               # increment 39 at z = 0.21
     H_yr = 70.05 * 1000 / 3.0857e22 * 3.156e7
     rate = H_yr / math.log(2)
     s = 0.0125166e-5
@@ -308,11 +308,11 @@ def test_the_present_epoch_and_the_drift():
     assert 1.2e-17 < dn_sm < 1.4e-17                       # smeared neutron rate (rises)
     assert 0.85e-17 < dp_sm < 1.05e-17                     # smeared proton rate (falls)
     assert abs(-0.8e-17) < 3.6e-17                         # the null against the clock bar
-    step = (23 / 32) * s / 1.00728                         # the one-receipt step in the ratio
+    step = (23 / 32) * s / 1.00728                         # the one-increment step in the ratio
     assert 8.5e-8 < step < 9.5e-8
     assert step / 1.0e-7 < 1.0                             # inside the methanol bar
     Nfr = math.log2(156.379 / 0.8)                         # octaves to weak freeze-out
-    assert 7.5 < Nfr < 7.7 and 0.17 < Nfr / N < 0.21       # a fifth of the deposits
+    assert 7.5 < Nfr < 7.7 and 0.17 < Nfr / N < 0.21       # a fifth of the increments
     sd_then = 0.845 * (Nfr / N)
     shrink = 1 - (0.00138 + sd_then * 1e-5) / (0.00138 + 0.845e-5)
     assert 0.0045 < shrink < 0.0053                        # the splitting, 0.49% smaller
@@ -358,18 +358,18 @@ def test_the_stress_attacks():
         assert 1.1e-17 < 0.0125166e-5 * rate / 1.00866 < 1.5e-17
 
 
-def test_the_seating_deposit_candidate():
-    """Section 10's seating deposit: the excess derived as a two-candidate
-    receipt zero, with its exposure — the septimal 28/27 (nearer
-    nineteen-fold) and the chromatic 25/24 (the smaller parts, the deposit's
+def test_the_seating_increment_candidate():
+    """Section 10's seating increment: the excess derived as a two-candidate
+    increment zero, with its exposure — the septimal 28/27 (nearer
+    nineteen-fold) and the chromatic 25/24 (the smaller parts, the increment's
     own limit); the next neutron adjustment separates them.  Write
     load = (N + X)/80: the one-time excess is X = 0.052123(3200) octaves.  In
     the pre-registered class (log2 of 7-smooth superparticulars n<=50 + the
     standard commas), TWO candidates sit inside 3 sigma: log2(28/27) at -0.11
     and log2(25/24) at -2.1; 28/27 is 19x closer, UNIQUE in the razor band,
-    and pure web (2^2 x 7 / 3^3).  The reading: seating is receipt zero — commitment
+    and pure web (2^2 x 7 / 3^3).  The reading: seating is increment zero — commitment
     charges one septimal step at the gate, partitioned 23/32 like every
-    receipt (a neutron-only toll dies at 16 sigma on the ratio).  THE TWO FACES ARE ONE IDENTITY: load counts
+    increment (a neutron-only transfer dies at 16 sigma on the ratio).  THE TWO FACES ARE ONE IDENTITY: load counts
     from 14 m_p/81 = 162.17 MeV while the CROSSOVER observable stays m_p/6 —
     the 162 MeV lattice tension dissolves; the lattice never sees the gate.
     Structure: 9/7 x 28/27 = 4/3 exactly — the septimal third stepped onto
@@ -381,12 +381,12 @@ def test_the_seating_deposit_candidate():
     N = math.log2(938.27208816 / 6 * 1e6 / (2.72548 * 8.617333262e-5))
     load, uload = (MN - 1.008) * 1e5 - 66, 4.0e-5
     X, sX = 80 * load - N, 80 * uload
-    assert abs(X - math.log2(28 / 27)) / sX < 0.5           # the toll, at -0.11 sigma
+    assert abs(X - math.log2(28 / 27)) / sX < 0.5           # the step, at -0.11 sigma
     assert 1.5 < abs(X - math.log2(25 / 24)) / sX < 3       # the rival, alive but far
     assert abs(X - math.log2(81 / 80)) / sX > 10            # the syntonic itself: dead
-    assert (load - N / 80) / uload > 15                     # no toll: dead
+    assert (load - N / 80) / uload > 15                     # no initial increment: dead
     r_no = (23 / 32) * N / (N + math.log2(28 / 27))
-    assert abs(0.7187506 - r_no) / 0.0000585 > 15           # neutron-only toll: dead
+    assert abs(0.7187506 - r_no) / 0.0000585 > 15           # neutron-only transfer: dead
     from fractions import Fraction as F
     assert F(9, 7) * F(28, 27) == F(4, 3)                   # the door identity
     assert F(7, 6) / F(9, 8) == F(28, 27)                   # the step's own name
