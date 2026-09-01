@@ -54,11 +54,12 @@ public statements of these results are the papers below.
 
 ## The papers
 
-- **The Proton and Neutron Masses on Discrete Terms** (September 2026) —
-  the six-digit seats derived, the residuals beyond them read as the
-  elapsed epoch, and the ratio of the two excesses at 23/32.
+- **The Proton and Neutron Masses on Discrete Terms** (September 2026,
+  DOI 10.5281/zenodo.22217669) — the masses derived to six significant
+  figures, the parts-per-million residuals epoch-dependent, and their ratio
+  at 23/32 to a part in a million.
   `verify/test_the_carry_bridge.py`, `verify/test_the_turn_and_the_wheel.py`,
-  and `verify/test_the_wheel_pair_machine.py` are its claim map — forty-nine
+  and `verify/test_the_wheel_pair_machine.py` are its claim map — fifty-one
   tests — and `catalog/THE-PROTON-AND-NEUTRON-MASSES-ON-DISCRETE-TERMS.md`
   is the paper source they pin.
 
