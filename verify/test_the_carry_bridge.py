@@ -356,3 +356,38 @@ def test_the_stress_attacks():
     for H in (67.4, 73.0):
         rate = H * 1000 / 3.0857e22 * 3.156e7 / math.log(2)
         assert 1.1e-17 < 0.0125166e-5 * rate / 1.00866 < 1.5e-17
+
+
+def test_the_gate_toll_candidate():
+    """Section 10's gate toll: the deposit excess derived as a two-candidate
+    gate, with its exposure — the septimal 28/27 (nearer nineteen-fold) and
+    the chromatic 25/24 (the smaller parts, the deposit's own limit); the
+    next neutron adjustment separates them.  Write
+    load = (N + X)/80: the one-time excess is X = 0.052123(3200) octaves.  In
+    the pre-registered class (log2 of 7-smooth superparticulars n<=50 + the
+    standard commas), TWO candidates sit inside 3 sigma: log2(28/27) at -0.11
+    and log2(25/24) at -2.1; 28/27 is 19x closer, UNIQUE in the razor band,
+    and pure web (2^2 x 7 / 3^3).  The reading: seating is receipt zero — commitment
+    charges one septimal step at the gate, partitioned 23/32 like every
+    receipt (a neutron-only toll dies at 16 sigma on the ratio).  THE TWO FACES ARE ONE IDENTITY: load counts
+    from 14 m_p/81 = 162.17 MeV while the CROSSOVER observable stays m_p/6 —
+    the 162 MeV lattice tension dissolves; the lattice never sees the gate.
+    Structure: 9/7 x 28/27 = 4/3 exactly — the septimal third stepped onto
+    the door — and 28/27 = (7/6)/(9/8), the septimal-vs-three-limit step.
+    Registered value 9: Dn -> 0.4916103 as the neutron mass sharpens (25/24
+    predicts 0.4916906; the pure syntonic is long dead); and 23/32 must
+    continue to hold exactly through it."""
+    import math
+    N = math.log2(938.27208816 / 6 * 1e6 / (2.72548 * 8.617333262e-5))
+    load, uload = (MN - 1.008) * 1e5 - 66, 4.0e-5
+    X, sX = 80 * load - N, 80 * uload
+    assert abs(X - math.log2(28 / 27)) / sX < 0.5           # the toll, at -0.11 sigma
+    assert 1.5 < abs(X - math.log2(25 / 24)) / sX < 3       # the rival, alive but far
+    assert abs(X - math.log2(81 / 80)) / sX > 10            # the syntonic itself: dead
+    assert (load - N / 80) / uload > 15                     # no toll: dead
+    r_no = (23 / 32) * N / (N + math.log2(28 / 27))
+    assert abs(0.7187506 - r_no) / 0.0000585 > 15           # neutron-only toll: dead
+    from fractions import Fraction as F
+    assert F(9, 7) * F(28, 27) == F(4, 3)                   # the door identity
+    assert F(7, 6) / F(9, 8) == F(28, 27)                   # the step's own name
+    assert abs(938.27208816 * 14 / 81 - 162.17) < 0.01      # the load origin, closed form

@@ -2,14 +2,14 @@
 
 [![tests](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml/badge.svg)](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml)
 
-1,212 machine-checked tests underlying the G-Theory research program: an
+1,213 machine-checked tests underlying the G-Theory research program: an
 investigation of dimensionless structure in physics from the arithmetic
 relation of 2 and 3, developed with zero adjustable parameters.
 
 ```bash
 pip install -r requirements.txt
 pytest
-# 1212 passed
+# 1213 passed
 ```
 
 ## What green means
@@ -59,7 +59,7 @@ public statements of these results are the papers below.
   figures, the parts-per-million residuals epoch-dependent, and their ratio
   at 23/32 to a part in a million.
   `verify/test_the_carry_bridge.py`, `verify/test_the_turn_and_the_wheel.py`,
-  and `verify/test_the_wheel_pair_machine.py` are its claim map — fifty-one
+  and `verify/test_the_wheel_pair_machine.py` are its claim map — fifty-two
   tests — and `catalog/THE-PROTON-AND-NEUTRON-MASSES-ON-DISCRETE-TERMS.md`
   is the paper source they pin.
 
