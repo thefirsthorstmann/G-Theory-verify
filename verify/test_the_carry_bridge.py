@@ -29,14 +29,14 @@ def T(n):
 
 
 def test_the_seat_arithmetic_is_exact():
-    """Paper Section 5, Identities 1 and 4: the tail seat, the bridge, and one part in 125."""
+    """Paper Section 7, Identities 1 and 4: the tail seat, the bridge, and one part in 125."""
     assert F(36, 1000) == F(9, 250)                       # the tail seat
     assert F(9, 250) * 28 == F(1008, 1000) == F(126, 125)  # the bridge
     assert F(1008, 1000) - 1 == F(1, 125)                 # one part in 125 above closure
 
 
 def test_one_carry_is_one_quantum_at_every_rung():
-    """Terminology, Section 3: T(n) times c(n) is one at every n; the pair (28, 36)."""
+    """Terminology, Section 5: T(n) times c(n) is one at every n; the pair (28, 36)."""
     for n in range(2, 13):
         assert T(n) * comma(n) == 1
     assert T(7) == 28 and comma(7) == F(1, 28)
@@ -57,14 +57,14 @@ def test_the_reptend_lives_inside_the_comma():
 
 
 def test_the_measured_rows_reproduce():
-    """Section 4's measured rows: the three residuals and the tightest composite row, reproduced from CODATA-22."""
+    """Section 6's measured rows: the three residuals and the tightest composite row, reproduced from CODATA-22."""
     tail = AINV_CODATA[0] - 137.0
     drop_a = (0.036 - tail) / 0.036
     drop_n = (1.008 - AVG) / 1.008
     resid = (28 * tail - AVG) / AVG
-    assert abs(drop_a * 1e6 - 22.86) < 0.05               # paper Section 4: -22.86 ppm
-    assert abs(drop_n * 1e6 - 29.08) < 0.05               # paper Section 4: -29.08 ppm
-    assert abs(resid * 1e6 - 6.22) < 0.05                 # paper Section 4: +6.2 ppm
+    assert abs(drop_a * 1e6 - 22.86) < 0.05               # paper Section 6: -22.86 ppm
+    assert abs(drop_n * 1e6 - 29.08) < 0.05               # paper Section 6: -29.08 ppm
+    assert abs(resid * 1e6 - 6.22) < 0.05                 # paper Section 6: +6.2 ppm
     # the residual IS the drop-differential -- one fact, not two confirmations
     assert abs(resid - (drop_n - drop_a)) < 2e-10
     # composite seat (100800-3)e-5: the tightest mass row
@@ -72,7 +72,7 @@ def test_the_measured_rows_reproduce():
 
 
 def test_live_exactness_is_refused_from_every_camp():
-    """Section 9: 28 times the measured tail exceeds the measured nucleon mean from every determination — the relation is exact at the seats only."""
+    """Section 11: 28 times the measured tail exceeds the measured nucleon mean from every determination — the relation is exact at the seats only."""
     for ainv, u in (AINV_CODATA, AINV_PARIS, AINV_BERKELEY):
         tail = ainv - 137.0
         resid = (28 * tail - AVG) / AVG
@@ -97,7 +97,7 @@ def test_the_object_is_the_archetypal_nucleon_not_hydrogen():
 
 
 def test_the_amu_read_is_self_contained():
-    """Identity 3's physical restatement, Section 5: carbon-12 binding less electron masses is 12/125 u at seat, measured 0.37 percent below."""
+    """Identity 3's physical restatement, Section 7: carbon-12 binding less electron masses is 12/125 u at seat, measured 0.37 percent below."""
     excess = AVG - 1.0
     assert abs(12 * excess - F(12, 125)) / F(12, 125) < 0.004
     assert 12 * excess < F(12, 125)                       # below seat, one-signed
@@ -116,13 +116,13 @@ def test_the_base_is_the_consecutive_carry_pair():
 
 
 def test_the_seats_are_rung_steps_over_the_sixth_octave():
-    """Section 4: the offsets over the sixth power of two are the superparticular steps 9/8 and 33/32."""
+    """Section 6: the offsets over the sixth power of two are the superparticular steps 9/8 and 33/32."""
     assert F(72, 64) == F(9, 8) and F(66, 64) == F(33, 32)
     assert F(2, 8 * 9) == F(1, 36) and F(2, 32 * 33) == F(1, 528)
 
 
 def test_the_displacement_family_frame():
-    """Section 6: the composite residual is the half-difference of the two displacements, the splitting their sum; no licensed static closure exists."""
+    """Section 8: the composite residual is the half-difference of the two displacements, the splitting their sum; no licensed static closure exists."""
     Dp = (1.008 - MP) * 1e5 - 72
     Dn = (MN - 1.008) * 1e5 - 66
     assert abs((Dn - Dp) / 2 * 10 - ((MP - 1.00728) + (MN - 1.00866)) / 2 * 1e6) < 1e-9
@@ -135,7 +135,7 @@ def test_the_displacement_family_frame():
 
 
 def test_the_timeline_exclusions_are_pinned():
-    """Section 11, exclusion 6 and the seating context: the exact-integer receipt counts fail at eleven standard deviations; the syntonic-per-octave arithmetic of the Watch row."""
+    """Section 13, exclusion 6 and the seating context: the exact-integer receipt counts fail at eleven standard deviations; the syntonic-per-octave arithmetic of the Watch row."""
     Dp = (1.008 - MP) * 1e5 - 72
     Dn = (MN - 1.008) * 1e5 - 66
     sig = 4.0e-10 * 1e5
@@ -146,7 +146,7 @@ def test_the_timeline_exclusions_are_pinned():
 
 
 def test_the_seating_rung_derives_as_the_hexad_part():
-    """Section 7: the divisor scan, the lattice concurrence at one sixth of the proton mass, the count of 39.28 octaves, and the deposit it fixes."""
+    """Section 9: the divisor scan, the lattice concurrence at one sixth of the proton mass, the count of 39.28 octaves, and the deposit it fixes."""
     import math
     mp, Tc, uTc = 938.27208816, 156.5, 1.5
     assert abs(mp / 6 - Tc) < uTc                          # the hexad hits the lattice
@@ -164,7 +164,7 @@ def test_the_seating_rung_derives_as_the_hexad_part():
 
 
 def test_the_why_of_six():
-    """Section 7: the divisor six as the triangular number T(3), with c(3) = 1/6, the seating condition in unit-fraction form."""
+    """Section 9: the divisor six as the triangular number T(3), with c(3) = 1/6, the seating condition in unit-fraction form."""
     assert (3 + 6 + 9) // 3 == 6 and 3 * 2 * 1 == 6
     assert T(3) == 6 and comma(3) == F(1, 6) and T(3) * comma(3) == 1
     mp = 938.27208816
@@ -174,7 +174,7 @@ def test_the_why_of_six():
 
 
 def test_the_deposit_exceeds_the_syntonic():
-    """Section 8's quantitative state: the per-octave deposit exceeds 1/80 by 0.13 percent; an exactly syntonic deposit needs 162 MeV, which the lattice value excludes."""
+    """Section 10's quantitative state: the per-octave deposit exceeds 1/80 by 0.13 percent; an exactly syntonic deposit needs 162 MeV, which the lattice value excludes."""
     import math
     mp, Tcmb = 938.27208816, 2.72548 * 8.617333262e-5
     load, uload = 0.4916060, 0.0000400
@@ -191,7 +191,7 @@ def test_the_deposit_exceeds_the_syntonic():
 
 
 def test_the_degree_identification():
-    """Section 8: the proton's station as three times twenty-four with the reflection partner 4/3; the neutron's palindromic 66 as the axis; the returning ladder one schisma above 72."""
+    """Section 10: the proton's station as three times twenty-four with the reflection partner 4/3; the neutron's palindromic 66 as the axis; the returning ladder one schisma above 72."""
     assert 72 == 3 * 24 and 66 == 2 * 33
     assert F(40, 1) * F(9, 8) ** 5 / 72 == F(32805, 32768)   # the schisma, exact
     assert abs(2.79284734 / -1.91304273 - -1.45990) < 1e-5   # the soft mu ratio
@@ -201,7 +201,7 @@ def test_the_degree_identification():
 
 
 def test_the_discharge_law():
-    """Sections 6 and 8: the partition 23/32 against the measured ratio at 0.01 sigma on the 2022 table; 9/32 the only fraction to denominator 64 in the window; the leak event-coincident."""
+    """Sections 8 and 10: the partition 23/32 against the measured ratio at 0.01 sigma on the 2022 table; 9/32 the only fraction to denominator 64 in the window; the leak event-coincident."""
     # CODATA-22 masses locally: the module MP is an earlier tabulated vintage,
     # 3.1e-10 u from CODATA-22.  The law is judged on the current values; under
     # the earlier vintage it would still hold at +1.1 sigma.
@@ -221,7 +221,7 @@ def test_the_discharge_law():
 
 
 def test_the_fa_flow():
-    """Section 9: the transferred flow, its ratio to each determination's deficit, the near-7/4 landing under the rubidium value, and the excluded steady state."""
+    """Section 11: the transferred flow, its ratio to each determination's deficit, the near-7/4 landing under the rubidium value, and the excluded steady state."""
     import math
     mp22, mn22 = MP, MN
     Dp, Dn = (1.008 - mp22) * 1e5 - 72, (mn22 - 1.008) * 1e5 - 66
@@ -242,7 +242,7 @@ def test_the_fa_flow():
 
 
 def test_the_axis_touching_schedule():
-    """Section 8's schedule: the convergents of log2(3) alternate sides strictly; six ticks of sixty degrees close the rotation; the antipode holds no seat, nine being odd."""
+    """Section 10's schedule: the convergents of log2(3) alternate sides strictly; six ticks of sixty degrees close the rotation; the antipode holds no seat, nine being odd."""
     import math
     lg3 = math.log2(3)
     conv = [(1, 1), (2, 1), (3, 2), (8, 5), (19, 12), (65, 41), (84, 53), (485, 306)]
@@ -254,7 +254,7 @@ def test_the_axis_touching_schedule():
 
 
 def test_the_excess_is_the_count_gap():
-    """Section 8: the deposit's 0.13 percent excess equals the count gap identically; the share variant fails its own second prediction at 565 sigma; the factor sits between 28/27 and 29/28."""
+    """Section 10: the deposit's 0.13 percent excess equals the count gap identically; the share variant fails its own second prediction at 565 sigma; the factor sits between 28/27 and 29/28."""
     import math
     mp22, mn22 = MP, MN
     Dp, Dn = (1.008 - mp22) * 1e5 - 72, (mn22 - 1.008) * 1e5 - 66
@@ -276,7 +276,7 @@ def test_the_excess_is_the_count_gap():
 
 
 def test_the_alpha_is_a_current_not_a_store():
-    """Sections 4 and 9: the two split grammars — arithmetic for the masses, positional at the half for the fine-structure seat — and the excluded six-deposit steady state."""
+    """Sections 6 and 11: the two split grammars — arithmetic for the masses, positional at the half for the fine-structure seat — and the excluded six-deposit steady state."""
     s6 = "137036"
     assert s6[:3] == "137" and s6[3:] == "036"             # the Midy split IS positional
     # the storage split is ARITHMETIC, not positional: the borrow crosses digits
@@ -294,7 +294,7 @@ def test_the_alpha_is_a_current_not_a_store():
 
 
 def test_the_present_epoch_and_the_drift():
-    """Section 10, corrected in the 2026-09-01 review pass: the neutron rises and the proton falls; the law is event-coincident, so the present laboratory rate is zero; the observable is the step across receipts — the ratio of proton to electron mass stood 0.9e-7 higher at redshift 0.886, at the current bar of that sightline; the early splitting was half a percent smaller at weak freeze-out; the run to the asymptotic de Sitter floor meets the horizon count to a third of an octave."""
+    """Section 12, corrected in the 2026-09-01 review pass: the neutron rises and the proton falls; the law is event-coincident, so the present laboratory rate is zero; the observable is the step across receipts — the ratio of proton to electron mass stood 0.9e-7 higher at redshift 0.886, at the current bar of that sightline; the early splitting was half a percent smaller at weak freeze-out; the run to the asymptotic de Sitter floor meets the horizon count to a third of an octave."""
     import math
     N = math.log2(938.27208816 / 6 * 1e6 / (2.72548 * 8.617333262e-5))
     assert 0.27 < N - 39 < 0.29                            # 27.6% through the fortieth
@@ -323,7 +323,7 @@ def test_the_present_epoch_and_the_drift():
 
 
 def test_the_seat_derivations_as_printed():
-    """Section 4's derivations, line for line: the three superparticular stations, the forced pair, the two period-eight primes, and the tail from the bridge."""
+    """Section 6's derivations, line for line: the three superparticular stations, the forced pair, the two period-eight primes, and the tail from the bridge."""
     sols = [6 * k for k in range(11, 22) if (6 * k - 64) > 0 and 64 % (6 * k - 64) == 0]
     assert sols == [66, 72, 96]
     assert F(66, 64) == F(33, 32) and F(72, 64) == F(9, 8) and F(96, 64) == F(3, 2)
@@ -339,7 +339,7 @@ def test_the_seat_derivations_as_printed():
 
 
 def test_the_stress_attacks():
-    """The paper's own adversarial pass: vintage robustness of 23/32, the rounding-vacuity statement of Section 4, the widened seating scan of Section 7, the fraction base rate of Section 6, and the drift across the Hubble dispute."""
+    """The paper's own adversarial pass: vintage robustness of 23/32, the rounding-vacuity statement of Section 6, the widened seating scan of Section 9, the fraction base rate of Section 8, and the drift across the Hubble dispute."""
     import math
     for mp, mn, umn, lo, hi in ((1.007276466879, 1.00866491588, 4.9e-10, -1.0, 0.0),
                                 (1.007276466621, 1.00866491595, 4.9e-10, -0.4, 0.6),

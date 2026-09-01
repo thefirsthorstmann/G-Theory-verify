@@ -5,7 +5,7 @@ pair summing to 99; their differences, straight and reversed, generate a
 finite spectrum whose step is the triangular number 28.  The same algebra
 runs in the period of 1/137 and at the depth of the six-digit seats, where
 it separates the proton's station from the neutron's — the asymmetry the
-paper's Section 8 uses.  Everything here is exact and closed: the catalog
+paper's Section 10 uses.  Everything here is exact and closed: the catalog
 is finite, so any use of it can be checked against the whole.
 """
 
@@ -155,7 +155,7 @@ def test_every_seat_depth_gap_is_a_multiple_of_nine():
 
 
 def test_the_pn_reversal_asymmetry():
-    """Section 8's asymmetry: the proton's pair reverses to a different pair (gap 54); the neutron's 66 is a palindrome with no play."""
+    """Section 10's asymmetry: the proton's pair reverses to a different pair (gap 54); the neutron's 66 is a palindrome with no play."""
     assert _m(STATIONS["proton"])[2] == 54 == 6 * 9
     assert _m(STATIONS["neutron"])[2] == 0
     assert str(66) == str(66)[::-1] and str(28) != str(28)[::-1]

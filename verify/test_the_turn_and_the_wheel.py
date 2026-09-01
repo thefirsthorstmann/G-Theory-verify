@@ -1,5 +1,5 @@
 """Supporting structure for "The Proton and Neutron Masses on Discrete
-Terms" (2026), Sections 4 and 9: the stations of the fine-structure tail.
+Terms" (2026), Sections 6 and 11: the stations of the fine-structure tail.
 The six-digit seat statements each occupy one turn; beneath the turn, the
 seat's image under the bridge dissolves into the period-six cycle of one
 seventh, and the measured image sits between the exact stations.  Every
@@ -51,7 +51,7 @@ def test_the_two_semantics_of_the_measured_image():
 
 
 def test_the_window_census_every_determination_inside():
-    """Section 9's window: seven determinations across three technologies and twelve years, all inside (0.035999, 0.036)."""
+    """Section 11's window: seven determinations across three technologies and twelve years, all inside (0.035999, 0.036)."""
     for v in (0.035999046, 0.035999074, 0.035999084, 0.035999139,
               0.035999166, 0.035999177, 0.035999206):
         assert 0.035999 < v < 0.036
@@ -76,7 +76,7 @@ def test_the_nine_survives_at_place_seven():
 
 
 def test_the_residual_family_is_boxed_and_closes_nowhere():
-    """Section 11's exclusion 1: 2,198 licensed fractions against the four residuals at their measured precision — no static closure; the lone three-sigma item, 59/12 on the neutron at +1.5 sigma, is reported and carries no structure."""
+    """Section 13's exclusion 1: 2,198 licensed fractions against the four residuals at their measured precision — no static closure; the lone three-sigma item, 59/12 on the neutron at +1.5 sigma, is reported and carries no structure."""
     d_p = (MP - 1.00728) * 1e6
     d_n = (MN - 1.00866) * 1e6
     d_c = (d_p + d_n) / 2
