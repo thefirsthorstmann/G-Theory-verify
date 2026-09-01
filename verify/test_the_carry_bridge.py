@@ -14,7 +14,9 @@ from fractions import Fraction as F
 AINV_CODATA = (137.035999177, 2.1e-8)     # recommended
 AINV_PARIS = (137.035999206, 1.1e-8)      # Rb 2020
 AINV_BERKELEY = (137.035999046, 2.7e-8)   # Cs 2018
-MP, MN, ME = 1.00727646627, 1.00866491595, 0.000548579909   # u
+# CODATA-2022 values (2026-09-01 review pass: the 2018-vintage neutron was
+# retired; vintage-robustness rows live in test_the_stress_attacks).
+MP, MN, ME = 1.0072764665789, 1.00866491606, 0.000548579909  # u; unc 8.3e-12 / 4.0e-10
 AVG = (MP + MN) / 2
 
 
@@ -128,7 +130,7 @@ def test_the_displacement_family_frame():
     assert Dn > Dp > 0                                   # one-signed, floor-ordered
     fp, fn = Dp / 72, Dn / 66
     assert abs(fp - 1 / 196) > 100 * 8.3e-12 * 1e5 / 72  # f_p is NOT c7^2
-    assert abs(fn - 1 / 126) > 100 * 4.9e-10 * 1e5 / 66  # f_n is NOT c7 - c8
+    assert abs(fn - 1 / 126) > 100 * 4.0e-10 * 1e5 / 66  # f_n is NOT c7 - c8
     assert abs(Dn / Dp - 1.5) > 0.05 and abs(Dn / Dp - 1.4) > 0.005
 
 
@@ -136,7 +138,7 @@ def test_the_timeline_exclusions_are_pinned():
     """Section 11, exclusion 6 and the seating context: the exact-integer receipt counts fail at eleven standard deviations; the syntonic-per-octave arithmetic of the Watch row."""
     Dp = (1.008 - MP) * 1e5 - 72
     Dn = (MN - 1.008) * 1e5 - 66
-    sig = 4.9e-10 * 1e5
+    sig = 4.0e-10 * 1e5
     ratio, sr = Dn / Dp, (Dn / Dp) * (sig / Dn)
     assert abs(ratio - 39 / 28) / sr > 11                  # the pair is excluded
     assert abs((Dn - Dp) / (1 / 80) - 11) / (sig / (1 / 80)) > 10   # eleven commas: excluded
@@ -152,7 +154,7 @@ def test_the_seating_rung_derives_as_the_hexad_part():
     Tcmb = 2.72548 * 8.617333262e-5
     N = math.log2(mp / 6 * 1e6 / Tcmb)
     assert 39.27 < N < 39.29                               # the duration readout
-    load, uload = 0.4915950, 0.0000490
+    load, uload = 0.4916060, 0.0000400
     s = load / N
     assert 0.012514 < s < 0.012518                         # the boxed deposit
     assert abs(s - 1 / 80) / (uload / N) > 10              # exact syntonic: excluded
@@ -175,7 +177,7 @@ def test_the_deposit_exceeds_the_syntonic():
     """Section 8's quantitative state: the per-octave deposit exceeds 1/80 by 0.13 percent; an exactly syntonic deposit needs 162 MeV, which the lattice value excludes."""
     import math
     mp, Tcmb = 938.27208816, 2.72548 * 8.617333262e-5
-    load, uload = 0.4915950, 0.0000490
+    load, uload = 0.4916060, 0.0000400
     N = math.log2(mp / 6 * 1e6 / Tcmb)
     s, us = load / N, uload / N
     assert abs(s * 80 - 1.00130) < 0.0002                  # the measured excess
@@ -194,22 +196,22 @@ def test_the_degree_identification():
     assert F(40, 1) * F(9, 8) ** 5 / 72 == F(32805, 32768)   # the schisma, exact
     assert abs(2.79284734 / -1.91304273 - -1.45990) < 1e-5   # the soft mu ratio
     assert str(66) == str(66)[::-1]                          # the axis is its own mirror
-    schisma, excess = 32805 / 32768 - 1, 0.001305
+    schisma, excess = 32805 / 32768 - 1, 0.001327
     assert abs(schisma - excess) / excess > 0.10             # near, and kept apart
 
 
 def test_the_discharge_law():
-    """Sections 6 and 8: the partition 23/32 against the measured ratio at 0.2 sigma; 9/32 the only fraction to denominator 64 in the window; the leak event-coincident."""
+    """Sections 6 and 8: the partition 23/32 against the measured ratio at 0.01 sigma on the 2022 table; 9/32 the only fraction to denominator 64 in the window; the leak event-coincident."""
     # CODATA-22 masses locally: the module MP is an earlier tabulated vintage,
     # 3.1e-10 u from CODATA-22.  The law is judged on the current values; under
     # the earlier vintage it would still hold at +1.1 sigma.
     import math
-    mp22, mn22 = 1.0072764665789, 1.00866491595
+    mp22, mn22 = MP, MN
     Dp = (1.008 - mp22) * 1e5 - 72
     Dn = (mn22 - 1.008) * 1e5 - 66
     rho = Dp / Dn
-    srho = rho * (4.9e-10 * 1e5 / Dn)
-    assert abs(rho - 23 / 32) / srho < 1                   # the law, at 0.2 sigma
+    srho = rho * (4.0e-10 * 1e5 / Dn)
+    assert abs(rho - 23 / 32) / srho < 0.05                # the law, at 0.01 sigma
     delta = 1 - rho
     others = [(p, q) for q in range(2, 65) for p in range(1, q)
               if math.gcd(p, q) == 1 and abs(p / q - delta) < 3 * srho]
@@ -221,10 +223,10 @@ def test_the_discharge_law():
 def test_the_fa_flow():
     """Section 9: the transferred flow, its ratio to each determination's deficit, the near-7/4 landing under the rubidium value, and the excluded steady state."""
     import math
-    mp22, mn22 = 1.0072764665789, 1.00866491595
+    mp22, mn22 = MP, MN
     Dp, Dn = (1.008 - mp22) * 1e5 - 72, (mn22 - 1.008) * 1e5 - 66
     flow = (Dn - Dp) * 1e-5
-    assert abs(flow * 1e6 - 1.382529) < 1e-4               # tier 1: exact algebra
+    assert abs(flow * 1e6 - 1.382639) < 1e-4               # tier 1: exact algebra
     r_codata = flow / (0.036 - 0.035999177)
     assert abs(r_codata - 1.6799) < 0.001
     assert abs(r_codata - 5 / 3) / 0.0429 < 1              # La: inside one sigma
@@ -235,7 +237,7 @@ def test_the_fa_flow():
     assert abs(r_paris - 7 / 4) / (7 / 4) < 0.006          # Paris lands near 7/4
     assert 54 // 6 == 9 and F(54, 192) == F(9, 32)         # tier 3 recovers the law
     assert F(9, 192) == F(3, 64) and 61 + 3 == 64          # the alpha prediction
-    naive = 61 / 64 * math.log2(0.26 / 2.3486e-4) * 0.0125163
+    naive = 61 / 64 * math.log2(0.26 / 2.3486e-4) * 0.0125166
     assert abs(naive - 0.823) / 0.823 > 0.5                # the non-closure, pinned
 
 
@@ -254,7 +256,7 @@ def test_the_axis_touching_schedule():
 def test_the_excess_is_the_count_gap():
     """Section 8: the deposit's 0.13 percent excess equals the count gap identically; the share variant fails its own second prediction at 565 sigma; the factor sits between 28/27 and 29/28."""
     import math
-    mp22, mn22 = 1.0072764665789, 1.00866491595
+    mp22, mn22 = MP, MN
     Dp, Dn = (1.008 - mp22) * 1e5 - 72, (mn22 - 1.008) * 1e5 - 66
     N = math.log2(938.27208816 / 6 * 1e6 / (2.72548 * 8.617333262e-5))
     s0 = 1 / 80
@@ -263,10 +265,14 @@ def test_the_excess_is_the_count_gap():
     assert abs(excess - (Np / N - 1)) < 1e-12              # the identity: one object
     assert abs((23 / 32) * N * s0 - Dp) / 8.3e-7 > 500     # the share variant: excluded
     f = 2 ** (Np - N)
-    assert abs(f - 29 / 28) / 0.0028 < 1                   # the bridge edge above
-    assert abs(f - 28 / 27) / 0.0028 < 1                   # the bridge edge below
-    assert abs(f - 36 / 35) / 0.0028 > 2                   # and nothing else licensed
-    assert abs(f - 33 / 32) / 0.0028 > 1.5
+    assert abs(f - 29 / 28) / 0.0023 < 1                   # the bridge edge above
+    assert abs(f - 28 / 27) / 0.0023 < 1                   # the bridge edge below
+    assert abs(f - 36 / 35) / 0.0023 > 2                   # standard commas: outside
+    assert abs(f - 33 / 32) / 0.0023 > 2
+    ks = [k for k in range(2, 200) if abs(f - (1 + 1 / k)) < 0.0023]
+    assert ks == [26, 27, 28]                              # razor menu: 27/26, 28/27, 29/28
+    ks_lat = [k for k in range(2, 200) if abs(162.13 / 156.5 - (1 + 1 / k)) < 0.00995]
+    assert len(ks_lat) == 17 and 27 in ks_lat and 28 in ks_lat  # the lattice-bar menu (the paper's)
 
 
 def test_the_alpha_is_a_current_not_a_store():
@@ -277,7 +283,7 @@ def test_the_alpha_is_a_current_not_a_store():
     assert 100728 == 100800 - 72 and 100866 == 100800 + 66
     assert (9 / 32) * (64 / 3) == 6.0                      # the noticing, exact
     import math
-    mp22, mn22 = 1.0072764665789, 1.00866491595
+    mp22, mn22 = MP, MN
     Dn = (mn22 - 1.008) * 1e5 - 66
     N = math.log2(938.27208816 / 6 * 1e6 / (2.72548 * 8.617333262e-5))
     pred = 6 * (Dn / N) * 10
@@ -288,7 +294,7 @@ def test_the_alpha_is_a_current_not_a_store():
 
 
 def test_the_present_epoch_and_the_drift():
-    """Section 10: the fortieth octave, receipt 39 at redshift 0.21, the present-day drift near 1e-17 per year beneath the current bounds, and the full run against the horizon count."""
+    """Section 10, corrected in the 2026-09-01 review pass: the neutron rises and the proton falls; the law is event-coincident, so the present laboratory rate is zero; the observable is the step across receipts — the ratio of proton to electron mass stood 0.9e-7 higher at redshift 0.886, at the current bar of that sightline; the early splitting was half a percent smaller at weak freeze-out; the run to the asymptotic de Sitter floor meets the horizon count to a third of an octave."""
     import math
     N = math.log2(938.27208816 / 6 * 1e6 / (2.72548 * 8.617333262e-5))
     assert 0.27 < N - 39 < 0.29                            # 27.6% through the fortieth
@@ -296,12 +302,24 @@ def test_the_present_epoch_and_the_drift():
     assert 0.20 < T39 / 2.3486e-4 - 1 < 0.22               # receipt 39 at z = 0.21
     H_yr = 70.05 * 1000 / 3.0857e22 * 3.156e7
     rate = H_yr / math.log(2)
-    dn = 0.0125163e-5 * rate / 1.00866
-    assert 1.2e-17 < dn < 1.4e-17                          # the neutron's drift
-    assert (23 / 32) * 0.0125163e-5 * rate / 1.00728 < 1.6e-17   # beneath the bound
-    TdS = 1.054571817e-34 * (70.05 * 1000 / 3.0857e22) / (2 * math.pi * 1.380649e-23) * 8.617333262e-5
+    s = 0.0125166e-5
+    dn_sm = s * rate / 1.00866
+    dp_sm = (23 / 32) * s * rate / 1.00728
+    assert 1.2e-17 < dn_sm < 1.4e-17                       # smeared neutron rate (rises)
+    assert 0.85e-17 < dp_sm < 1.05e-17                     # smeared proton rate (falls)
+    assert abs(-0.8e-17) < 3.6e-17                         # the null against the clock bar
+    step = (23 / 32) * s / 1.00728                         # the one-receipt step in the ratio
+    assert 8.5e-8 < step < 9.5e-8
+    assert step / 1.0e-7 < 1.0                             # inside the methanol bar
+    Nfr = math.log2(156.379 / 0.8)                         # octaves to weak freeze-out
+    assert 7.5 < Nfr < 7.7 and 0.17 < Nfr / N < 0.21       # a fifth of the deposits
+    sd_then = 0.845 * (Nfr / N)
+    shrink = 1 - (0.00138 + sd_then * 1e-5) / (0.00138 + 0.845e-5)
+    assert 0.0045 < shrink < 0.0053                        # the splitting, 0.49% smaller
+    Hinf = 70.05 * math.sqrt(0.69)
+    TdS = 1.054571817e-34 * (Hinf * 1000 / 3.0857e22) / (2 * math.pi * 1.380649e-23) * 8.617333262e-5
     total = math.log2(156.379e6 / TdS)
-    assert abs(total - 42 * math.log2(10)) < 0.7           # one period, to half an octave
+    assert abs(total - 42 * math.log2(10)) < 0.5           # a third of an octave
 
 
 def test_the_seat_derivations_as_printed():
@@ -323,17 +341,18 @@ def test_the_seat_derivations_as_printed():
 def test_the_stress_attacks():
     """The paper's own adversarial pass: vintage robustness of 23/32, the rounding-vacuity statement of Section 4, the widened seating scan of Section 7, the fraction base rate of Section 6, and the drift across the Hubble dispute."""
     import math
-    for mp, mn, lo, hi in ((1.007276466879, 1.00866491588, -1.0, 0.0),
-                           (1.007276466621, 1.00866491595, -0.4, 0.6),
-                           (1.0072764665789, 1.00866491595, -0.3, 0.7)):
+    for mp, mn, umn, lo, hi in ((1.007276466879, 1.00866491588, 4.9e-10, -1.0, 0.0),
+                                (1.007276466621, 1.00866491595, 4.9e-10, -0.4, 0.6),
+                                (1.0072764665789, 1.00866491595, 4.9e-10, -0.1, 0.4),
+                                (1.0072764665789, 1.00866491606, 4.0e-10, -0.1, 0.1)):
         r = ((1.008 - mp) * 1e5 - 72) / ((mn - 1.008) * 1e5 - 66)
-        sr = r * (4.9e-10 * 1e5 / ((mn - 1.008) * 1e5 - 66))
+        sr = r * (umn * 1e5 / ((mn - 1.008) * 1e5 - 66))
         assert lo < (r - 23 / 32) / sr < hi
-    assert round(1.0072764665789, 5) == 1.00728 and round(1.00866491595, 5) == 1.00866
+    assert round(MP, 5) == 1.00728 and round(MN, 5) == 1.00866
     assert abs(0.823e-6 / 1e-3 - 0.000823) < 1e-9          # the alpha depth: 1/1215
     assert abs(939.565 / 6 - 156.5) < 1.5                  # the neutron co-hit
-    dens_win = 3 / math.pi ** 2 * 64 ** 2 * 6 * 7.2e-5
-    assert 0.4 < dens_win < 0.7                            # the fair-coin base rate
+    dens_win = 3 / math.pi ** 2 * 64 ** 2 * 6 * 5.85e-5
+    assert 0.3 < dens_win < 0.6                            # the fair-coin base rate
     for H in (67.4, 73.0):
         rate = H * 1000 / 3.0857e22 * 3.156e7 / math.log(2)
-        assert 1.1e-17 < 0.0125163e-5 * rate / 1.00866 < 1.5e-17
+        assert 1.1e-17 < 0.0125166e-5 * rate / 1.00866 < 1.5e-17

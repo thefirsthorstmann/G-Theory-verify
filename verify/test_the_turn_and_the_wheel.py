@@ -9,7 +9,7 @@ unit of the seat's turn — the window registered in the paper.
 
 from fractions import Fraction as F
 
-MP, MN = 1.0072764665789, 1.00866491595     # u, CODATA-22; unc 8e-12 / 5e-10
+MP, MN = 1.0072764665789, 1.00866491606     # u, CODATA-22; unc 8e-12 / 4e-10
 AVG = (MP + MN) / 2
 UNIT = F(1, 10**6)
 REST, FLOOR = F(36, 1000), F(35999, 10**6)
@@ -76,22 +76,22 @@ def test_the_nine_survives_at_place_seven():
 
 
 def test_the_residual_family_is_boxed_and_closes_nowhere():
-    """Section 6's exclusion 1: 2,198 licensed fractions against the four residuals at their measured precision — no static closure; the lone bar-survivor fails the smallest-candidate rule."""
+    """Section 11's exclusion 1: 2,198 licensed fractions against the four residuals at their measured precision — no static closure; the lone three-sigma item, 59/12 on the neutron at +1.5 sigma, is reported and carries no structure."""
     d_p = (MP - 1.00728) * 1e6
     d_n = (MN - 1.00866) * 1e6
     d_c = (d_p + d_n) / 2
     d_s = d_n - d_p
     assert abs(d_p - -3.533421) < 2e-5
-    assert abs(d_n - 4.915950) < 2e-4
-    assert abs(d_c - 0.691264) < 1e-4
-    assert abs(d_s - 8.449371) < 2e-4
+    assert abs(d_n - 4.916060) < 1e-4
+    assert abs(d_c - 0.691320) < 1e-4
+    assert abs(d_s - 8.449481) < 2e-4
     # the nearest licensed miss on each razor object, pinned as exclusions:
     assert abs(-7 / 2 - d_p) / 8.3e-6 > 3          # -3.5 is thousands of sigma away
     assert abs(2 / 3 - d_c) / 2.45e-4 > 3
     assert abs(0.7 - d_c) / 2.45e-4 > 3
     assert abs(17 / 2 - d_s) / 4.9e-4 > 3
-    assert abs(59 / 12 - d_n) / 4.9e-4 < 3         # the lone survivor of the bar...
-    assert max(59, 12) > 20                        # ...rejected by least-performer
+    assert abs(59 / 12 - d_n) / 4.0e-4 < 3         # the lone three-sigma item: reported,
+    # unexplained, carried by no structure; no threshold rule is applied
 
 
 def test_the_residues_sum_to_two_and_the_sweep_is_null():
@@ -111,7 +111,7 @@ def test_the_five_stations_order_on_one_axis():
     """The paper's five perspectives, ordered: the seat above the measured
     cluster, the cluster above the six-decimal statement, that above the
     measured image, and the seat image lowest, with its period-six tail."""
-    mbar = (1.0072764665789 + 1.00866491595) / 2
+    mbar = (MP + MN) / 2
     assert 0.036 > 0.035999206 and 0.035999046 > 0.035999    # seat > cluster > floor
     assert 0.035999 > mbar / 28 > 1.00797 / 28               # floor > measured > seat image
 

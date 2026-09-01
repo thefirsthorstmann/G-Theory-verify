@@ -164,8 +164,8 @@ def test_the_pn_reversal_asymmetry():
 # ── 2026-08-31, the scale-map fork ───────────────────────────────────────────
 
 def test_the_interval_fork_table():
-    """Section 9's correspondence: the razor nucleon residual over each licensed interval is a hard fine-structure value; the survivors and each determination's champion, with no interval serving two determinations at once."""
-    mp, mn = 1.0072764665789, 1.00866491595
+    """The interval correspondence, kept as an internal watch after the 2026-09-01 review pass: the paper offers no interval table as evidence, because the licensed set blankets the contested band at sub-bar spacing — the density fact is pinned below. The per-interval implications and each determination's nearest member remain bookkeeping."""
+    mp, mn = 1.0072764665789, 1.00866491606
     drop_n = (1.008 - (mp + mn) / 2) / 1.008 * 1e6
     assert abs(drop_n - 29.0761) < 0.002
     pred = lambda r: 137 + 0.036 * (1 - drop_n / r * 1e-6)
@@ -181,3 +181,20 @@ def test_the_interval_fork_table():
                      ((137.035999177, 2.1e-8), (137.035999206, 1.1e-8),
                       (137.035999046, 2.7e-8)))
         assert inside == 1
+    # the density fact, pinned as a negative: 9/8 is a second server of the
+    # caesium value, and the licensed set blankets the band at sub-bar
+    # spacing — which is why no interval table is presented as evidence.
+    import math
+    assert abs(pred(9 / 8) - 137.035999046) < 2.7e-8
+    def _s7(n):
+        for q in (2, 3, 5, 7):
+            while n % q == 0:
+                n //= q
+        return n == 1
+    band = sorted({p / q for q in range(1, 65) for p in range(q, 2 * q)
+                   if math.gcd(p, q) == 1 and _s7(p) and _s7(q)
+                   and 10 / 9 <= p / q <= 4 / 3})
+    preds = sorted(pred(r) for r in band)
+    gaps = [b - a for a, b in zip(preds, preds[1:])]
+    assert len(band) >= 20                                # the set blankets the band
+    assert sum(g < 2.7e-8 for g in gaps) > 0.8 * len(gaps)  # sub-bar spacing throughout

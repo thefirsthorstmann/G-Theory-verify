@@ -2,14 +2,14 @@
 
 [![tests](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml/badge.svg)](https://github.com/thefirsthorstmann/g-theory-verify/actions/workflows/tests.yml)
 
-1,210 machine-checked tests underlying the G-Theory research program: an
+1,212 machine-checked tests underlying the G-Theory research program: an
 investigation of dimensionless structure in physics from the arithmetic
 relation of 2 and 3, developed with zero adjustable parameters.
 
 ```bash
 pip install -r requirements.txt
 pytest
-# 1210 passed
+# 1212 passed
 ```
 
 ## What green means
