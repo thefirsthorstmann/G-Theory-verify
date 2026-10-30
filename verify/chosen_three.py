@@ -8,11 +8,11 @@ are (i) the ennead — digit sums preserve mod 9, requiring b = 1 mod 9
 — and (ii) the seed's full unrolling — ord_7(b) = 6. Scanning all
 bases: 2-9 each fail at least one; BASE 10 IS THE UNIQUE LEAST BASE
 CARRYING BOTH (the next is 19 = 10 + 9). The near-misses sharpen the
-claim: bases 3, 5, 12, 17 unroll the seed fully but erase the ennead;
-base 9 erases it maximally (digit sums go mod 8). Honesty: this is
+claim: bases 3, 5, 12, 17 unroll the seed fully but kill the ennead;
+base 9 kills it maximally (digit sums go mod 8). Honesty: this is
 CONDITIONAL least action — given the two mechanisms, 10 is forced-
 least; the mechanisms themselves are the 2-perp-3 thesis (9 = 3^2,
-7 = the seed). The circularity is named and weighed, not smuggled.
+7 = the seed). The circularity is named and priced, not smuggled.
 
 THE SEED TRIAL: 7 is the least full-reptend prime in base 10 (3 gives
 period 1, 11 gives period 2, 13 gives half) — the first prime whose

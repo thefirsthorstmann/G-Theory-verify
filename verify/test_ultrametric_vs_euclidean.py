@@ -1,5 +1,5 @@
 """test_ultrametric_vs_euclidean.py — THE FORK THE GRAVITY CHAIN NOW TURNS ON
-(2026-08-15). Collected in exploring mode at the author's direction: facts banked for a
+(2026-08-15). Collected in exploring mode at CC's direction: facts banked for a
 deeper pass, judgement deliberately withheld. Nothing here is promoted.
 
   WHY THIS IS THE QUESTION. The contact mechanism reads the shared-prefix level

@@ -1,5 +1,5 @@
 """test_diatonic_relativity.py — THE KINEMATICS THE SERIES CARRIES (2026-08-16).
-the author's notes on the capstone: the spacing symmetry of the descent (the octave
+CC's notes on the capstone: the spacing symmetry of the descent (the octave
 below built from the octave above), the innately relativistic structure of the
 diatonic series (frequency rising as wavelength falls with the product held),
 velocity composition, the comma as a residual boost, and the mirror-cavity
@@ -8,7 +8,7 @@ octave as a boost of rapidity ln 2 on the null axis — the arc's one named
 posit) and ORIGIN-X (the meter limit; the conditional Lorentz factor). This
 battery pins the arithmetic that the capstone's relativity section now states.
 
-  THE TRANSLATION FACT, the author's diagram detail made exact. The descent 24 -> 0 is
+  THE TRANSLATION FACT, CC's diagram detail made exact. The descent 24 -> 0 is
   the octave 48 -> 24 TRANSLATED DOWN BY THE ROOT: lower_i = upper_i - 24 at
   every one of the eight seats. Translation inherits whole numbers; dilation
   (dividing the just octave by two) produces a different series entirely

@@ -2,10 +2,10 @@
 title: G-Theory — An Introduction
 titlestyle: font-size:23pt; letter-spacing:1px;
 subtitle: A reader's guide to the series — what will be encountered, and its standards and practices.
-byline: Christian Horstmann · thefirsthorstmann@gmail.com · July 2026 · version 2, August 25th, 2026
+byline: Christian Horstmann · thefirsthorstmann@gmail.com · July 2026 · version 3, October 2026
 date: 2026-07-05
-titlenote: This document is a philosophical overview of the work and its standards and practices. It carries no results and asks for no belief: it states why the work exists, sets out the criteria any theory of everything should be held to, and ends with the reading order of the series. Everything asserted in the papers themselves is graded, machine-verified, and carries its falsification conditions.
-abstract: This document opens the G-Theory series and describes what the reader will encounter. It begins with a survey of the present situation in fundamental physics — two frameworks, each confirmed to extraordinary precision, incompatible with each other, and surrounded by a multitude of proposed unifications that share no common standard of judgment. From that situation it draws the document's central proposal: a rough guide of eight criteria against which any theory of everything should be measured — unitary explanation; a unitary symbol that unpacks technically rather than allegorically; an account of origin as a procedural form; a real and calculable definition of fields; a direct and verifiable connection of gravity to electromagnetism; quantization without exception; harmonic structure engaged as a candidate foundation rather than as decoration; and a justified fit of mathematical tools to domains. It then states the question the series exists to test — whether the physical universe admits a substantially simpler description than the present formalisms provide — together with the working constraint the author adopted in pursuing it, a deliberate restriction of the mathematics to arithmetic and ratio. The document closes with the reading order of the series, every entry on the public record with its digital object identifier. It is a philosophical overview of the work and its standards and practices: it contains no derivations and no claims of result, and the series it introduces is held to a stricter discipline than any introduction can be — graded claims, machine-verified arithmetic, and stated falsification conditions throughout. The series' exact claims re-derive in a public suite at github.com/thefirsthorstmann/g-theory-verify.
+titlenote: This document is a philosophical overview of the work and its standards and practices. It contains no derivations and no claims of result, and is provided only to set out the series' purpose, the standards it is held to, and the order in which to read it. Everything asserted in the papers themselves is graded, machine-verified, and carries its falsification conditions.
+abstract: This document opens the G-Theory series and describes what the reader will encounter. It begins with a survey of the present situation in fundamental physics — two frameworks, each confirmed to extraordinary precision, incompatible with each other, and surrounded by a multitude of proposed unifications that share no common standard of judgment. From that situation it draws the document's central proposal: a rough guide of eight criteria against which any theory of everything should be measured — unitary explanation; a unitary symbol that unpacks technically rather than allegorically; an account of origin as a procedural form; a real and calculable definition of fields; a direct and verifiable connection of gravity to electromagnetism; quantization without exception; harmonic structure engaged as a candidate foundation rather than as decoration; and a justified fit of mathematical tools to domains. It then states the question the series exists to test — whether the physical universe admits a substantially simpler description than the present formalisms provide — together with the working constraint the author adopted in pursuing it, a deliberate restriction of the mathematics to arithmetic and ratio. The document closes with the reading order of the series: twenty-two records on the public record, each with its digital object identifier. It is a philosophical overview of the work and its standards and practices: it contains no derivations and no claims of result, and the series it introduces is held to a stricter discipline than any introduction can be — graded claims, machine-verified arithmetic, and stated falsification conditions throughout. The series' exact claims re-derive in a public suite at github.com/thefirsthorstmann/g-theory-verify.
 ---
 
 ## 1 · The state of things
@@ -52,38 +52,39 @@ As is said, the definition of insanity is doing the same thing while expecting d
 
 The papers in this catalog are one sustained attempt at an answer. They are held to the eight criteria above, and to a further set of standards and practices this introduction only names: every claim in them is graded for exactly what it is, every number is verified by machine before it is asserted, and every live claim carries the stated conditions under which it would be falsified. The reader is never asked to believe; the reader is asked to check.
 
-Since this introduction first posted, the series' account of gravitation has been published in full — the fifth criterion's connection stated and derived, with seventeen conditions of refutation and a public claim map (row 12 of the catalog). The registered falsification schedule has reached its second version, and the whole suite — over a thousand public assertions — re-derives on any reader's machine from github.com/thefirsthorstmann/g-theory-verify.
+Since this introduction first posted, the series' account of gravitation has been published in full — the fifth criterion's connection stated and derived, with seventeen conditions of refutation and a public claim map (row 12 of the catalog). The registered falsification schedule has reached its fourth version, and the whole public suite re-derives on any reader's machine from github.com/thefirsthorstmann/g-theory-verify.
 
 <div style="page-break-before:always"></div>
 
 ## 4 · The catalog of the theory
 
-The intended reading order, each item on the public record:
+The intended reading order: twenty-two records on the public record, each with its identifier.
 
 | order | work | DOI |
 |---|---|---|
-| 1 | this introduction | 10.5281/zenodo.21212293 |
-| 2 | *Schrödinger's Piano* — the thought experiment | 10.5281/zenodo.21270357 |
-| 3 | *G-Theory: The Origin on Discrete Terms* — the theory, in twelve volumes | 10.5281/zenodo.22119129 |
-| 4 | *The Fine-Structure Constant on Discrete Terms* | 10.5281/zenodo.21211051 |
-| 5 | *Navier–Stokes: A Solution on Discrete Terms* | 10.5281/zenodo.21197045 |
-| 6 | *π on Discrete Terms* | 10.5281/zenodo.21205369 |
-| 7 | *Sevenths — A Constant Hidden in Plain Sight* | 10.5281/zenodo.21432733 |
-| 8 | *The Enneagram Is a Theorem* | 10.5281/zenodo.22132579 |
-| 9 | *Zero and Infinity on Discrete Terms* | 10.5281/zenodo.21209364 |
-| 10 | *The Vanishing Point on Discrete Terms* | 10.5281/zenodo.21209421 |
-| 11 | *Predictions on Discrete Terms* — the registered predictions | 10.5281/zenodo.22118840 |
-| 12 | *Gravity on Discrete Terms* | 10.5281/zenodo.22087600 |
-| 13 | *Tonal Function on Discrete Terms* | 10.5281/zenodo.22119147 |
-| 14 | *Visible Light on Discrete Terms* | 10.5281/zenodo.22119205 |
-| 15 | *Water on Discrete Terms* | 10.5281/zenodo.22119259 |
-| 16 | *The Vacuum on Discrete Terms* | 10.5281/zenodo.22119288 |
-| 17 | *Motion on Discrete Terms* | 10.5281/zenodo.22119337 |
-| 18 | *Units on Discrete Terms* | 10.5281/zenodo.22119361 |
-| 19 | *Yang–Mills: Existence on Discrete Terms* | 10.5281/zenodo.22119378 |
-| 20 | *QED on Discrete Terms* | 10.5281/zenodo.22119529 |
-| 21 | *G-Theory — The Falsification Schedule* | 10.5281/zenodo.22119550 |
+| 1 | this introduction | 10.5281/zenodo.21212292 |
+| 2 | *G-Theory — The Falsification Schedule* — the guide to the catalog, and every condition of refutation | 10.5281/zenodo.22119549 |
+| 3 | *Predictions on Discrete Terms* — the registered predictions, with their adjudicating experiments | 10.5281/zenodo.21206818 |
+| 4 | *Schrödinger's Piano* — the thought experiment | 10.5281/zenodo.21211076 |
+| 5 | *The Seventh — A Constant Hidden in Plain Sight* | 10.5281/zenodo.21206863 |
+| 6 | *The Enneagram Is a Theorem* | 10.5281/zenodo.21206948 |
+| 7 | *π on Discrete Terms* | 10.5281/zenodo.21205368 |
+| 8 | *Zero and Infinity on Discrete Terms* | 10.5281/zenodo.21209363 |
+| 9 | *The Vanishing Point on Discrete Terms* | 10.5281/zenodo.21209420 |
+| 10 | *Units on Discrete Terms* | 10.5281/zenodo.22119360 |
+| 11 | *The Fine-Structure Constant on Discrete Terms* | 10.5281/zenodo.21211050 |
+| 12 | *Gravity on Discrete Terms* | 10.5281/zenodo.22087599 |
+| 13 | *The Vacuum on Discrete Terms* | 10.5281/zenodo.22119287 |
+| 14 | *Motion on Discrete Terms* | 10.5281/zenodo.22119336 |
+| 15 | *Visible Light on Discrete Terms* | 10.5281/zenodo.22119204 |
+| 16 | *Water on Discrete Terms* | 10.5281/zenodo.22119258 |
+| 17 | *Tonal Function on Discrete Terms* | 10.5281/zenodo.22119146 |
+| 18 | *The Proton and Neutron Masses on Discrete Terms* | 10.5281/zenodo.22217669 |
+| 19 | *QED on Discrete Terms* | 10.5281/zenodo.22119528 |
+| 20 | *Yang–Mills: Existence on Discrete Terms* | 10.5281/zenodo.22119377 |
+| 21 | *Navier–Stokes: A Solution on Discrete Terms* | 10.5281/zenodo.21197044 |
+| 22 | *G-Theory — The Origin on Discrete Terms* — the theory, in twelve volumes | 10.5281/zenodo.21212112 |
 
-Begin at the piano; it asks nothing but a moment's listening, and everything else follows from what it stages. Welcome.
+The schedule and the registry stand first, so that what would refute the series, and what it has already put at risk, are known before any of it is read. Then begin at the piano; it asks nothing but a moment's listening, and everything else follows from what it stages. Welcome.
 
-<div class="copyright" style="margin-top:217pt">Copyright<br>Christian Horstmann · July, 2026 · version 2, August 25th, 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>
+<div class="copyright" style="margin-top:217pt">Copyright<br>Christian Horstmann · July, 2026 · version 3, October 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>

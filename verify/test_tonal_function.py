@@ -145,7 +145,7 @@ def test_the_over_and_under_triads_are_the_mirror_pair():
 
 
 def test_the_fifth_below_is_the_fourth_above():
-    """the author's superposition, exact: the descending fifth from the upper Do lands
+    """CC's superposition, exact: the descending fifth from the upper Do lands
     on Fa's own number — 48 × 2/3 = 32 = 24 × 4/3. Descending Sol IS ascending
     Fa as a seat; the subdominant is the dominant heard from the octave above.
     And La the same way: 48 × 5/6 = 40 = 24 × 5/3 — the relative minor's root

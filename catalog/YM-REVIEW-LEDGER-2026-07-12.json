@@ -164,7 +164,7 @@
    "quote": "No physically instantiable system in a bounded region satisfies the axioms of the problem statement.",
    "attack": "Model-internal bookkeeping is laundered into a physical impossibility theorem. Lemma 2 is introduced under the shield 'Within the model of Section 3 the following is bookkeeping, not physics' and defended as 'model-internal \u2014 instantiation is the model's word.' Theorem 1 then cashes that stipulation as a claim about the axioms and physical systems simpliciter. Either instantiation is a physical notion \u2014 then Lemma 2 requires a physical proof that the axioms demand state-level distinctions at every depth, which it does not have (see the smearing-prong defect) \u2014 or it is a bookkeeping convention \u2014 then Theorem 1 proves only that the model's ledger overflows the model's meters, which binds no one outside the model. A hostile referee states it in one line: the theorem's quantifier ('no physically instantiable system... satisfies the axioms') ranges over physics, but its only bridge premise is flagged by the authors themselves as not-physics.",
    "severity": "serious",
-   "fix": "Three edits to /Users/christiancastagnoyahoo.com/Library/CloudStorage/Dropbox/Sally Ann materials/Claude Code G-Theory/files/G-Theory-Lab/catalog/YANG-MILLS-ON-DISCRETE-TERMS.md.\n\n(1) In Theorem 1's statement, replace \"No physically instantiable system in a bounded region satisfies the axioms of the problem statement.\" with \"No physically instantiable system in a bounded region realizes the completed ledger.\" (This matches the theorem's own title and the NS sibling's discipline.)\n\n(2) Immediately after Theorem 1's proof, add a scope paragraph converting the bridge into an explicit disjunction:\n\n\"**Scope.** The theorem bars the ledger; it reaches the axioms only through Lemma 2's identification, which Section 4 flags as model-internal. The paper's claim on the axioms is therefore a disjunction, and either horn suffices. If the axioms' scale-by-scale structure is operational \u2014 if satisfying them requires a state that distinguishes configurations at every level, one bit per cell \u2014 then Theorem 1 bars physical satisfaction outright. If instead that structure is algebraic, priced at no distinguishable state \u2014 which is how the continuum theory keeps its own books, since Casini's bound [8] is proved within the axioms and holds the finite-energy, vacuum-relative ledger of every region finite \u2014 then everything below any fundable depth is carried at zero operational cost, which is to say it is exactly the surplus of Section 9: content no finite-precision observation can certify (Theorem 3), notation and not physics. Either the axioms demand the ledger and are physically barred, or they do not and their sub-fundable content is empirically empty. The formulation does not escape through the middle.\"\n\n(3) In the abstract, condition the opening claim: after \"is a supertask\" insert the reading, e.g. \"is \u2014 read as the completion of its own scale-by-scale census, the reading constructive field theory prices when it defines the object as the removal of every cutoff (Lemma 2) \u2014 a supertask\"; and in \u00a713 change \"the census its axioms demand\" to \"the census its axioms, on their own constructive program's pricing, demand\". \u00a71's \"First\" paragraph should point its census claim explicitly at Lemma 2's flagged identification rather than asserting it in physical voice.",
+   "fix": "Three edits to catalog/YANG-MILLS-ON-DISCRETE-TERMS.md.\n\n(1) In Theorem 1's statement, replace \"No physically instantiable system in a bounded region satisfies the axioms of the problem statement.\" with \"No physically instantiable system in a bounded region realizes the completed ledger.\" (This matches the theorem's own title and the NS sibling's discipline.)\n\n(2) Immediately after Theorem 1's proof, add a scope paragraph converting the bridge into an explicit disjunction:\n\n\"**Scope.** The theorem bars the ledger; it reaches the axioms only through Lemma 2's identification, which Section 4 flags as model-internal. The paper's claim on the axioms is therefore a disjunction, and either horn suffices. If the axioms' scale-by-scale structure is operational \u2014 if satisfying them requires a state that distinguishes configurations at every level, one bit per cell \u2014 then Theorem 1 bars physical satisfaction outright. If instead that structure is algebraic, priced at no distinguishable state \u2014 which is how the continuum theory keeps its own books, since Casini's bound [8] is proved within the axioms and holds the finite-energy, vacuum-relative ledger of every region finite \u2014 then everything below any fundable depth is carried at zero operational cost, which is to say it is exactly the surplus of Section 9: content no finite-precision observation can certify (Theorem 3), notation and not physics. Either the axioms demand the ledger and are physically barred, or they do not and their sub-fundable content is empirically empty. The formulation does not escape through the middle.\"\n\n(3) In the abstract, condition the opening claim: after \"is a supertask\" insert the reading, e.g. \"is \u2014 read as the completion of its own scale-by-scale census, the reading constructive field theory prices when it defines the object as the removal of every cutoff (Lemma 2) \u2014 a supertask\"; and in \u00a713 change \"the census its axioms demand\" to \"the census its axioms, on their own constructive program's pricing, demand\". \u00a71's \"First\" paragraph should point its census claim explicitly at Lemma 2's flagged identification rather than asserting it in physical voice.",
    "lens": "census-lemma",
    "verdict": "CONFIRMED",
    "reasoning": "The dilemma is genuine and the paper cannot escape through either horn. Lemma 2 defines \"instantiated\" operationally (\"the object's state distinguishes the configurations that differ at that level\") but flags the identification as model-internal; Theorem 1 then asserts \"No physically instantiable system in a bounded region satisfies the axioms of the problem statement\" \u2014 a quantifier over physics resting on a premise the paper itself flags as not-physics. The operational horn is not merely unproven, it is refuted by the paper's own Axiom S warrant: Casini's bound is a theorem OF continuum QFT, so axiom-satisfying theories provably keep the finite-energy, vacuum-relative distinguishable content of every bounded region finite \u2014 axiom-satisfaction cannot entail meter overflow without contradicting the theorem the paper cites to power its own meter. Decisive test: if nature literally were a Wightman Yang\u2013Mills theory, a finite-energy bounded region of it would hold only fundable-depth distinctions, satisfy Bekenstein (by Casini, internally), and generate no contradiction with Theorem 1's proof \u2014 the sentence fails on the very hypothetical it quantifies over. The smearing prong gives algebraic nontriviality at every scale, not finite-energy distinguishability (level-N distinctions cost ~2^N \u0127c/L and live in high-energy states the fixed-E hypothesis excludes); the infinite structure the axioms do carry (divergent vacuum entanglement) is exactly what Casini's relative-entropy construction subtracts, i.e. what the meters refuse to count. Register confirmation: the sibling NS paper's Theorem 1 stays on the physical side (\"no finite-time singularity occurs in any physically instantiated flow\") and never claims physical flows fail to satisfy the equations \u2014 and NS's bridge lemma had an external theorem (BKM) anchoring it, which YM's Lemma 2 lacks. The YM Theorem 1 title (\"The completed ledger is physically uninstantiable\") is already the correct model-internal statement; the contested sentence is the one step past it. Severity \"serious\" is right: the overreach recurs unflagged in the abstract, \u00a71, and \u00a713. Mitigation: the repair is available, local, and strengthens the paper \u2014 the honest form is a disjunction in which either horn serves the thesis, and Casini-within-QFT converts the attack's strongest weapon into the paper's second horn (the axioms' sub-fundable structure is carried at zero operational cost, i.e. it is precisely the \u00a79 surplus)."
@@ -388,7 +388,7 @@
    "fix": "Either (a) recompute with the theorem's own meter and print 19 and 99 (both still logarithmic; the thesis is unchanged and in fact strengthened), or (b) explicitly define the second process meter \u2014 construction of the census once, D(N) \u2264 2ET/\u03c0\u210f, with its own displayed bound N \u2264 log\u2088(14ET/\u03c0\u210f + 1) \u2212 1 \u2014 label 26 and 132 as construction depths, and give the sustained-update depths 19 and 99 alongside. Update the abstract's 'twenty-six' and 'one hundred thirty-two' to match whichever choice is made, and make the test suite pin the same formula the theorem displays.",
    "lens": "fresh-arithmetic",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a78 \u00b7 Why the continuum cannot decide its own question",
@@ -398,7 +398,7 @@
    "fix": "Replace with: 'every subsequential scaling limit is Gaussian \u2014 in no limit point does the interaction survive'; drop the axiom clause or source it separately to the free-field literature.",
    "lens": "constructive-scholar",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a79 \u00b7 The epistemic status of the continuum (also Abstract and \u00a71)",
@@ -408,7 +408,7 @@
    "fix": "Restore the NS paper's careful ordering, or recite: divergence made explicit by Rayleigh (1900) and named by Ehrenfest (1911), Planck's count in place before the diagnosis was complete \u2014 citing Rayleigh/Ehrenfest alongside [14].",
    "lens": "constructive-scholar",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a79 \u00b7 The epistemic status of the continuum",
@@ -418,7 +418,7 @@
    "fix": "Cite a post-1998 measurement (e.g., Planck 2018 cosmological parameters, or Martin 2012) alongside [15] for the observed value; add a sentence acknowledging the estimate is cutoff-based and stating why the paper still assigns the liability to the continuum's zero-point commitment rather than to mode-counting as such.",
    "lens": "constructive-scholar",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a75 Corollary 1 (also abstract)",
@@ -428,7 +428,7 @@
    "fix": "Either recompute the corollary with N*\u209a (19 and 99), or state explicitly that these two entries price a single construction of the census (8-meter) rather than the sustained native-frequency update the theorem's process clause prices, and add the distinction to the test suite.",
    "lens": "phenomenology-facts",
    "verdict": "MERGED-DUP",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a77 / \u00a76 / abstract",
@@ -438,7 +438,7 @@
    "fix": "Use 'few-percent precision' in all four occurrences (abstract twice, \u00a76, \u00a77), and consider quoting 1730(50)(80) MeV directly \u2014 the paper's own candor standard is better served by the actual error bars.",
    "lens": "phenomenology-facts",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a73 The model",
@@ -448,7 +448,7 @@
    "fix": "Rewrite as: 'The census telescope is the same, cell for cell, as the cascade census of the fluid paper [4]; the update telescope, which prices each level at its own refresh frequency, is new to the present problem.'",
    "lens": "fresh-arithmetic",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a75 Corollary 1",
@@ -458,7 +458,7 @@
    "fix": "State the inputs inline: 'taking the confinement scale at 200 MeV, the Planck energy 1.22\u00d710\u00b9\u2079 GeV, and the collider frontier at 13 TeV' \u2014 one clause suffices.",
    "lens": "fresh-arithmetic",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "Title / subtitle (vs. \u00a713)",
@@ -468,7 +468,7 @@
    "fix": "Match \u00a713's own honest language: '...and the second prosecution of the case against the continuum as a physical object.'",
    "lens": "register-overclaim",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a710 / \u00a713 (scope: every compact simple group)",
@@ -478,7 +478,7 @@
    "fix": "Either cite the multi-group lattice record for the instrumental leg or state explicitly that the physical-warrant horn concerns the one group the laboratories test, with the all-groups demand assigned to the pure-mathematics horn.",
    "lens": "register-overclaim",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a712",
@@ -488,7 +488,7 @@
    "fix": "Cut the flourish: 'would not contradict this paper's physical claims \u2014 which do not depend on the notation \u2014 but it would owe an account...'",
    "lens": "register-overclaim",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "Abstract / \u00a76 / \u00a713 (vs. NS \u00a76's fenced arithmetic remarks)",
@@ -498,7 +498,7 @@
    "fix": "Restore the NS fence ('displayed for the record, carrying no inferential weight') where the factorizations appear, drop 2\u00b2/3, and prune the \u00a713 list to the genuinely load-bearing numbers (the sevenths, ln 2, 11N/3, the proton bits, the 10\u00b9\u00b2\u00b3 if it survives).",
    "lens": "register-overclaim",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a75 Corollary 1",
@@ -508,7 +508,7 @@
    "fix": "Write 'per light-crossing of its diameter, 2R/c' \u2014 three words close the gap.",
    "lens": "fresh-arithmetic",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "\u00a75 Theorem 1\u2032",
@@ -518,7 +518,7 @@
    "fix": "'This is the state-space twin of the sentence that closed the fluid argument [4]' \u2014 which is also a stronger sentence.",
    "lens": "register-overclaim",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   },
   {
    "section": "Abstract (final sentence) vs. \u00a77's three-part grading",
@@ -528,7 +528,7 @@
    "fix": "'...and the mass gap is proved at strong coupling and measured in the window' \u2014 five words, and the abstract then matches \u00a77 exactly.",
    "lens": "register-overclaim",
    "verdict": "CONFIRMED",
-   "adjudicator": "the author-engine inline, cold-verified where arithmetic"
+   "adjudicator": "CC-engine inline, cold-verified where arithmetic"
   }
  ]
 }

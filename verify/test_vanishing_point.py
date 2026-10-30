@@ -6,7 +6,7 @@ from vanishing_point import stage, digital_root, gap_ratio, is_epimoric
 
 
 def test_the_form_never_varies():
-    for n in range(1, 200):
+    for n in range(1, 201):          # two hundred stages, as the record states
         nines = 10 ** n - 1                  # the numeral 9...9
         assert digital_root(nines) == 9
     assert digital_root(1) == 1              # no stage crosses
@@ -14,7 +14,7 @@ def test_the_form_never_varies():
 
 def test_the_staircase_of_tones():
     prev = None
-    for n in range(1, 60):
+    for n in range(1, 61):           # sixty stages, as the record states
         q = gap_ratio(n)
         assert q == Fraction(10 ** n, 10 ** n - 1)
         assert is_epimoric(q)                # every stair superparticular

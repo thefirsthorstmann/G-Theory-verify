@@ -125,7 +125,7 @@ def test_the_verdict_is_recorded_as_a_named_defect():
 
 # ---------------------------------------------------------------------------
 # THE ENSEMBLE QUESTION, ASKED AND ANSWERED THE SAME DAY (2026-08-15).
-# the author asked whether the ripple cancels once many pairs contribute. It does not,
+# CC asked whether the ripple cancels once many pairs contribute. It does not,
 # and the three ways it might have are each closed by a different kind of
 # argument — one by identity, one numerically, one structurally.
 # ---------------------------------------------------------------------------
@@ -188,7 +188,7 @@ def test_the_defect_survives_the_ensemble_and_that_is_the_finding():
 
 
 # ---------------------------------------------------------------------------
-# THE CONTACT-RULE FAMILY (2026-08-15, exploring pass at the author's direction —
+# THE CONTACT-RULE FAMILY (2026-08-15, exploring pass at CC's direction —
 # facts collected, judgement deferred; see
 # catalog/CONTACT-RULES-ON-A-NESTED-REGISTER-collection.md).
 #
@@ -279,7 +279,7 @@ def test_the_mass_product_survives_every_rule_in_the_family():
 
 
 # ---------------------------------------------------------------------------
-# THE LAYER CORRECTION (2026-08-15). the author: "layers, not axes" — and the
+# THE LAYER CORRECTION (2026-08-15). CC: "layers, not axes" — and the
 # assignment is banked in THE-CHOSEN-THREE §4: decimal for polarity and charge,
 # BINARY PLACES FOR SUSPENSION AND CARRY, dimension for extension. The contact
 # rule sums over CARRY depths, so its refinement factor is two. I had it on the

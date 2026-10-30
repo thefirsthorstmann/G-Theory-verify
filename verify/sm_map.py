@@ -8,7 +8,7 @@ Three layers, every cell provenance-tagged:
 
 Provenance tags:
   [banked]    predates today, citation given
-  [assembled] built today from banked objects — carries an obligation, flagged
+  [assembled] built today from banked objects — costs, flagged
   [input]     taken from outside (owed machinery)
   [owed]      named gap, nothing supplied
 

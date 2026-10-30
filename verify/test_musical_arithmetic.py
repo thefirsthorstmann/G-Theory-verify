@@ -106,7 +106,7 @@ def test_binary_fence_000001_is_one_64th_in_base_2():
 
 
 def test_1728_is_re_and_the_six_octave_lift_of_the_root():
-    """the author 2026-08-07: 1728 is Re above 1536. Both descend six octaves onto the
+    """CC 2026-08-07: 1728 is Re above 1536. Both descend six octaves onto the
     banked root 24 and its whole tone 27. The Re line then STOPS — 27 is odd — while
     the Do line runs integral to 3, because the root carries 2^3 and 3^3 does not.
     And the descent contains CLAUDE.md section 9's canonical stations 216 = 6^3 and
@@ -125,7 +125,7 @@ def test_1728_is_re_and_the_six_octave_lift_of_the_root():
 
 
 def test_re_sol_si_root_to_nine_at_every_octave():
-    """the author 2026-08-07: Re, Sol and Si on the 24-series always root to 9. FORCED —
+    """CC 2026-08-07: Re, Sol and Si on the 24-series always root to 9. FORCED —
     their ratio numerators are 9, 12, 15 = 3x(3,4,5), a Pythagorean triple, so on
     root 24 = 3*8 they clear to 27, 36, 45 = 9x(3,4,5), all divisible by 9; and
     doubling preserves that. The three nines sum to 27 = the hexad sum."""
@@ -147,7 +147,7 @@ def test_re_sol_si_root_to_nine_at_every_octave():
 
 
 def test_the_nines_ladder_closes_at_216_and_it_is_the_three_content():
-    """the author 2026-08-07, extending his own three-nines: 24 gives 3 nines, 72 gives 6,
+    """CC 2026-08-07, extending his own three-nines: 24 gives 3 nines, 72 gives 6,
     216 gives all 8. The rung is the root's TRIADIC content on a fixed 2^3 — a
     degree keeps the nine unless its ratio denominator carries a 3, which spends one
     of the root's threes. On 72 the survivors are exactly the tertian stack

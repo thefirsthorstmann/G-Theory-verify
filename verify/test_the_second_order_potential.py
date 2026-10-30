@@ -1,5 +1,5 @@
 """test_the_second_order_potential.py — THE TIME WORD FOUND, THE SPATIAL
-WORD SHOWN NON-LOCAL (2026-08-18). the author asked whether the first and second
+WORD SHOWN NON-LOCAL (2026-08-18). CC asked whether the first and second
 orders here are the program's first- and second-order ambisonics, and
 whether those rules would supply the tool. The decomposition IS the right
 language and it earns its keep immediately — but it also shows exactly

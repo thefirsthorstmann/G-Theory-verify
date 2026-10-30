@@ -2,7 +2,7 @@
 
 The banked identity rho_Lambda = rho_P N^-2 = pi rho_P / S_hor gains a mechanism
 (Theorem 8 of the gravity paper at the k-less tier) and its owed teeth-test (K4,
-the working record) is BUILT: the parameter-free w(z) triplet. Everything here is a
+journal:1582) is BUILT: the parameter-free w(z) triplet. Everything here is a
 ratio or an exact congruence except the flow integrations, whose closure is
 asserted, not narrated. Verdicts in this file are asserts — never prose written
 before the number.
@@ -191,7 +191,7 @@ def test_the_fraction_is_the_sphere_one_planck_unit_per_horizon():
 
 
 def test_the_eighteen_relation_parked_with_its_cost():
-    """the author's swing: 0.68 x 18 = 12.24 ~ the measured fraction. Inverted: 8pi/(3
+    """CC's swing: 0.68 x 18 = 12.24 ~ the measured fraction. Inverted: 8pi/(3
     Omega) = 18 Omega forces Omega = sqrt(4pi/27) = 0.6822 -- the sphere over
     the triad-cubed, 0.34 sigma from Planck-18. COSTED: the same identity with
     ANY integer X gives Omega = sqrt(8pi/3X); adjacent integers are spaced
@@ -307,7 +307,7 @@ def test_reader_Bprime_and_the_crossing_trinity():
 
 
 def test_function_requires_asymmetry_and_the_floor_sign():
-    """the author's paired questions, pinned where they are decidable.
+    """CC's paired questions, pinned where they are decidable.
     (1) FUNCTION REQUIRES ASYMMETRY: the whole-tone set {0,2,4,6,8,10} is
     closed under negation — fully symmetric — and possesses no semitone joint,
     which is exactly why whole-tone music has no tonal gravity: nothing leads,

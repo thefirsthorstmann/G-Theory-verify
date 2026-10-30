@@ -21,7 +21,7 @@ Four pinned exhibits, all classical mathematics, assembled:
     says so; the arithmetic downstream of it is exact.
 
 (3) PI FROM PURE COUNTING ◆: the central binomial C(2n,n)/4^n
-    approaches 1/sqrt(pi n): pi emerges as the envelope of fair-toss
+    approaches 1/sqrt(pi n): pi emerges as the envelope of coin
     counting, with no circle drawn anywhere (companion to
     genesis_ix.py).
 
@@ -84,7 +84,7 @@ def rest_pi_overshoot_ppm() -> float:
 
 
 def counting_envelope(n: int) -> float:
-    """(C(2n,n)/4^n)^-2 / n -> pi: pi from fair-toss counting alone."""
+    """(C(2n,n)/4^n)^-2 / n -> pi: pi from coin counting alone."""
     w = math.comb(2 * n, n) / 4 ** n
     return 1 / (w * w * n)
 

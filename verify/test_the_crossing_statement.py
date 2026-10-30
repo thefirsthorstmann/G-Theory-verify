@@ -1,5 +1,5 @@
 """test_the_crossing_statement.py — THE CROSSING, DECLARED (2026-08-18).
-the author asked for a unit to be chosen so a statement could be made. It is made
+CC asked for a unit to be chosen so a statement could be made. It is made
 here: **one** declared unit, two dimensionless structures, two measurable
 magnitudes out, and the dimensional boundary bent nowhere.
 
@@ -16,9 +16,11 @@ tenths of a standard deviation low — agreeing, and tightenable to a kill.
 WHAT FOLLOWS, SECOND. With the banked dimensionless depth of 10⁴² and the
 frozen comoving horizon's own closed form, the expansion rate comes out
 at 70.0540 kilometres per second per megaparsec. That is five standard
-deviations above the Planck value and nearly three below the local
-distance-ladder value — **inside the present discordance and decided by
-its resolution**, which is the honest place for it to be.
+deviations above the Planck value and between three and four below the
+local distance-ladder value — **inside the present discordance and decided
+by its resolution**. (Re-read October 2026: against SH0ES 2024, 73.17 ±
+0.86, it stands 3.6 below; against the 2022 value this battery first
+quoted, 73.04 ± 1.04, it stood 2.9.)
 
 WHAT IS NOT CLAIMED. No magnitude is derived from arithmetic alone. The
 femtometre is borrowed exactly once and every other number here is a
@@ -57,12 +59,14 @@ def test_the_density_follows_and_agrees():
 
 
 def test_the_expansion_rate_follows_and_sits_inside_the_discordance():
-    """Five sigma above Planck, three below the local ladder."""
+    """Five sigma above Planck, between three and four below the local ladder."""
     H0 = 2 * C * I_SEATS / (DEPTH * CELL * 1e-15) * MPC / 1000
     assert abs(H0 - 70.0540) < 1e-3
     assert (H0 - 67.36) / 0.54 > 4.5                  # above Planck
-    assert (H0 - 73.04) / 1.04 < -2.5                 # below SH0ES
-    assert 67.36 < H0 < 73.04                         # between them
+    assert 4.9 < (H0 - 67.36) / 0.54 < 5.1            # five above Planck
+    assert -4 < (H0 - 73.17) / 0.86 < -3              # between three and four below SH0ES 2024
+    assert -2.9 < (H0 - 73.04) / 1.04 < -2.8          # and 2.9 below the 2022 value
+    assert 67.36 < H0 < 73.17                         # between them
 
 
 def test_one_unit_buys_both():

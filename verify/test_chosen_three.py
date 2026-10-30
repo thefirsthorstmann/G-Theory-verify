@@ -13,11 +13,11 @@ def test_base_ten_is_the_unique_least_register():
 
 
 def test_the_near_misses_sharpen_the_claim():
-    """Bases 3, 5, 12, 17 unroll the seed but erase the ennead;
-    base 9 erases it maximally (digit sums go mod 8)."""
+    """Bases 3, 5, 12, 17 unroll the seed but kill the ennead;
+    base 9 kills it maximally (digit sums go mod 8)."""
     for b in (3, 5, 12, 17):
         assert unrolls_seed(b) and not carries_ennead(b)
-    assert 9 % 9 == 0                             # ennead vanishes at base 9
+    assert 9 % 9 == 0                             # ennead dies at base 9
 
 
 def test_seven_is_the_least_full_reptend_prime():

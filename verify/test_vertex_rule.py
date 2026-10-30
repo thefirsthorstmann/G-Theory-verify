@@ -29,7 +29,7 @@ def test_the_assembled_cells_are_now_generated():
 
 
 def test_input_isolation_color_costs_exactly_two_cells():
-    """Deleting the color attribute removes exactly {g-Q, g-self} — the
+    """Deleting the color attribute kills exactly {g-Q, g-self} — the
     wiring layer owes the same single input as the content layer."""
     diff = TARGET_EDGES - generate_without("color")
     assert diff == {frozenset(["g", "Q"]), frozenset(["g"])}

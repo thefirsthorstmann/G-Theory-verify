@@ -37,7 +37,7 @@ def test_exponential_demand_beats_linear_supply():
 
 def test_the_reach_is_logarithmic():
     """Concrete meters: even 10^15 serial ops reach depth 16; x1000 the
-    budget yields THREE octaves more. Tao's choreography needs ALL depths."""
+    budget buys THREE octaves more. Tao's choreography needs ALL depths."""
     assert coherence_depth(10 ** 15) == 16
     assert coherence_depth(10 ** 18) == 19
     assert coherence_depth(10 ** 21) == 23
@@ -92,7 +92,7 @@ def test_the_universal_form_kills_every_schedule():
     """Referee-pass strengthening: the rate leg is SCHEDULE-UNIVERSAL.
     Any summable schedule (geometric, polynomial, anything) has
     tau_n -> 0, so it crosses the ML floor at a finite stage — the
-    supertask fails with no scaling assumption at all."""
+    supertask dies with no scaling assumption at all."""
     from serial_shell import universal_stage_cap
     t_min = 3.31e-39                              # pi hbar / 2E for 5e4 J
     k41 = lambda n: 1.0 * 2 ** (-2 * n / 3)      # the K41 geometric schedule

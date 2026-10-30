@@ -1,7 +1,7 @@
-"""test_rotation_quantum.py — the author, 2026-08-04: the reading depth is dimensioned.
+"""test_rotation_quantum.py — CC, 2026-08-04: the reading depth is dimensioned.
 
 I had written "the value changes with depth, so it is not fixed", listing depths
-3,4,5,6,7,9 as though d were a free real knob. the author caught it: that IS the
+3,4,5,6,7,9 as though d were a free real knob. CC caught it: that IS the
 continuum, admitted through the reading rather than through the object. The
 address has a PERIOD, and the period is the quantum of reading.
 
@@ -15,7 +15,7 @@ address has a PERIOD, and the period is the quantum of reading.
   (3) AND THE DEFICIT IS QUANTIZED WITH IT: at every whole rotation m the array
       falls short of 3 by exactly 3 x 10^(-6m) — ALWAYS EXACTLY THREE UNITS OF
       THE FINAL PLACE. Scale-free in rotations, not merely depth-dependent.
-  (4) THE DEFICIT'S ANATOMY (the polarity reading the author demanded): each row is k/7
+  (4) THE DEFICIT'S ANATOMY (the polarity reading CC demanded): each row is k/7
       truncated, so each LOSES (k/7) of a final unit, all DOWN, one polarity; the
       six losses sum to (1+2+...+6)/7 = 21/7 = 3 EXACTLY. The residue of the whole
       figure is the bare 3-move at the seed. The poles 0/7 and 7/7 are exact and

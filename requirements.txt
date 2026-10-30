@@ -1,6 +1,7 @@
-# G-Theory verification suite — dependencies
+# G-Theory verification suite -- dependencies
 # install with:  pip install -r requirements.txt
 sympy>=1.12
 numpy>=1.24
+scipy>=1.10
 mpmath>=1.3
 pytest>=7.0

@@ -1,0 +1,6 @@
+SPARC: Spitzer Photometry and Accurate Rotation Curves (Lelli, McGaugh, Schombert 2016, AJ 152, 157).
+Rotmod_LTG.zip downloaded 2026-09-02 from https://astroweb.cwru.edu/SPARC/ (175 galaxies; columns
+Rad kpc, Vobs, errV, Vgas, Vdisk, Vbul km/s, SBdisk, SBbul L/pc^2). Used for the period-ln-2
+rotation-curve fingerprint test of the gravity record (GRAVITY-AS-TONAL-CENTER, the dark-sector
+open account): residuals about the radial acceleration relation with a0 = 1.2e-10 m/s^2 and the
+SPARC mass-to-light ratios 0.5 (disk) and 0.7 (bulge).

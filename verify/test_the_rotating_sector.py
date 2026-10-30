@@ -17,7 +17,7 @@ was the wall's — gives
     g_φφ = r²                 the areal subtense
 
 and from it, with nothing added: the dragging rate ω = −g_tφ/g_φφ =
-2J/r³, which is the Lense-Thirring rate exactly — the parameter record's own named
+2J/r³, which is the Lense-Thirring rate exactly — the ledger's own named
 first test — and landmark stations that track Kerr's to first order in
 spin, the ISCO's slope −4√(2/3) and the photon orbit's −2/√3.
 

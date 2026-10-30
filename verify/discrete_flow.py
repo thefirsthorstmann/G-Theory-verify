@@ -52,7 +52,7 @@ def forced_weights() -> dict:
 
 def viscosity(tau: Fraction) -> Fraction:
     """nu = cs^2 (tau - 1/2) = (tau - 1/2)/3 — the fluid's one dial,
-    graduated in thirds."""
+    priced in thirds."""
     return (tau - Fraction(1, 2)) / 3
 
 
@@ -81,7 +81,7 @@ CRYSTALLOGRAPHIC_ORDERS = (1, 2, 3, 4, 6)   # the 2^a * 3^b family <= 6
 def forced_hexad() -> int:
     """The unique rotation order that can tile (crystallographic),
     respects parity (rank-3 vanishes), and can flow (rank-4
-    isotropic): six. The triangle fails on parity, the square on
+    isotropic): six. The triangle dies on parity, the square on
     isotropy, the pentagon on tiling."""
     fit = [n for n in CRYSTALLOGRAPHIC_ORDERS
            if n >= 3 and rank3_vanishes(n) and rank4_isotropic(n)]

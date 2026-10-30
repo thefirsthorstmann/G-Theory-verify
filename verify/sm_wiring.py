@@ -9,7 +9,7 @@ HONESTY HEADER (read before scoring):
     is therefore about RULE PROVENANCE, not surprise:
       [banked]    the object predates today (citation given);
       [assembled] the mediator->domain mapping was assembled TODAY from
-                  banked objects — it carries an obligation, and is flagged.
+                  banked objects — it costs, and is flagged.
   * The colored-set {Q, g} is an INPUT (the framework's color machinery
     is thin/owed — named in THE-INVENTORY). Rule R3 is the weak joint.
 

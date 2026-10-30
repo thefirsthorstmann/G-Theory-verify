@@ -1,6 +1,6 @@
 """test_the_first_law_1pn.py — THE FIRST LAW OF BINARY MECHANICS AT FIRST
 POST-NEWTONIAN ORDER, WITH THE REGISTER'S APPORTIONED CLOCKS (2026-08-23).
-the author: "go get the 1PN first law." Extends test_the_helical_sector.py (exact at
+CC: "go get the 1PN first law." Extends test_the_helical_sector.py (exact at
 Newtonian order; exact to all orders in the test-mass limit) to 1PN for
 general masses.
 

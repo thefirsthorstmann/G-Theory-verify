@@ -1,6 +1,6 @@
 """test_decimal_wheel.py — PART TWO OPENS: what a decimal place means, 2026-08-09.
 
-the author's first swing: "a 9 means three rotations of the reptend." Verified cold, in
+CC's first swing: "a 9 means three rotations of the reptend." Verified cold, in
 sharpened form, and it opens the dictionary of the place. Everything below is a
 ratio, a count, or an exact congruence — no ruler, no magnitude claim. The fence
 of THE-FORM-OF-GRAVITY §12 is untouched.
@@ -59,7 +59,7 @@ def test_one_decimal_place_is_one_rotation_of_the_wheel():
 
 
 def test_three_rotations_are_negation_and_the_nine_is_its_seal():
-    """the author's swing, exact: three rotations = x10^3, and 1000 = -1 mod 7, so THREE
+    """CC's swing, exact: three rotations = x10^3, and 1000 = -1 mod 7, so THREE
     PLACES ARE ONE NEGATION — the involution of part one (§8b: the one map,
     negation) is a MOTION on the wheel, costing exactly half the orbit. Its seal
     is the nine: every digit plus the digit three rotations later is 9, which is
@@ -198,7 +198,7 @@ def test_the_lattice_prunes_the_walks_to_one_lift_against_the_fall():
 
 
 # ---------------------------------------------------------------------------
-# the author'S SWAP FIGURE (2026-08-09): the {4,5} transposition, drawn and dissected
+# CC'S SWAP FIGURE (2026-08-09): the {4,5} transposition, drawn and dissected
 # ---------------------------------------------------------------------------
 
 def test_the_midy_swaps_and_their_costs():
@@ -206,7 +206,7 @@ def test_the_midy_swaps_and_their_costs():
     costs a multiple of 999. In 999-units: reptend = 143 = 11 x 13 = 1001/7;
     the three swaps cost {1,8} -> +700, {2,7} -> +5, {4,5} -> +10. THE TWO
     INTEGER LIFT-DRESSES OF THE LATTICE WALK -- the bare five and the bare ten
-    -- ARE THE SWAP-COSTS OF THE TWO INNER PAIRS. the author's bet (rotation, 10) is
+    -- ARE THE SWAP-COSTS OF THE TWO INNER PAIRS. CC's bet (rotation, 10) is
     the {4,5} swap; the rival (five) is the {2,7} swap. And the {4,5} swap
     lands on 153 x 999 with 153 = 9 x 17 = T_17, the banked forced 153."""
     R_, S_ = 142857, 152847
@@ -250,7 +250,7 @@ def _kite_ratio(angles):
 
 
 def test_the_kite_ratio_and_the_rectification_negatives():
-    """The A/B question from the author's diagram, settled honestly. Tempered kite:
+    """The A/B question from CC's diagram, settled honestly. Tempered kite:
     A/B = 2.064178 -- near two, NOT two. Rectifying to the intonated seats
     makes it MORE unequal (2.241743, and NOT 9/4 -- off by 0.37%), and the
     seat-displacement family reaches A/B = 1 only near u ~ 6-7 x the intonated
@@ -284,7 +284,7 @@ def test_the_kite_ratio_and_the_rectification_negatives():
 def test_the_halves_collapse_to_the_other_pairs():
     """Digit-sums of the halves: reptend (142, 857) -> (7, 20) -- the banked
     20|7 pair -- and the swap moves exactly one unit: (152, 847) -> (8, 19).
-    the author's step 19 -> 10 gives 10/8 = 5/4, the third -- re-deriving the
+    CC's step 19 -> 10 gives 10/8 = 5/4, the third -- re-deriving the
     dress-trade identity 10 = 8 x 5/4 from inside the figure (stop-at-10 is
     one named convention). Fully collapsed, no convention: the reptend's
     halves land on {7, 2} = the {2,7} PAIR and the swapped figure's on
@@ -295,7 +295,7 @@ def test_the_halves_collapse_to_the_other_pairs():
     assert (dsum(142), dsum(857)) == (7, 20)
     assert (dsum(152), dsum(847)) == (8, 19)
     assert dsum(142) + dsum(857) == 27 == dsum(152) + dsum(847)   # hexad sum, both
-    assert dsum(19) == 10 and F(10, 8) == F(5, 4)                 # the author's third
+    assert dsum(19) == 10 and F(10, 8) == F(5, 4)                 # CC's third
     assert F(10, 1) == F(8, 1) * F(5, 4)                          # the dress-trade
     assert (dr(142), dr(857)) == (7, 2)                           # the {2,7} pair
     assert (dr(152), dr(847)) == (8, 1)                           # the {1,8} pair
@@ -303,7 +303,7 @@ def test_the_halves_collapse_to_the_other_pairs():
 
 
 def test_the_five_is_a_one_way_door_on_the_two_three_lattice():
-    """the author's 24-move, manual path: 24 x 10/8 = 30 (Mi -- seats); 24 x 8/10 = 19.2
+    """CC's 24-move, manual path: 24 x 10/8 = 30 (Mi -- seats); 24 x 8/10 = 19.2
     (does not seat; the residue is exactly 1/5, the undissolved five). General
     theorem: on 2-3 numbers the up-third n x 5/4 seats whenever 4 | n, but the
     down-third n x 4/5 NEVER seats -- 5 never divides 2^a 3^b. THE FIVE ENTERS
@@ -324,13 +324,13 @@ def test_the_five_is_a_one_way_door_on_the_two_three_lattice():
 
 
 def test_the_collapse_trails_and_the_conserved_three():
-    """the author: 'the root collapses in 2 steps, 1+9=10, 1+0=1 -- 1 unit, two
+    """CC: 'the root collapses in 2 steps, 1+9=10, 1+0=1 -- 1 unit, two
     rotations, total 3.' The collapse TRAIL is the object (§9), and it is
     forced: 847 -> 19 -> 10 -> 1. So the 10 is not a stopping convention --
     it is a STATION the high half necessarily passes through on its way to
     unity, and reading 10/8 = 5/4 there is reading a forced station.
     Depths: reptend halves (1, 2); swapped halves (1, 3) -- the swap adds one
-    fold. And under the author's accounting (first sum, then value + remaining folds):
+    fold. And under CC's accounting (first sum, then value + remaining folds):
         857: 20 -> 2, value 2 + 1 fold = 3
         847: 19 -> 10 -> 1, value 1 + 2 folds = 3
     THE SWAP TRADES ONE UNIT OF VALUE FOR ONE FOLD OF DEPTH, CONSERVING
@@ -349,14 +349,14 @@ def test_the_collapse_trails_and_the_conserved_three():
     assert trail(847) == [19, 10, 1]                              # three folds
     assert 10 in trail(847)                                       # the forced station
 
-    # the author's accounting: first sum, then (final value) + (remaining folds)
+    # CC's accounting: first sum, then (final value) + (remaining folds)
     assert 2 + 1 == 3                                             # 857: value 2, 1 fold
     assert 1 + 2 == 3                                             # 847: value 1, 2 folds
     # the swap moves one unit of value into one fold of depth; three conserved
 
 
 def test_value_plus_address_is_the_just_semitone_raise():
-    """the author's composite (value on the 24-root PLUS address in degrees) closes to
+    """CC's composite (value on the 24-root PLUS address in degrees) closes to
     a forced identity:  24r + 360(r-1) = 360(16r/15 - 1)  -- THE SUM OF VALUE
     AND ADDRESS IS THE ADDRESS OF THE TONE ONE JUST SEMITONE HIGHER. The 'two
     domains' are one statement. It lands on a scale tone exactly at the
@@ -366,7 +366,7 @@ def test_value_plus_address_is_the_just_semitone_raise():
     engine are ONE HALF-STEP apart) and C(Re) = 72 = the address of the just
     minor third 6/5. TYPE-FLAG kept: 152 DEGREES is not 152 OCTAVES -- the
     numeral echo with the rotation-dress count is sandboxed, same standard
-    as 137+12. And the author's fyi: La's address-fraction 240/360 = 2/3 is the
+    as 137+12. And CC's fyi: La's address-fraction 240/360 = 2/3 is the
     REVERSED FIFTH -- the address-reciprocals 360/addr run {8,4,3,2,3/2,8/7},
     with La (the fifth) and Si (the septimal) the two non-integers."""
     SC = {'Do': F(1), 'Re': F(9, 8), 'Mi': F(5, 4), 'Fa': F(4, 3),
@@ -384,7 +384,7 @@ def test_value_plus_address_is_the_just_semitone_raise():
     assert F(16, 15) * F(4, 3) == F(64, 45)                  # one semitone above Fa
     assert 24 * F(9, 8) + addr(F(9, 8)) == 72 == addr(F(6, 5))      # Re -> minor third
 
-    # the author's fyi: the reversed fifth 2/3, as a fraction of the turn, seats La
+    # CC's fyi: the reversed fifth 2/3, as a fraction of the turn, seats La
     assert F(addr(SC['La']), 360) == F(2, 3)
     recips = {n: F(360, addr(r)) for n, r in SC.items() if r != 1}
     assert recips == {'Re': F(8), 'Mi': F(4), 'Fa': F(3), 'Sol': F(2),
@@ -392,7 +392,7 @@ def test_value_plus_address_is_the_just_semitone_raise():
 
 
 def test_the_harmonic_order_is_the_triad_with_its_up_coset():
-    """the author's figure: 1+3+4+6+7+9 = 30, the harmonic order. The theorem under it:
+    """CC's figure: 1+3+4+6+7+9 = 30, the harmonic order. The theorem under it:
     the nine seats split into the THREE COSETS OF THE TRIAD under one seat-step:
     t = {3,6,9} (sum 18, the rotation ledger), t+1 = {4,7,1} (sum 12, the
     up-roundings = the operator class, +40 deg), t-1 = {2,5,8} (sum 15, the
@@ -411,7 +411,7 @@ def test_the_harmonic_order_is_the_triad_with_its_up_coset():
 
 
 def test_the_comma_ledger_selects_the_up_branch():
-    """the author's ledger: the rest frame 2.999997 under ONE COMMA, both ways.
+    """CC's ledger: the rest frame 2.999997 under ONE COMMA, both ways.
     Digit-sum collapse trails (forced):
         NEG  2.999996 -> 53 -> [8]
         REST 2.999997 -> 54 -> [9]
@@ -423,7 +423,7 @@ def test_the_comma_ledger_selects_the_up_branch():
     so the mechanism only ever takes the up branch, whose station is TEN. If
     the coupling's dress is the station of the taken branch, the dress is 10,
     the count is 152. The premise is the reading; the ledger is forced.
-    the author's 8x8: 64 -> [10, 1] shares the up-branch station (octave SQUARED up,
+    CC's 8x8: 64 -> [10, 1] shares the up-branch station (octave SQUARED up,
     bare 8 down -- the double-copy shape, signpost only)."""
     def trail(n):
         t = []
@@ -646,7 +646,7 @@ def test_the_tower_law_and_the_assembled_sentence():
     THE SENTENCE: alpha_G(e) = 5/(2^Phi_15(2) - 1) -- THE LIFT RIDING THE
     SINGLE PROMOTION OF THE MESH. Gravity's wheel is to the mesh (3 x 5) what
     the tether is to the motor (3): one promotion up.
-    GRADE, held: every leg forced; the assembly Sound-conditional. And the author's
+    GRADE, held: every leg forced; the assembly Sound-conditional. And CC's
     caution folded in: THE 3 AND 5 ARE CHEAP -- any construction finds them --
     so the assembly's whole burden sits on three joints: (1) the mesh
     combination 15, (2) the promotion law's applicability (anchored by
@@ -840,7 +840,7 @@ def test_the_promotion_map_audit_retires_the_family():
 
 
 def test_the_fsc_wheel_carries_its_own_dress():
-    """the author's rotation-count question, corrected and then confirmed richer than
+    """CC's rotation-count question, corrected and then confirmed richer than
     asked. The seal-separation is HALF THE PERIOD, wheel by wheel: three places
     on seven's wheel (period 6), four on 137's (period 8, banked in Units:
     137 divides 10^8 - 1). His totals stand by the digit-sum route, exact
@@ -864,12 +864,12 @@ def test_the_fsc_wheel_carries_its_own_dress():
     assert sum(int(c) for c in block) == 36                 # the dress numeral
     assert 2 * 36 == 72                                     # the completion; the seat
     assert sum(int(c) for c in "142857") == 27              # seven's parallel
-    assert 27 + 27 == 54                                    # the author's 54, by Midy
+    assert 27 + 27 == 54                                    # CC's 54, by Midy
     assert 137 + 36 / 1000 == 137.036                       # the banked anatomy
 
 
 def test_the_two_wheels_stand_a_fourth_apart():
-    """the author's chain 24 x 54 = 1296, /72 = 18, 72/54 = 4/3 -- verified and reduced
+    """CC's chain 24 x 54 = 1296, /72 = 18, 72/54 = 4/3 -- verified and reduced
     to a general law: for an even-period wheel the block digit-sum is 9e/2 and
     the completion sum is 9e (Midy, exact). So 54 = 9x6 and 72 = 9x8, and the
     ratio of the FSC wheel to the master wheel is their PERIOD ratio 8:6 = 4:3
@@ -891,7 +891,7 @@ def test_the_two_wheels_stand_a_fourth_apart():
         s = sum(int(c) for c in str((10 ** e - 1) // p).zfill(e))
         assert e % 2 == 0 and s == 9 * e // 2              # the Midy sum law
     assert 9 * 6 == 54 and 9 * 8 == 72                     # the two completions
-    assert 24 * 54 == 1296 == 6 ** 4 == 36 ** 2            # the author's product
+    assert 24 * 54 == 1296 == 6 ** 4 == 36 ** 2            # CC's product
     assert 1296 // 72 == 18                                # the triad sum
     from fractions import Fraction as F
     assert F(72, 54) == F(4, 3)                            # Fa between the wheels
@@ -900,7 +900,7 @@ def test_the_two_wheels_stand_a_fourth_apart():
 
 
 def test_the_99_101_companionship():
-    """the author's years-old intuition -- 'the Midy 99 must have a companion at 101;
+    """CC's years-old intuition -- 'the Midy 99 must have a companion at 101;
     I went looking but never came up with much empirical' -- RESOLVED 2026-08-09:
     the companion was always there, and it is structural.
     (1) THE LAW: 10^2h - 1 = (10^h - 1)(10^h + 1): every even wheel factors as
@@ -955,7 +955,7 @@ def test_the_99_101_companionship():
 
 
 def test_the_mexican_hat_is_the_minus_ten_face_of_the_fsc_wheel():
-    """the author's old page reads 127/137 = .92700729... as 'the most symmetrical
+    """CC's old page reads 127/137 = .92700729... as 'the most symmetrical
     form ... between two neutrals.' Verified and made exact: 92700729 is a
     PALINDROME, and the FSC wheel has exactly TWO palindromic faces, at
     residues +10 and -10 (rotations 1 and 5, half a period apart), carried
@@ -991,7 +991,7 @@ def test_the_mexican_hat_is_the_minus_ten_face_of_the_fsc_wheel():
 
 
 def test_seven_and_thirteen_are_the_hexad_primes():
-    """the author's thirteen-thread, grounded — and the grounding is exhaustive, not
+    """CC's thirteen-thread, grounded — and the grounding is exhaustive, not
     a search. A prime has decimal period exactly six iff it divides
     10^6 - 1 = 999999 = 3^3 x 7 x 11 x 13 x 37 without dividing any smaller
     10^k - 1; of those five primes, three fall away (3 has period one, 11

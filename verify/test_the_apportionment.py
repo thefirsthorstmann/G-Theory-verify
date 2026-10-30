@@ -18,7 +18,7 @@ AND THE CLOSURE IS WIDER THAN THE ONE TERM. At first post-Newtonian
 order the parametrized framework is complete — ten parameters fix the
 dynamics entirely. Two are computed here from the metric; the remaining
 eight are zero by the register's own structural results: no preferred
-frame, from the parameter record's gauge theorem, and no violation of the
+frame, from the ledger's gauge theorem, and no violation of the
 conservation laws, from the union conserving the count exactly. Every
 one takes the received theory's value, so **the whole of first
 post-Newtonian dynamics agrees, the apportionment term included.** What
@@ -74,8 +74,8 @@ def test_the_grounds_are_named_not_waved():
         "gamma": "computed from the ruler word",
         "beta": "computed from the isotropic transform",
         "xi": "no distinguished cell in the register",
-        "alpha1": "the parameter record's gauge theorem",
-        "alpha2": "the parameter record's gauge theorem",
+        "alpha1": "the ledger's gauge theorem",
+        "alpha2": "the ledger's gauge theorem",
         "alpha3": "the gauge theorem and the conserved count",
         "zeta1": "the union conserves the count exactly",
         "zeta2": "the union conserves the count exactly",

@@ -22,7 +22,7 @@ and de Moivre's limit is conceded as the instrument it is.
 THE ARROW IN DIFFUSION: spreading is commitment accumulation — each
 step is written; the walk's irreversibility is the ledger's, not
 chance's. Entropy counts collisions (the program's classification),
-and nothing anywhere appealed to chance.
+and nothing anywhere rolled a die.
 """
 
 import math

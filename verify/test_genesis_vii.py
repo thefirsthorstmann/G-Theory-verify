@@ -5,7 +5,7 @@ from fractions import Fraction as F
 from genesis_vii import (MEAS, OMEGA_B, OMEGA_DM, OMEGA_LAMBDA, OMEGA_M,
                          baryon_clash_pct, budget_closes, crest,
                          crest_redshifts, dm_from_sevenths,
-                         hubble_ratio_vs_13_12, q0_seat)
+                         hubble_ratio, hubble_ratio_vs_13_12, q0_seat)
 from gtheory import transform
 
 
@@ -52,16 +52,31 @@ def test_the_baryon_ledger_resolved():
     assert abs(float(committed) - 0.0493) < 2e-4
     assert abs(float(F(277, 405)) - 0.6847) < 2e-3
 
-def test_the_hubble_curiosity_parked():
-    """73.04/67.4 sits within 4e-4 of 13/12 (loose grade) — noted, parked."""
-    assert abs(hubble_ratio_vs_13_12()) < 5e-4
+def test_the_hubble_ratio_singles_out_no_step():
+    """On the values read in October 2026 (73.17 +- 0.86, 67.36 +- 0.54) the ratio is
+    1.086 +- 0.015. 13/12 lies 0.2 standard deviations from it and its neighbours 12/11 and
+    14/13 within 0.6, at 0.7 and 0.6 percent from 13/12: nothing is singled out until the
+    ratio is known to a quarter of a percent, a sixfold tightening.
+
+    Until 5 October 2026 this test read "73.04/67.4 sits within 4e-4 of 13/12". That closeness
+    stood on a rounded input (test_the_definitions_tightened.py) and the book no longer states it."""
+    r, s = hubble_ratio()
+    assert abs(r - 1.08625) < 5e-5 and abs(s - 0.01545) < 5e-5
+    assert abs(100 * s / r - 1.42) < 0.01
+    z = lambda x: abs(float(x) - r) / s
+    assert abs(z(F(13, 12)) - 0.19) < 0.01
+    assert abs(z(F(12, 11)) - 0.30) < 0.01 and abs(z(F(14, 13)) - 0.60) < 0.01
+    assert abs(float(F(12, 11) / F(13, 12)) - 1 - 0.0070) < 1e-4       # 144/143
+    assert abs(1 - float(F(14, 13) / F(13, 12)) - 0.0059) < 1e-4       # 168/169
+    assert 5.5 < (100 * s / r) / 0.25 < 6.0                            # "a sixfold tightening"
+    assert abs(hubble_ratio_vs_13_12() - 0.0029) < 1e-4                # no longer 4e-4
 
 
 def test_the_wounds_first_anatomy_candidate():
     """Owed-ledger exploration (grade capped at signpost — 5 rivals in
     band): the baryon cell decomposes EXACTLY as 1/15 = (2/9)^2 + 7/405,
     with (2/9)^2 = 4/81 sitting +0.17% from the measured Omega_b.
-    The problem STAYS OPEN; this pin records the candidate's arithmetic."""
+    The wound STAYS OPEN; this pin records the candidate's arithmetic."""
     assert F(1, 15) == F(2, 9) ** 2 + F(7, 405)
     assert abs(float(F(4, 81)) - MEAS["b"]) / MEAS["b"] < 0.002
 
@@ -82,7 +97,7 @@ def test_the_wounds_full_anatomy_the_one_move():
     """On the overshot circle: seats (270|108|27); the measured budget
     sits at ~(277|107|20) — ONE MOVE: the seed 7 from the root cell to
     La's cell (dm's single unit ~ the neutrino share). After the move:
-    b = (2/9)^2 (+0.16%), Lambda = 277/405 (-0.11%). The problem stays
+    b = (2/9)^2 (+0.16%), Lambda = 277/405 (-0.11%). The wound stays
     OPEN (the move's reading is degenerate with Lambda observationally)
     but its face is complete. Canonical Planck h = 0.6736 used; the
     stakes' dm value flagged for source re-check."""
@@ -115,13 +130,13 @@ def test_the_neutrino_note_is_not_a_stake():
     from NEGATIVE to 0.3 eV across the current h band. Pure h-leverage
     is not a prediction; logged as consistency-note with a double wake."""
     smn = lambda h: (4 / 15 * h ** 2 - 0.1200) * 93.14
-    assert smn(0.67) < 0                          # fails at low h
+    assert smn(0.67) < 0                          # dies at low h
     assert 0.05 < smn(0.6736) < 0.15              # plausible at canonical h
     assert smn(0.68) > 0.25                       # explodes at high h
 
 
 def test_the_mechanism_is_located_at_the_midy_fold():
-    """The open problem's mechanism, located: the cell's 20|7 halves ARE the
+    """The wound's mechanism, located: the cell's 20|7 halves ARE the
     reptend's own Midy half-blocks 142|857 — the heavy half is the
     complement-image of the light half (9-d), and the fold between
     them (10^3 = -1 mod 7) is THE SAME FOLD as the first clean
@@ -156,7 +171,7 @@ def test_ccs_catch_the_fold_is_directional():
 
 def test_the_direction_is_the_rounding_rule():
     """THE RESIDUE CLOSES INTO A REGISTERED CHOICE: commitment is
-    rounding; the engine's ROUNDING_RULE is half-UP (recorded in the
+    rounding; the engine's ROUNDING_RULE is half-UP (priced in the
     CHOICES registry since the founding); at the fold the manifest
     representative of each pair is therefore the UPPER member — the
     manifest share is 8+5+7 = 20 of 27, the residue 1+4+2 = 7. The
@@ -174,7 +189,7 @@ def test_the_81_80_wake_fires_once():
     appearance after the zero-hit sweep: the committed baryon share is
     ONE TWENTIETH FLATTENED BY THE SYNTONIC COMMA — (1/20)(80/81) =
     4/81 = (2/9)^2. Honest caveat pinned in prose: 80|81 adjacency
-    makes the identity unremarkable ALONE; the content is that 1/20 is itself
+    makes the identity cheap ALONE; the content is that 1/20 is itself
     the banked 20 (the heavy half; La on the wheel). Grade: signpost."""
     assert F(1, 20) * F(80, 81) == F(4, 81) == F(2, 9) ** 2
     assert 8 + 7 + 5 == 20                        # the banked twentieth

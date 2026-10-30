@@ -1,5 +1,5 @@
 """test_the_wheel_under_refinement.py — THREE DIMENSIONS IS WHERE
-REFINEMENT COSTS THE WHEEL NOTHING (2026-08-18). the author's observation, run
+REFINEMENT COSTS THE WHEEL NOTHING (2026-08-18). CC's observation, run
 down. He asked what it means that dividing by seven always produces
 sevenths in the decimal whatever the value, said the three rotations per
 period ought to bear on the three dimensions, and added that the length
@@ -22,7 +22,7 @@ to its own rotation is **three**. And it holds at every depth, not only
 the first: in three dimensions 2^(3k) ≡ 1 for all k, so refining is
 invisible to the wheel however deep it goes, where dimensions one, two
 and four return only every third level. Since a length in the register
-IS a count of cells, this is the author's own sentence made arithmetic: counting
+IS a count of cells, this is CC's own sentence made arithmetic: counting
 deeper costs the wheel nothing, and only here.
 
 AND CROSSED WITH THE PROMOTION WINDOW IT SELECTS THE DIMENSION. Contact
@@ -55,7 +55,7 @@ WINDOW = [2, 3, 4]
 
 
 def test_every_seventh_is_a_rotation_of_one_block():
-    """The closure the author names: dividing by seven produces sevenths in the
+    """The closure CC names: dividing by seven produces sevenths in the
     decimal whatever the numerator."""
     block = "142857"
     seen = set()
@@ -69,7 +69,7 @@ def test_every_seventh_is_a_rotation_of_one_block():
 
 def test_doubling_cuts_the_six_into_two_triads():
     """Order three modulo seven — one cycle of the reptend is three
-    doublings, which is the author's 'three rotations'."""
+    doublings, which is CC's 'three rotations'."""
     orbit, x = [], 1
     while True:
         orbit.append(x)
@@ -101,7 +101,7 @@ def test_three_dimensions_is_invariant_at_every_depth():
 
 
 def test_the_length_is_a_count_and_the_count_leaves_the_wheel_alone():
-    """the author's sentence, as arithmetic: a length is a count of cells, and in
+    """CC's sentence, as arithmetic: a length is a count of cells, and in
     three dimensions the count at every depth is one modulo seven."""
     for depth in range(1, 10):
         cells = 8 ** depth                                 # 2^3 per level

@@ -48,7 +48,7 @@ def test_the_placement_of_g_matches_the_gravity_paper():
     ppm = (6.6735902 - 6.67430) / 6.67430 * 1e6
     assert abs(ppm + 106) < 1
     assert "106 parts per million below the CODATA centre" in FLAT
-    assert "6.6735902" in GFLAT
+    assert "6.673590151" in GFLAT
 
 
 def test_the_onset_identification_matches_the_paper_verbatim():
@@ -71,10 +71,15 @@ def test_the_tonal_center_definition_matches_the_gravity_paper():
     assert "**tonal center (the key)**" in BOOK         # the definitions entry
 
 
-def test_the_front_matter_carries_version_two():
-    assert FLAT.count("10.5281/zenodo.22087600") >= 3   # titlenote x2 + reference
-    assert FLAT.count("public at github.com/thefirsthorstmann/g-theory-verify") >= 2
-    assert FLAT.count("version 2, August 25th, 2026") == 3   # byline x2 + copyright
+def test_the_front_matter_carries_version_three():
+    # 29 October 2026: the companion-DOI list moved from the title page to the end of the Mathematical
+    # Companion (one occurrence) and the abstract closes on the suite address and the Lean sentence.
+    assert FLAT.count("10.5281/zenodo.22087599") >= 2   # concept DOI: the companion list + the reference
+    assert "10.5281/zenodo.22087600" not in FLAT        # never the superseded version DOI
+    assert FLAT.count("github.com/thefirsthorstmann/g-theory-verify") >= 3
+    assert "re-derives in a public suite at github.com/thefirsthorstmann/g-theory-verify, where the register theorem" in FLAT
+    assert FLAT.count("version 3, October 2026") == 3        # byline x2 + copyright
+    assert "version 2, August 25th, 2026" not in FLAT
     assert "121102" in FLAT                             # MICROSCOPE cited
 
 

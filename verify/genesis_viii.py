@@ -19,7 +19,7 @@ working face: Landauer-costly, thermodynamically irreversible —
 measurement's irreversibility is bookkeeping, not mystery.
 
 THE FACTORIAL WALL: maintaining mutual phase across N constituents
-scales coherence as N! — twenty constituents already exceed 10^18 —
+prices coherence at N! — twenty constituents already exceed 10^18 —
 why dust is classical and cats do not interfere.
 
 THE DUALITY DEPENDENCIES: P^2 + V^2 = 1 (Euclid's triple identity)

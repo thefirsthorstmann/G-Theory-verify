@@ -229,6 +229,22 @@ def test_the_marginals_stay_untouched_in_both_regimes():
             assert abs(m[0]) < 1e-9                      # flat marginal
 
 
+def test_the_supersession_is_recorded_where_the_refusal_lives():
+    """The earlier refusal is not deleted but dated and superseded in the
+    chapter that carried it, so the record shows the evolution rather
+    than hiding it."""
+    import os
+    import pytest
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "catalog", "THE-POLAR-WAVEFUNCTION.md")
+    if not os.path.exists(path):   # 29 Oct 2026: the note is the lab's; the public tree carries the records alone
+        pytest.skip("THE-POLAR-WAVEFUNCTION.md is a laboratory note and is not part of the public tree")
+    doc = open(path).read()
+    flat = " ".join(doc.split())
+    assert "Bell nonlocality is not claimed" in flat          # the original stands
+    assert "Addendum — 2026-08-17" in flat                    # and is dated over
+    assert "the octave ring" in flat and "output" in flat
+
+
 def test_lattice_restriction_alone_proves_nothing_about_the_value():
     """Kept from the self-stress pass: the void argument, pinned so it
     cannot return. Superseded as a route by the coupled-ring construction

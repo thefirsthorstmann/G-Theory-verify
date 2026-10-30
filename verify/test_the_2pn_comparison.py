@@ -1,6 +1,6 @@
 """test_the_2pn_comparison.py — THE SECOND-ORDER TWO-BODY COMPARISON, MADE:
 NO DIVERGENCE, AND THE CLOCK LAW REPRODUCES THE SELF-FORCE SERIES THROUGH
-THIRD ORDER (2026-08-23). the author: "go get the 2PN conservative comparison, all
+THIRD ORDER (2026-08-23). CC: "go get the 2PN conservative comparison, all
 the way." The paper had carried this as "the calculation this account has
 not performed," bounded by the double pulsar at a fifth.
 
@@ -141,10 +141,12 @@ def test_the_leading_self_force_term_is_the_newtonian_law():
 # --- the paper ----------------------------------------------------------------------
 
 def test_the_paper_makes_the_comparison_and_closes_the_hedge():
-    assert "**Second order: compared, and there is no divergence.**" in FLAT
+    # 22 October 2026 (the consistency pass): the head and the double-pulsar sentence state the result, without the
+    # account of the comparison's history.
+    assert "**At second order the two constructions agree, with no divergence.**" in FLAT
     assert "the gravitational self-force series of black-hole perturbation theory" in FLAT
     assert "(121/3 − 41π²/32)" in FLAT
-    assert "The earlier bound from the double pulsar" in FLAT
+    assert "the double pulsar bounds any disagreement to a fifth of it" in FLAT
     assert "bounded, not open" not in FLAT
     assert "the calculation this account has not performed" not in FLAT
     assert "it is bounded below a fifth by the double pulsar" not in FLAT

@@ -1,5 +1,5 @@
 """test_repulsion.py — WHAT THE ACCOUNT ALLOWS AND FORBIDS BY WAY OF
-REPULSION (2026-08-18). the author asked whether there is enough on the table to
+REPULSION (2026-08-18). CC asked whether there is enough on the table to
 say, theoretically, how anti-gravity would work. There is, and the answer
 has four parts — one prohibition, one term that is already repulsive, one
 reduction that cannot reverse, and one place where the sign genuinely

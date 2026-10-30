@@ -1,5 +1,5 @@
 """test_the_wall_derived.py — THE WALL, RESOLVED (2026-08-16, second
-writing). the author: "zero assumptions, thats the jam." The identified rule of
+writing). CC: "zero assumptions, thats the jam." The identified rule of
 the first writing is DISCHARGED: the register's own counting — the
 exterior's rule applied without amendment (the round trip pays the
 endpoint's share on each leg, linearly; the share from the banked shell

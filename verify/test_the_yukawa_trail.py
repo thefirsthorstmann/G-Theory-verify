@@ -2,7 +2,7 @@
 TARGET, AND IT COMES UP EMPTY (2026-08-19). Two results, one of them a
 retraction of my own number from an hour earlier.
 
-FIRST, THE 0.27 % IS NOT A FRAMEWORK NUMBER. the author asked, fairly, whether the
+FIRST, THE 0.27 % IS NOT A FRAMEWORK NUMBER. CC asked, fairly, whether the
 resolving floor of 0.266 % was saying something — twenty-seven being the
 reptend's digit sum and base ten being native. It is not. The floor is
 1/(2 × density), and both the word count and the value window are **sweep

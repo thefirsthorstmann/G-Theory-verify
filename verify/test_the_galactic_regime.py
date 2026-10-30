@@ -1,5 +1,5 @@
 """test_the_galactic_regime.py — THE CAMPAIGN OPENED, FIRST EXACT RESULTS
-(2026-08-16). the author set the standard in one sentence: there cannot be multiple
+(2026-08-16). CC set the standard in one sentence: there cannot be multiple
 solutions to gravity — the correct one must encompass the entire scope, or the
 proposal is an opinion. The capstone's earlier stance ("this paper does not
 compete on rotation curves") is retired under that standard: the galactic

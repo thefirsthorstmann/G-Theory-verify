@@ -124,3 +124,22 @@ def test_muon_headline_206768_is_striking():
     assert Fraction(768, 1000) != Fraction(3, 4)
     ppm_three_quarter = abs((206 + 0.75) - measured) / measured * 1e6
     assert ppm_three_quarter > 80                   # the 88 ppm the docs warn about
+
+
+def test_the_muon_climb_sits_at_point_five_of_the_binary_enneagram():
+    """Rope-up of 12 October 2026 at CC's word ("the mapping gives 206.768 at point 5 in the sequence 124875
+    mapped to a circle"). Read at source: the genesis document (Logical Physics, p. 36, the binary enneagram) places
+    the doubling 1, 2, 4, 8, 16, 32, 64 on the circle's points 1, 2, 4, 8, 7, 5 and back to 1 by digital root; the
+    hand-built chapter (Constructing the Muon, section 6) climbs the root 24 by octaves to 768 and stops there as
+    the ceiling. The two are one statement: the multiplier 2^k walks the hexad 1, 2, 4, 8, 7, 5 (the order of 2
+    modulo 9 is six), so the fifth doubling of the root sits at point 5 with the rung 24 * 2^5 = 768, and the sixth
+    returns the wheel to 1 with the rung 1536, the route to unity on the twos (64 = 2^6). The rungs themselves walk
+    the triad (24 = 6 mod 9: 6, 3, 6, 3, ...), never the hexad: the ladder is carried by its multipliers. The
+    integer part 206 comes from the pi-block descent, not from the circle (section 5 of the chapter). Grade
+    unchanged: the climb is forced, the headline Striking."""
+    assert [pow(2, k, 9) for k in range(7)] == [1, 2, 4, 8, 7, 5, 1]
+    rungs = [24 * 2 ** k for k in range(7)]
+    assert rungs[5] == 768 and pow(2, 5, 9) == 5
+    assert rungs[6] == 1536 and pow(2, 6, 9) == 1 and 2 ** 6 == 64
+    assert [(r - 1) % 9 + 1 for r in rungs] == [6, 3, 6, 3, 6, 3, 6]
+    assert (206 - 1) % 9 + 1 == 8 and 768 == 2 ** 8 * 3

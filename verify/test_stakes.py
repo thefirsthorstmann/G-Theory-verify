@@ -7,10 +7,10 @@ from stakes import (AT_RISK, LIVE, PARKED, PYTHAGOREAN_COMMA, RETIRED,
 
 
 def test_every_live_stake_is_complete():
-    """A live stake without a falsification band, adjudicator and horizon is not
+    """A live bet without a kill-band, adjudicator and horizon is not
     a bet — it is a mood. None allowed."""
     for s in LIVE:
-        assert s["falsification"] and s["adjudicator"] and s["horizon"], s["name"]
+        assert s["kill"] and s["adjudicator"] and s["horizon"], s["name"]
 
 
 def test_every_parked_item_has_a_wake_condition():

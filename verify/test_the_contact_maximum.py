@@ -1,5 +1,5 @@
 """test_the_contact_maximum.py — THE PROMOTION WINDOW IS AN EXTREMUM
-(2026-08-18). the author asked whether any of the characterised items is
+(2026-08-18). CC asked whether any of the characterised items is
 derivable. This one moves, and it moves the right way: from a
 coincidence noted at three dimensions to a maximum principle with those
 three dimensions as its argmax.

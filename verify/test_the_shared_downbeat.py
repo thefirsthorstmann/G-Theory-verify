@@ -1,4 +1,4 @@
-"""test_the_shared_downbeat.py — the author'S CLAVE READING OF THE TRIGGER: ONE SHARED
+"""test_the_shared_downbeat.py — CC'S CLAVE READING OF THE TRIGGER: ONE SHARED
 REFERENCE AT THE START, EXCLUSION EVER AFTER, AND THE INFORMATIONAL
 CO-OCCUPANCY THAT FIRES IT (2026-08-15). His structure, from the music that
 carries it: the reggaeton/dembow grid puts the kick on beats one and three —
@@ -15,7 +15,7 @@ mechanism as the fourth and fifth sitting invisible as to which is which.
   TRESILLO IS THE BANKED ESCAPEMENT, BY NAME. The clave's three-side in the
   eight-pulse grid is the Euclidean rhythm E(3,8) — onsets at zero, three,
   six — and E(3,8) is THE-CLOCK-OBJECT's own escapement, banked. The kick's
-  two-side is zero and four. the author's beat is not like the clock; it is the
+  two-side is zero and four. CC's beat is not like the clock; it is the
   clock's pinned object, played.
 
   THE EXCLUSION STRUCTURE, FORCED: the three-side and the two-side intersect
@@ -44,7 +44,7 @@ mechanism as the fourth and fifth sitting invisible as to which is which.
   exact. So the co-occupancy at the downbeat is a HELD PAIR — superposition,
   the union-read theorem's own uncommitted state, "commitment is what
   selects one count" — and it violates exclusion informationally, never
-  physically, exactly as the author said.
+  physically, exactly as CC said.
 
   THE TRIGGER, ASSEMBLED (Reading, the build's target tonight): WHERE —
   adjacency in the register; WHEN — the shared downbeat, the co-closure

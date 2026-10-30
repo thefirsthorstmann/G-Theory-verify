@@ -68,6 +68,6 @@ def ladder_down(depth: int) -> F:
 
 
 def ladder_up(depth: int) -> int:
-    """The other direction: digit times the binary place-value."""
+    """The other direction: digit times the binary place-worth."""
     d, place = LADDER_TAILS[depth]
     return d * 2 ** place

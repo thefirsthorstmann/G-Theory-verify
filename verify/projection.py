@@ -114,7 +114,7 @@ MW_OVER_MZ = {
     "least_action": "9/8 = the FIRST overshoot (the escapement's own "
                     "interval); 13 = the NEXT ladder rung after the "
                     "seat's 17 — no deeper rung skipped",
-    "grade": "Striking, pre-registered (PDG side; falsified if > 0.8820)",
+    "grade": "Striking, pre-registered (PDG side; kill > 0.8820)",
 }
 
 MU_RATIO = {
@@ -150,7 +150,7 @@ R_MAGNETIC = {
     ],
     "in_system": 0.8487263666666667,
     "observed": ("field split: dispersive 0.846-0.847 | lattice 0.811",
-                 "side taken HIGH; falsified if < 0.83",
+                 "side taken HIGH; kill < 0.83",
                  "the two camps read different systematics; the "
                  "framework's stream was re-identified magnetic at 13 "
                  "sigma from charge — discriminating, not convenient"),
@@ -204,7 +204,7 @@ MUON = {
               "built knowing the target's neighborhood",
     "least_action": "the meet pairing (down[v] with up[v]) is "
                     "structural; the SELECTION is wheel-5 among six — "
-                    "declared, weighed at 1-of-6",
+                    "declared, priced at 1-of-6",
     "grade": "Striking, selection-bearing (rigor-ledger grade held; "
              "selection now QUANTIFIED)",
 }
@@ -226,7 +226,7 @@ PROTON_1836 = {
     "rivals": "banked-vocabulary products within +-2%: exactly two "
               "targets — 1836 (three factorizations: convergent) and "
               "1800 = 24x75 (one, equally clean): the assembly "
-              "selection is real and weighed at ~1-of-2 clean targets",
+              "selection is real and priced at ~1-of-2 clean targets",
     "least_action": "36 and 51 are forced internals (51-15 = 36; "
                     "75-24 = 51); their PRODUCT as the proton ratio is "
                     "the selection — declared",
@@ -239,7 +239,7 @@ ALPHA_137 = {
     "address": ["the bounce block 00729927 = the first eight digits of "
                 "1/137, derived from the reptend's transform and bounce",
                 "the additive identity 137 = 2^7 + 3^2 held as "
-                "decoration (abundant by chance), the spine identity 8x17+1 noted"],
+                "decoration (cheap), the spine identity 8x17+1 noted"],
     "rest": F(1, 137),
     "unfolding": [
         ("identity", None, "M",
@@ -251,13 +251,13 @@ ALPHA_137 = {
     "observed": ("137.035999", "the integer exact; the tail unclaimed",
                  "the .036 = the winding's carry (the registered "
                  "ring-8/137 resonance target)"),
-    "rivals": "the additive form is ABUNDANT: five 2^a+3^b hits in "
+    "rivals": "the additive form is CHEAP: five 2^a+3^b hits in "
               "[120,155] (~1 in 7 integers) — decoration, and said so; "
               "the BLOCK has no enumerated rival class (an 8-digit "
               "exact reproduction from banked operations)",
     "least_action": "the block requires no selection (transform and "
                     "bounce are the first two neutral operations); the "
-                    "additive identity's abundance is weighed openly",
+                    "additive identity's cheapness is priced openly",
     "grade": "block ◆-exact; integer identification Striking; tail = "
              "the lab's crown target",
 }

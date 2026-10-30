@@ -1,7 +1,7 @@
 """test_watch_condition.py — THE IDEAL NUMBER IN CLOSED FORM, AND THE WATCH
-CONDITION MADE A STANDING OBJECT (2026-08-12). Tool: internal tools/watch.py.
+CONDITION MADE A STANDING OBJECT (2026-08-12). Tool: tools/watch.py.
 
-  the author ASKED FOR THE IDEAL NUMBER EVEN IF IT IS NOT REAL, AND IT HAS A CLOSED
+  CC ASKED FOR THE IDEAL NUMBER EVEN IF IT IS NOT REAL, AND IT HAS A CLOSED
   FORM. The cell at eight sevenths of a femtometre fixes the saturation
   density at three times seven cubed over two to the eleventh times pi —
   0.1599321 per cubic femtometre. Every factor is named and none is spare:
@@ -39,6 +39,17 @@ CONDITION MADE A STANDING OBJECT (2026-08-12). Tool: internal tools/watch.py.
   whichever survives the tension's resolution is the one that matters, and
   the standing prediction is that neither does — that it resolves near
   seventy.
+
+  RE-READ, OCTOBER 2026 (the gravity record's version 4). The local-ladder
+  value is SH0ES 2024, 73.17 +/- 0.86 (Breuval et al., Astrophys. J. 973, 30),
+  where this battery quoted the 2022 value, 73.04 +/- 1.04, which the 2024
+  value had already replaced when the battery was written. The ideal stands
+  3.6 sigma below it, where it stood 2.9: it is now outside three sigma of
+  both ends of the corridor, and the two ends stand 5.7 sigma from each
+  other. The registered condition is unchanged, the two ladders agreeing on
+  either end, and the tool states it for every expansion rate it is given.
+  The table of the record's section 14, each published rate read backwards
+  as a saturation density, is pinned here on the same values.
 """
 
 import math
@@ -49,8 +60,27 @@ CELL = F(8, 7)
 REST_PI = F(2815, 896)
 
 
+#: The two determinations that bound the present corridor, and the value this battery quoted
+#: for the local ladder before October 2026.
+CMB = (67.36, 0.54)                 # Planck 2018
+LADDER = (73.17, 0.86)              # SH0ES 2024
+LADDER_2022 = (73.04, 1.04)
+
+#: Section 14 of the gravity record, version 4: each published rate and the density it implies.
+RATES = [("Planck 2018", 67.36, 0.54, 0.1422, 0.0034),
+         ("DESI 2024", 68.52, 0.62, 0.1497, 0.0041),
+         ("TRGB / CCHP 2025", 70.39, 1.94, 0.1622, 0.0134),
+         ("SH0ES 2024", 73.17, 0.86, 0.1822, 0.0064)]
+NUCLEAR = (0.160, 0.010)
+
+
 def _h0(cell):
     return 2 * C * I_SEATS / (DEPTH * float(cell) * 1e-15) * MPC / 1000
+
+
+def _n0_from_h0(h0):
+    cell = 2 * C * I_SEATS / (DEPTH * 1e-15) * MPC / 1000 / h0
+    return 3 / (4 * math.pi * cell ** 3)
 
 
 def test_the_ideal_density_has_a_closed_form_with_nothing_spare():
@@ -104,14 +134,73 @@ def test_the_expansion_side_of_the_watch_is_already_sharper_against_one_camp():
     """Both camps are compared to the same ideal; they cannot both be right,
     and the standing prediction is that neither is."""
     ideal = _h0(CELL)
-    planck, sh0es = abs(ideal - 67.36) / 0.54, abs(ideal - 73.04) / 1.04
-    assert planck > 4.5                                 # five sigma
-    assert 2.5 < sh0es < 3.2                            # two and nine tenths
+    planck, sh0es = (ideal - CMB[0]) / CMB[1], (LADDER[0] - ideal) / LADDER[1]
+    assert 4.9 < planck < 5.1                           # five sigma above the microwave value
+    assert 3.5 < sh0es < 3.7                            # three and six tenths below the ladder
+    assert 2.8 < (LADDER_2022[0] - ideal) / LADDER_2022[1] < 2.9   # 2.9 against the 2022 value
     assert planck > sh0es                               # microwave side is sharper
+    assert planck > 3 and sh0es > 3                     # outside three sigma of both ends
+    apart = (LADDER[0] - CMB[0]) / math.hypot(LADDER[1], CMB[1])
+    assert 5.6 < apart < 5.8                            # and the ends 5.7 sigma from each other
     # and the nuclear range brackets the ideal while excluding both camps.
     # NB denser matter means a SMALLER cell and so a HIGHER rate:
     lo = _h0((3 / (4 * math.pi * 0.150)) ** (1 / 3))     # sparsest -> slowest
     hi = _h0((3 / (4 * math.pi * 0.170)) ** (1 / 3))     # densest  -> fastest
     assert abs(lo - 68.57) < 0.05 and abs(hi - 71.49) < 0.05
     assert hi > ideal > lo
-    assert lo > 67.36 and hi < 73.04
+    assert lo > CMB[0] and hi < LADDER[0]
+
+
+def test_each_published_rate_implies_a_saturation_density():
+    """The record's section 14, read backwards: the density scales as the cube of the rate."""
+    n_ideal = 3 * 7 ** 3 / (2 ** 11 * math.pi)
+    for _, h0, bar, want, want_bar in RATES:
+        n = _n0_from_h0(h0)
+        assert abs(n - n_ideal * (h0 / _h0(CELL)) ** 3) < 1e-12
+        assert abs(n - want) < 5e-5
+        half = (_n0_from_h0(h0 + bar) - _n0_from_h0(h0 - bar)) / 2
+        assert abs(half - want_bar) < 5e-5
+
+
+def test_the_two_principal_determinations_straddle_the_nuclear_value():
+    """Minus 1.69 sigma and plus 1.87: opposite sides, nearly the same distance."""
+    got = {name: (n - NUCLEAR[0]) / math.hypot(bar, NUCLEAR[1]) for name, _, _, n, bar in RATES}
+    assert abs(got["Planck 2018"] - (-1.69)) < 0.01
+    assert abs(got["SH0ES 2024"] - (+1.87)) < 0.01
+    assert got["Planck 2018"] < 0 < got["SH0ES 2024"]
+    assert abs(got["Planck 2018"] + got["SH0ES 2024"]) < 0.2
+    assert abs(got["TRGB / CCHP 2025"]) < 0.2          # the third route sits on the nuclear value
+
+
+def test_the_nuclear_route_has_about_four_sigma_in_principle_and_under_two_in_practice():
+    """A 6 percent bar on the density is a 2 percent bar on the rate, against an 8 percent
+    separation between the determinations."""
+    ideal = _h0(CELL)
+    n_ideal = 3 * 7 ** 3 / (2 ** 11 * math.pi)
+    route = ideal * (NUCLEAR[0] / n_ideal) ** (1 / 3)
+    bar = route * NUCLEAR[1] / NUCLEAR[0] / 3
+    assert abs(route - 70.06) < 0.01 and abs(bar - 1.46) < 0.01
+    assert 0.06 < NUCLEAR[1] / NUCLEAR[0] < 0.065       # the 6 percent bar
+    assert 0.08 < (LADDER[0] - CMB[0]) / ideal < 0.085  # the 8 percent separation
+    assert 3.9 < (LADDER[0] - CMB[0]) / bar < 4.1       # about four in principle
+    low = (route - CMB[0]) / math.hypot(bar, CMB[1])
+    high = (LADDER[0] - route) / math.hypot(bar, LADDER[1])
+    assert 1.7 < low < 1.9 and 1.7 < high < 1.9         # about 1.8 in practice, on either side
+
+
+def test_the_watch_tool_states_the_registered_condition_for_a_rate():
+    """Given a rate, the tool reports that determination's distance and then the condition the
+    record registers: the two ladders agreeing on either end of the corridor."""
+    import pathlib
+    import subprocess
+    import sys
+    tool = pathlib.Path(__file__).resolve().parent.parent / "tools" / "watch.py"
+    out = subprocess.run([sys.executable, str(tool), "--h0", "73.17", "--bar", "0.86"],
+                         capture_output=True, text=True).stdout
+    assert "separation: 3.62 sigma" in out
+    assert "this determination alone excludes the chain's value at three sigma" in out
+    assert "stands 4.99 sigma from the chain's value" in out
+    assert "the two stand 5.72 sigma from each other" in out
+    assert "the ladders agree on either end of that corridor" in out
+    standing = subprocess.run([sys.executable, str(tool)], capture_output=True, text=True).stdout
+    assert "SH0ES 2024" in standing and "-> 3.6 sigma" in standing and "-> 5.0 sigma" in standing

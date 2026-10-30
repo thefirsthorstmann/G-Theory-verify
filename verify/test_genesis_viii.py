@@ -23,7 +23,7 @@ def test_the_duality_is_euclids_identity():
 
 
 def test_the_factorial_wall():
-    """Coherence across N constituents scales as N!: twenty already
+    """Coherence across N constituents prices at N!: twenty already
     exceed 10^18 — why dust is classical."""
     assert factorial_wall(20) > 10 ** 18
     assert factorial_wall(10) == 3628800              # a mere ten: 3.6 million

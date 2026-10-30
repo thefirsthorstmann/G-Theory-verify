@@ -1,5 +1,5 @@
 """test_the_field_sector.py — THE FIELD SECTOR'S STATE SPACE AS THE
-COMPOSITION OF RINGS (2026-08-22). the author: "go get the
+COMPOSITION OF RINGS (2026-08-22, Fable session). CC: "go get the
 field-sector state space." It was the one "open, named" item in §21.12 that
 was apparatus rather than measurement.
 
@@ -313,10 +313,11 @@ def test_never_unioned_pairs_stay_at_two():
 # --- the paper carries it -----------------------------------------------------------
 
 def test_the_paper_builds_the_field_sector_and_closes_the_named_item():
-    assert "**The field sector: many rings compose as a product of accounts.**" in FLAT
+    # version 4 (October 2026): the "accounts" of this section are the blocks of a partition
+    assert "**The field sector: many rings compose as a product of blocks.**" in FLAT
     assert "one root of unity per sector, of order the least common multiple" in FLAT
     assert "exactly half of the state's integers, for every composition" in FLAT
     assert "dimension of one ring, not of m" in FLAT
-    assert "unioned as part of a triple account reads at most two" in FLAT
+    assert "unioned as part of a block of three reads at most two" in FLAT
     
     assert "The field sector's state space, as the composition of rings." not in FLAT

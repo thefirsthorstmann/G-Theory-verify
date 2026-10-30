@@ -1,4 +1,4 @@
-"""kolmogorov.py — Phase C1: the -5/3, tested with the framework's kit.
+"""kolmogorov.py — Phase C1: the -5/3, attacked with the framework's kit.
 
 THE SKELETON (exact): in the inertial range the spectrum depends only on
 the cascade rate eps and the scale k (K41's hypothesis). Dimensions:
@@ -64,7 +64,7 @@ def la_duality():
 
 def slope_in_octaves():
     """The framework unit: energy octaves per scale octave = 5/3 —
-    each octave of scale requires an octave and a sixth of energy."""
+    each octave of scale costs an octave and a sixth of energy."""
     _, b = solve_closure()
     return abs(b)
 

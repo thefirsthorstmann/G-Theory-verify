@@ -1,7 +1,7 @@
 """
 THE SPEED OF LIGHT — two forms of a consonant unit.   GRADE: the factorizations and the
 gap of 3 are FORCED ◆;  the identification with c is a UNITS READING ◇;  the MAGNITUDE
-is NOT derived — held outside the forced column by the Scale Theorem (see GRADES.md, NOT CLAIMED).
+is NOT derived — held outside the forced column by the Scale Theorem (§4 of CLAUDE.md).
 
 This file is also the honesty check on the famous "137 surfaces inside c" claim. It is
 true that the rest form carries 137 — but 137 divides the all-nines unit ITSELF

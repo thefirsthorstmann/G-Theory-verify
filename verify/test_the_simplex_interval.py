@@ -1,5 +1,5 @@
 """test_the_simplex_interval.py — FA IS THE INTERVAL OF THREE-DIMENSIONAL
-ISOTROPY (2026-08-18). Pressing on the tetrahedral four thirds, as the author
+ISOTROPY (2026-08-18). Pressing on the tetrahedral four thirds, as CC
 asked. It is not a resemblance: the fourth is what minimal isotropy costs
 in three dimensions, and three dimensions is the only place where that
 frame sits on the quadrupole's own zero.

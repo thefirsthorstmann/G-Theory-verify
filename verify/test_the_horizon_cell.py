@@ -1,5 +1,5 @@
 """test_the_horizon_cell.py — THE HORIZON COUNT, AND THE TARGET MADE ONE
-NUMBER (2026-08-18). the author asked for the horizon area and for whatever the
+NUMBER (2026-08-18). CC asked for the horizon area and for whatever the
 technical apparatus needs. What came out is not the entropy derived, but
 the target reposed from a field to a sentence — and one of my own clean
 readings withdrawn on the way, which is the part worth keeping.
@@ -34,7 +34,7 @@ they combine here for the register's own reasons rather than by matching
 a known answer, and until that is shown this is a reposed target and not
 a result.
 
-AND THE LOGARITHM IS NOT OWED EITHER — the author's question settled it. Asked
+AND THE LOGARITHM IS NOT OWED EITHER — CC's question settled it. Asked
 whether the e is a continuum artifact, the answer is yes and precisely
 where: Boltzmann's entropy is a natural logarithm, and base e arrives
 through Stirling, the Gaussian and dx/x — every one a continuum
@@ -132,7 +132,7 @@ def test_the_discriminator_is_the_log_correction():
 
 
 def test_the_nat_is_the_continuums_unit_and_the_bit_is_the_registers():
-    """the author's question: is the e a continuum artifact? It is. Base e reaches
+    """CC's question: is the e a continuum artifact? It is. Base e reaches
     entropy through Stirling, the Gaussian and dx/x — continuum
     constructions all — while a register counting distinctions is natively
     binary."""

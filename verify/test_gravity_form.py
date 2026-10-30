@@ -206,7 +206,7 @@ def test_the_magnitude_is_NOT_reached_and_the_gap_is_stated():
 
 
 def test_the_MIDY_PAIRING_is_what_generates_the_deficit():
-    """the author's question: do the Midy pairs carry gravity? Not where it SITS -- gravity
+    """CC's question: do the Midy pairs carry gravity? Not where it SITS -- gravity
     is sourced at the fixed stratum (§1-3). But the pairing is what MAKES the
     shortfall that gravity IS:
 
@@ -248,7 +248,7 @@ def test_the_MIDY_PAIRING_is_what_generates_the_deficit():
 # ---------------------------------------------------------------------------
 
 def test_the_nines_ARE_the_extension_and_the_law_is_inverse_square():
-    """the author's move: read the nines as the head toward the horizon, per the published
+    """CC's move: read the nines as the head toward the horizon, per the published
     vanishing-point paper. Standard perspective sends a point at real distance d to
     the apparent coordinate d/(d+1), horizon at 1. Solving for the n-nines stage:
 
@@ -376,7 +376,7 @@ def test_the_depth_is_the_orbit_and_for_seven_the_orbit_is_the_hexad():
 
 
 def test_the_near_field_particulars():
-    """the author's question: the far field averages to the continuum -- what does the
+    """CC's question: the far field averages to the continuum -- what does the
     discrete law say PRECISELY in the near field? Four particulars, exact in
     wheel units. (1) NO SINGULARITY: U = 1/(d+1)^2 is finite at contact,
     U(0) = 1, softened by exactly one closure unit; weakening vs the continuum
@@ -400,7 +400,7 @@ def test_the_near_field_particulars():
 
 
 def test_the_structural_predictions_for_deeper_reading():
-    """the author's ask: calculate INTO the near field and leave predictions for when
+    """CC's ask: calculate INTO the near field and leave predictions for when
     experiments read deeper. Four, parametric in the one open calibration
     lambda_1, with the echo channel nearly calibration-free.
     P1 FORM: any laboratory deviation must follow V = -GmM/(r + lambda_1) --
@@ -429,7 +429,7 @@ def test_the_structural_predictions_for_deeper_reading():
 
 
 def test_the_continuum_sweep():
-    """the author's audit: any hidden infinities or continuum residues? VERDICT: the
+    """CC's audit: any hidden infinities or continuum residues? VERDICT: the
     exact skeleton lives in Q and finite algebraic extensions -- the spectrum's
     numbers are roots of the INTEGER quartic x^4 - 9x^3 + 27x^2 - 30x + 9, the
     LIN map is rational, pi is absent from Part I, the wheel form is rational
@@ -469,7 +469,7 @@ def test_the_continuum_sweep():
 
 
 def test_composition_blindness_and_the_one_ledger():
-    """the author's standing itch (2026-08-10), resolved: Darmos-style composition
+    """CC's standing itch (2026-08-10), resolved: Darmos-style composition
     dependence splits into two claims with opposite fates. THE COUPLING: the
     relative shortfall is 10^-6 for EVERY rider k — unit, prime, composite,
     2^2 and 2x3 alike — the wheel reads the total and cannot read the

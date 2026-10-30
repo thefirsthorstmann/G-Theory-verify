@@ -1,10 +1,45 @@
-"""Supporting structure for "The Proton and Neutron Masses on Discrete
-Terms" (2026), Sections 6 and 11: the stations of the fine-structure tail.
-The six-digit seat statements each occupy one turn; beneath the turn, the
-seat's image under the bridge dissolves into the period-six cycle of one
-seventh, and the measured image sits between the exact stations.  Every
-determination of the inverse fine-structure constant lies inside the last
-unit of the seat's turn — the window registered in the paper.
+"""THE TURN AND THE WHEEL — CC's floor, the overblow, and the seat image that
+dissolves into the reptend (2026-08-31, the drops campaign's first sitting).
+
+THE OBJECTS.  On the tail axis, in units of 1e-6 below rest .036:
+
+    rest             0
+    the floor        1          (.035999 -- the prefix every determination shares)
+    measured image   1.0467     ((m_p+m_n)/2 / 28, CODATA-22, razor)
+    the seat image   15/14      (1.00797/28 -- the banked seat, bridged; EXACT)
+    the war          0.794 - 0.954   (Berkeley, g-2, CODATA, Paris: all inside)
+
+THE WHEEL (CC's noticing, verified exact):  1.00797/28 = 100797/2800000 =
+
+    .035998 | 9 | 285714 285714 285714 ...
+     [turn]  [nine]  [the reptend, forever]
+
+  = .0359989 + (2/7) x 1e-7 exactly.  Past the turn the seat's value is not
+  more digits of the object -- it is the sevenths wheel turning.  And the two
+  station gaps are the banked mass objects, bridged: rest - seat_image =
+  3/2800000 = (15/14) x 1e-6 = the offsets' mean -3, divided by 28; the
+  floor - seat_image = (1/14) x 1e-6 = the fork's 2-unit mass gap, divided by
+  28.  The 30-vs-28 fork IS the 1/14.
+
+SEMANTICS, held apart and then unified.  Truncation reads the measured image at
+.035998 (digit 8, occupancy 0.953: the limit-cell, nearly full).  The
+turn-statement (rounding at the register's own one-turn depth, ledger Sec.6)
+reads it .035999 -- dead on the floor, CC's "exact ... perfect".  The banked
+unification is the seat-held-from-below pattern (7.99999...; the FSC paper's
+"the run of nines IS the borrow in flight"): one object, two shadows.
+
+GRADES.  Every identity below: exact, forced arithmetic.  The reading -- a
+decimal value is a turn-statement riding the wheel, and instruments probing
+past the turn read wheel-plus-drive rather than object (the overblow, CC's
+flute) -- is a CONJECTURE with named teeth: the alpha war resolving floor-ward
+(Berkeley-ward) is its confirmation direction; reconciliation at the Paris-side
+centers strands it; any determination landing outside (.035999, .036) kills
+the window census.  The g-2 route is the stated wrinkle: no recoil to overblow,
+yet it sits mid-pack; its drive would have to be the depth of the QED series
+itself.  THE SWEEP: the pre-registered candidate set (commas, halves, banked
+stations placed) misses both razor residues 0.691 / 1.309 -- nearest is ln 2 at
+6 sigma, EXCLUDED -- so the residues stay underived and the ledger's crown
+stays open, said plainly.
 """
 
 from fractions import Fraction as F
@@ -17,7 +52,6 @@ SEAT_IMG = F(100797, 2800000)               # 1.00797 / 28
 
 
 def test_the_seat_image_is_the_wheel():
-    """The composite seat over 28 is 100797/2800000: six digits, a nine, and then the period-six cycle forever — an exact rational fact."""
     assert SEAT_IMG == F(359989, 10**7) + F(2, 7) * F(1, 10**7)
     digits = str(SEAT_IMG.numerator * 10**25 // SEAT_IMG.denominator)
     assert digits.startswith("359989" + "285714285714")   # turn | nine... wait: 9 then wheel
@@ -27,22 +61,19 @@ def test_the_seat_image_is_the_wheel():
     assert tail[:18] == "857142" * 3                      # the reptend, rotating, forever
 
 
-def test_the_station_gaps_bridge_exactly():
-    """Rest minus the seat image is (15/14)e-6 — the offsets' mean over 28 — and the floor sits (1/14)e-6 above the image."""
-    assert REST - SEAT_IMG == F(15, 14) * UNIT            # = 30/28: the offsets' mean, bridged
-    assert FLOOR - SEAT_IMG == F(1, 14) * UNIT            # = 2/28: the two-unit gap, bridged
+def test_the_gaps_are_the_banked_objects_bridged():
+    assert REST - SEAT_IMG == F(15, 14) * UNIT            # = 30/28: the -3, bridged
+    assert FLOOR - SEAT_IMG == F(1, 14) * UNIT            # = 2/28: the fork, bridged
     assert F(15, 14) - F(1, 14) == 1                      # floor sits one unit below rest
 
 
 def test_the_ladder_orders_and_the_measured_sits_between():
-    """The measured image lies between the floor and the exact seat image."""
     deficit = (0.036 - AVG / 28) * 1e6                    # units below rest
     assert 1.0 < deficit < 15 / 14                        # between the floor and the seat image
     assert abs(deficit - 1.0467) < 0.002
 
 
 def test_the_two_semantics_of_the_measured_image():
-    """Truncation reads the measured image at the 8-cell, near full; rounding at the register's own six-digit depth reads it on the floor."""
     img = AVG / 28
     assert int(img * 10**6) == 35998                      # truncation: the 8-cell
     assert round(img, 6) == 0.035999                      # turn-statement: the floor, exactly
@@ -50,23 +81,23 @@ def test_the_two_semantics_of_the_measured_image():
     assert occupancy > 0.94                               # nearly full: the limit-cell signature
 
 
-def test_the_window_census_every_determination_inside():
-    """Section 11's window: seven determinations across three technologies and twelve years, all inside (0.035999, 0.036)."""
+def test_the_war_census_every_determination_inside_the_last_unit():
     for v in (0.035999046, 0.035999074, 0.035999084, 0.035999139,
               0.035999166, 0.035999177, 0.035999206):
         assert 0.035999 < v < 0.036
 
 
-def test_the_lift_is_one_signed_above_the_measured_image():
-    """Every determination sits above the measured image, one-signed, at 3.4 standard deviations or more."""
+def test_the_overblow_is_one_signed_above_the_measured_image():
     img = AVG / 28
     for v, u in ((0.035999046, 2.7e-8), (0.035999166, 1.5e-8),
                  (0.035999177, 2.1e-8), (0.035999206, 1.1e-8)):
         assert (v - img) / u > 3.3                        # every camp, >= 3.4 sigma above
 
 
-def test_the_nine_survives_at_place_seven():
-    """Decimal place seven is a nine in both the exact and the measured images; the residual deforms only what follows it."""
+def test_the_seal_survives_in_the_measured_image():
+    """Digit seven is the triad's 9 in BOTH images: turn | seal | sub-turn content.
+    The seat's content past the seal is pure hexad (the wheel); the measured
+    value keeps the seal and deforms only what follows it."""
     seat_digits = str(F(100797, 2800000).numerator * 10**12 // 2800000)
     # seat_digits = "35998928571": leading decimal zero dropped, so decimal
     # place 7 is string index 5 (and the wheel begins at index 6 with the 2)
@@ -75,8 +106,20 @@ def test_the_nine_survives_at_place_seven():
     assert seat_digits[6:] == "28571"                     # then the wheel
 
 
-def test_the_residual_family_is_boxed_and_closes_nowhere():
-    """Section 13's exclusion 1: 2,198 licensed fractions against the four residuals at their measured precision — no static closure; the lone three-sigma item, 59/12 on the neutron at +1.5 sigma, is reported and carries no structure."""
+def test_the_dress_family_is_razor_boxed_and_closes_nowhere():
+    """The 2026-08-31 sweep, pinned so it is not re-run by hand: 2,198 licensed
+    candidates (the 2-perp-3-perp-7 currencies k/q for q in the web, the commas,
+    the banked stations at two place-shifts) against the four dress values at
+    their CODATA-22 razor bars.  Result: NULL -- no candidate within 3 sigma of
+    proton, composite, or split; the single 3-sigma item on the neutron (59/12,
+    +1.5 sigma) is reported and unexplained — no licensed structure carries it,
+    and no threshold rule is invoked (the 2026-09-01 board retired the >20
+    performer cutoff as inconsistent: 23/32 itself carries 32).  The dress is NOT
+    a static station of the web.  Under the turn-and-wheel reading this is the
+    expected sign: the wheel is the seat's circulation, and the dress is
+    development -- the dynamical residue the ledger's crown demands derived, not
+    matched.  The proton's -3.533421(8) is the sharpest underived number in the
+    program and the crown's named numerical target."""
     d_p = (MP - 1.00728) * 1e6
     d_n = (MN - 1.00866) * 1e6
     d_c = (d_p + d_n) / 2
@@ -90,12 +133,11 @@ def test_the_residual_family_is_boxed_and_closes_nowhere():
     assert abs(2 / 3 - d_c) / 2.45e-4 > 3
     assert abs(0.7 - d_c) / 2.45e-4 > 3
     assert abs(17 / 2 - d_s) / 4.9e-4 > 3
-    assert abs(59 / 12 - d_n) / 4.0e-4 < 3         # the lone three-sigma item: reported,
-    # unexplained, carried by no structure; no threshold rule is applied
+    assert abs(59 / 12 - d_n) / 4.0e-4 < 3         # the lone 3-sigma item: reported,
+    # unexplained, carried by no structure — no threshold rule is applied
 
 
 def test_the_residues_sum_to_two_and_the_sweep_is_null():
-    """The two decompositions of the composite deficit sum to two identically, and the pre-registered candidate set misses both at the stated bars."""
     import math
     deficit = (1.008 - AVG) * 1e6
     r_struct, r_carry = 30 - deficit, deficit - 28

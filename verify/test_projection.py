@@ -66,10 +66,10 @@ def test_missing_least_action_is_rejected():
 
 
 def test_the_crown_jewels_are_well_formed():
-    """Worst-case #2 answered: the muon, the 1836, and the 137 rendered as
-    well-formed projections — selection QUANTIFIED, not merely acknowledged
+    """Worst-case #2 paid: the muon, the 1836, and the 137 rendered as
+    well-formed projections — selection QUANTIFIED, not confessed
     (muon: 1-of-6, p ~ 6.8e-4 with the post-hoc caveat; 1836: the 1800
-    rival on the record; 137: additive form weighed as abundant, the block
+    rival on the record; 137: additive form priced cheap, the block
     load-bearing)."""
     from projection import ALPHA_137, MUON, PROTON_1836, validate
     for p in (MUON, PROTON_1836, ALPHA_137):
@@ -103,7 +103,7 @@ def test_the_1836_rival_field():
 
 
 def test_the_137_cheap_and_strong():
-    """The additive class is abundant by chance (five hits in [120,155]); the block
+    """The additive class is cheap (five hits in [120,155]); the block
     is exact — the audit separates decoration from load-bearer."""
     from gtheory import expansion_digits
     adds = sorted(2 ** a + 3 ** b for a in range(2, 9)

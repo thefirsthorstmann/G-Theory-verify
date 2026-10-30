@@ -23,9 +23,16 @@ THE HONESTY PIN: the baryon cell CLASHES — 1/15 = 6.67% vs the
 measured 4.93% (a ~35% discrepancy) — and the suite itself asserts
 the clash is real. It stays on the page, as banked.
 
-THE HUBBLE CURIOSITY (parked): 73.0/67.4 = 1.0831 vs 13/12 = 1.0833
-— the two instruments' ratio sits on the tridecimal step; noted,
-parked, wake condition = the tension survives systematics.
+THE HUBBLE RATIO, as version 3 of the book states it (October 2026):
+73.17 +- 0.86 over 67.36 +- 0.54 is 1.086 +- 0.015. The tridecimal
+step 13/12 lies 0.2 standard deviations from it, and so do its
+neighbours 12/11 and 14/13 (within 0.6): the ratio singles out no step
+until it is known to a quarter of a percent, a sixfold tightening.
+The earlier statement, "within 4e-4 of 13/12", stood on 73.04 and on
+Planck rounded to 67.4; against the unrounded 67.36 it was 9.1e-4
+(verify/test_the_definitions_tightened.py, 19 August 2026). The
+program's own value, 70.05, is the gravity record's and is pinned in
+verify/test_the_registry_v3.py.
 """
 
 from fractions import Fraction as F
@@ -35,9 +42,13 @@ OMEGA_DM = F(4, 15)
 OMEGA_B = F(1, 15)
 OMEGA_M = OMEGA_DM + OMEGA_B                   # = 1/3
 
-# measured (Planck 2018; memory-flagged for source re-check)
-MEAS = {"lambda": 0.6847, "dm": 0.2589, "b": 0.0493}
-H0_LOCAL, H0_CMB = 73.04, 67.4
+# measured: Planck 2018 VI, Table 2 (TT,TE,EE+lowE+lensing): Omega_Lambda = 0.6847 +- 0.0073,
+# Omega_b h^2 = 0.02237, Omega_c h^2 = 0.1200, H0 = 67.36 +- 0.54, so Omega_b = 0.0493 and
+# Omega_c = 0.2645, the figures the book prints. ("dm" stood at 0.2589 here until 5 October 2026,
+# a figure no test read and the book never printed.)
+MEAS = {"lambda": 0.6847, "dm": 0.2645, "b": 0.0493}
+H0_LOCAL, H0_LOCAL_ERR = 73.17, 0.86      # Breuval et al. (SH0ES), Astrophys. J. 973, 30 (2024)
+H0_CMB, H0_CMB_ERR = 67.36, 0.54          # Planck 2018 VI
 
 
 def budget_closes() -> bool:
@@ -67,6 +78,12 @@ def crest_redshifts() -> tuple:
 def baryon_clash_pct() -> float:
     """The pinned honesty: the seat exceeds the measurement by ~35%."""
     return (float(OMEGA_B) - MEAS["b"]) / MEAS["b"] * 100
+
+
+def hubble_ratio() -> tuple:
+    """The ratio of the two determinations and its standard deviation."""
+    r = H0_LOCAL / H0_CMB
+    return r, r * ((H0_LOCAL_ERR / H0_LOCAL) ** 2 + (H0_CMB_ERR / H0_CMB) ** 2) ** 0.5
 
 
 def hubble_ratio_vs_13_12() -> float:

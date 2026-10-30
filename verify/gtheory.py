@@ -27,7 +27,7 @@ CHOICES = {
                  "b=1 mod 9 (the ennead lives in digit sums) AND ord_7(b)=6 "
                  "(the seed unrolls full); carriers are rare (10, 19, 73); "
                  "CONDITIONAL least action — the mechanism pair is the 2perp3 "
-                 "thesis itself, circularity named and weighed"),
+                 "thesis itself, circularity named and priced"),
     "SEED_DIVISOR": (7, "the origin move divide-by-7; TRIAL 2026-07-03: 7 = "
                         "the least full-reptend prime in base 10 (3: period "
                         "1; 11: period 2; 13: half) — the first prime whose "

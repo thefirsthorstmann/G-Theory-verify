@@ -7,7 +7,7 @@ concurrent ledgers — distributed computing's oldest theorem). Order
 carries content exactly where a record is SHARED; sharing requires
 propagation; propagation is one depth per tick (the clock object's own
 rule) — so the boundary of order-matters is the light cone, derived as
-the parameter record's support boundary. A FRAME is a linear extension of the
+the ledger's support boundary. A FRAME is a linear extension of the
 causal partial order: every extension lands the identical ledger, and
 the reshuffling boost rides the paper's own rungs (4ⁿ−1)/(4ⁿ+1),
 reordering spacelike pairs and never timelike ones. The infaller and
@@ -57,7 +57,7 @@ def test_the_cone_is_the_support_boundary():
     """Propagation is one depth per tick — the clock object's rule: the
     carry commits one cell per tick, never a ripple in one. A
     perturbation at cell 0 first touches cell k at tick k, exactly — the
-    discrete light cone as the parameter record's support boundary."""
+    discrete light cone as the ledger's support boundary."""
     N, T = 40, 39
 
     def run(cells):

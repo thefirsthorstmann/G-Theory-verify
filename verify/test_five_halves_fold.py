@@ -168,3 +168,38 @@ def test_the_guards():
     for p in (3, 5, 7, 11, 13, 17, 19, 23):
         r = fold_ratio(p)
         assert not isclose(float(r), 2 * sqrt(2))  # rational family, irrational bound
+
+
+def test_the_rest_complement():
+    """Rest-pi's decimals are drawn entirely from {1,4,7} — the round-DOWN digit
+    class of the mod-9 doctrine — while the fold's upper group is the rounding
+    group. The digit fact is exact (G2 pp.93-94, recovered 2026-07-20); the
+    two rounding senses (digit-class vs fraction-past-half) are kept apart."""
+    rest_pi = (F(201, 64) + F(22, 7)) / 2
+    assert rest_pi == F(2815, 896)
+    decimals = str(rest_pi.numerator * 10**6 // rest_pi.denominator)[1:]  # 141741
+    assert decimals == "141741"
+    assert set(decimals) <= {"1", "4", "7"}          # entirely round-down class
+    assert set(decimals) & {"2", "5", "8"} == set()  # zero round-up digits
+
+
+def test_the_dark_five_halves():
+    """On ORIGIN-VII's published seats the dark ratio is the fold's proportion:
+    Omega_Lambda / Omega_dm = (2/3)/(4/15) = 5/2 exactly, and the dark sector
+    14/15 divides 5/7 : 2/7 of itself in seven quanta of 2/15. Striking,
+    doubly selection-bearing (inherits both seat choices)."""
+    lam, dm = F(2, 3), F(4, 15)
+    assert lam / dm == F(5, 2)
+    dark = lam + dm
+    assert dark == F(14, 15)
+    assert lam / dark == F(5, 7) and dm / dark == F(2, 7)
+    assert dark / 7 == F(2, 15)
+
+
+def test_the_two_completions():
+    """The same six fractions complete to wholeness by two exact operations:
+    multiplicatively (7 x 142857 = 999999, the cycle returning to the unit)
+    and by commitment (0.857142 + 2.142858 = 3.000000, the rounders seating
+    the whole)."""
+    assert 7 * 142857 == 999999
+    assert F(857142, 10**6) + F(2142858, 10**6) == 3

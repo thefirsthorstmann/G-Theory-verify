@@ -146,7 +146,7 @@ def test_the_account_state_is_recorded():
 
 
 # ---------------------------------------------------------------------------
-# the author'S FLANKING LEAD (2026-08-16, mid-stream): the two-ladder question's
+# CC'S FLANKING LEAD (2026-08-16, mid-stream): the two-ladder question's
 # candidate answer-shape. The cubic contacts at the physical dimensions are
 # the DECIMAL PERIODS OF THE TWO FORCE PRIMES — 6 = ord_10(7), gravity's; 8 =
 # ord_10(137), electromagnetism's — flanking the seed 7 with product 48 =
@@ -155,7 +155,7 @@ def test_the_account_state_is_recorded():
 # two primes couple exactly as the two forces do: 137 = 8*17 + 1, with
 # ord_2(17) = 8. The cubic ladder speaks the PERIODS, the packing ladder
 # speaks the SEATS, and the bridge between them is the pair (7, 17) — the
-# relation of gravity and EM, as the author said. Reading on exact arithmetic.
+# relation of gravity and EM, as CC said. Reading on exact arithmetic.
 # ---------------------------------------------------------------------------
 
 def _ord(b, m):

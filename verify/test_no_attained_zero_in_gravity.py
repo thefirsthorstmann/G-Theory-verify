@@ -1,9 +1,9 @@
 """test_no_attained_zero_in_gravity.py — THE NAVIER-STOKES COUNT APPLIED TO
 GRAVITY: NO ATTAINED ZERO, THEREFORE NO SINGULARITY (2026-08-15).
 
-  the author'S REDIRECTION, WHICH WAS THE BETTER END OF THE DOCTRINE. I had been
+  CC'S REDIRECTION, WHICH WAS THE BETTER END OF THE DOCTRINE. I had been
   applying "no attained zero" at the FAR end — the sharing function reaching
-  exactly zero one cell-width out. the author pointed at the NEAR end: there is no zero
+  exactly zero one cell-width out. CC pointed at the NEAR end: there is no zero
   to blow up on as the separation goes to zero. And he said the Navier-Stokes
   work applies to the whole of this. It does, and it applies as an identity
   rather than an analogy.

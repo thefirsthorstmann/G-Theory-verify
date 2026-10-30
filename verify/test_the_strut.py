@@ -1,5 +1,5 @@
 """test_the_strut.py — TWO STATIC COUNTS CANNOT REST UNSUPPORTED, AND THE
-REGISTER FIXES THE SUPPORT (2026-08-22). the author: "see if you
+REGISTER FIXES THE SUPPORT (2026-08-22, Fable session). CC: "see if you
 can get any further with what's open." The static two-body sector was
 closed exactly by the quadrature (test_the_quadrature.py: the deficit
 superposes, the spatial word is obtained by quadrature, γ_cross =

@@ -1,4 +1,4 @@
-"""test_the_g_file.py — BIG G, FACED (2026-08-16). the author: "there is some
+"""test_the_g_file.py — BIG G, FACED (2026-08-16). CC: "there is some
 things we can do with big G." The wheel states a value — αG(e) =
 5/(2¹⁵¹−1), G = 6.67359015(4)e−11 — and this battery arms it against the
 metrology rather than beside it. Data quoted exactly as printed at

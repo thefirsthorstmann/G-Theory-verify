@@ -115,7 +115,7 @@ def test_the_seventh_ties_the_faces():
 
 
 def test_the_144_passers_characterized():
-    """ANSWERED (open-problem ledger): pass <=> the distance-3 pair-sums hit one of
+    """PAID (owed ledger): pass <=> the distance-3 pair-sums hit one of
     five multisets (all summing 27); THE MIDY PAIRING (9,9,9) IS THE
     UNIQUE SLOT-FREE PASSER (48 any-arrangement); the other four pass
     only cyclically (24 each): 144 = 48 + 4 x 24."""
@@ -132,7 +132,7 @@ def test_the_144_passers_characterized():
 
 
 def test_the_transit_transform_law():
-    """ANSWERED (open-problem ledger): the transform's transit shift in closed form
+    """PAID (owed ledger): the transform's transit shift in closed form
     — Delta(block-sum) = 8(d3 - d2) + (d6 - d5); the reptend shifts by
     exactly -2/9 (23/9 -> 21/9)."""
     for block in ("142857", "152847"):

@@ -41,7 +41,7 @@ def test_the_double_cover_shape():
 
 
 def test_the_payment_light_is_exactly_c_on_the_lattice():
-    """X open problem #2's first datum + the LIV watch's first benign entry:
+    """X debt #2's first datum + the LIV watch's first benign entry:
     the massless mode has ZERO dispersion at all k (1+1D, unit ratio)
     — the concealment is exact for light, structurally."""
     from genesis_x import massless_dispersion_error

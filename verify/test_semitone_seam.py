@@ -1,13 +1,13 @@
 """test_semitone_seam.py — the carbon anchor's flagged seam, resolved. 2026-08-05.
 
-The SOLID ledger (working record 2026-07-29) banks the carbon anchor at the UNIT and
+The SOLID ledger (journal 2026-07-29) banks the carbon anchor at the UNIT and
 COUNT-STRUCTURE level as SOLID, and then splits one phrase out as a Reading only:
 
     "mass unit = one semitone of carbon's octave" -- SPLIT OUT of SOLID (was wrongly
     folded into a SOLID line): it is a Reading, and "1/12 octave = a semitone"
     presupposes EQUAL TEMPERAMENT, in tension with the banked just-not-tempered doctrine.
 
-the author asked whether equal temperament is actually required there. IT IS NOT — AND THE
+CC asked whether equal temperament is actually required there. IT IS NOT — AND THE
 REASON IS THAT IT IS NOT HAPPENING. Two different operations were being conflated:
 
     what the amu does :  u = m(12C) / 12       ARITHMETIC division, by twelve
@@ -27,17 +27,17 @@ Reading is not promoted to Solid; IT IS RETIRED AS A NAMING ERROR. The underlyin
 was SOLID all along and was never in tension with just-not-tempered; only the two
 borrowed words were. Nothing about the anchor changes; the seam closes.
 
-AND ON HOW MANY BORROWS — CORRECTED 2026-08-05 after the author: "we have a whole thing with c
+AND ON HOW MANY BORROWS — CORRECTED 2026-08-05 after CC: "we have a whole thing with c
 and the metre, rest meters etc, we have a bunch of work on units that preceded this."
 He is right and my first answer told SI's story instead of the framework's.
 
-    THE FRAMEWORK'S ANCHOR IS r_p, NOT THE CAESIUM TICK. Banked (working record 2026-06-25):
+    THE FRAMEWORK'S ANCHOR IS r_p, NOT THE CAESIUM TICK. Banked (journal 2026-06-25):
     "ONE dimensionful anchor (r_p, proton charge radius) + dimensionless 2-perp-3 ratios
     {4, 1836, 137} -> the ENTIRE observable atomic scale." The caesium tick appears in
     the NATIVE-KILO demonstration, which is a different construction (how the kilogram
     becomes a count of carbon), not the framework's foundational borrow.
 
-    AND THERE IS A STANDING BANNER I WALKED INTO. Same working record entry: "There is a
+    AND THERE IS A STANDING BANNER I WALKED INTO. Same journal entry: "There is a
     DO-NOT-RELITIGATE BANNER on c ('c-in-m/s is ruler-content; never raise it again')
     that I blew past." That was 2026-06-25. Framing today's answer around "c sizes the
     metre" raised it again. Recorded as a repeat, not excused.

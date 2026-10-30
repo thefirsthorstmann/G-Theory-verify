@@ -1,5 +1,7 @@
 # GRADES.md — the honest standing of what's in `verify/`
 
+*This table stands as written through 1 September 2026. The batteries added for the October 2026 versions of the records carry their grading in their own docstrings; the ladder is unchanged.*
+
 Every result graded for exactly what it is. The Forced spine and the Striking
 column are kept apart on purpose. Run `pytest -v` to re-derive all of it cold.
 

@@ -1,6 +1,6 @@
 """lattice_density.py — F1: MECHANIZED SKEPTICISM as an engine primitive.
 
-The survey's first improvement: the look-elsewhere justification must scale
+The survey's first improvement: the look-elsewhere defense must scale
 with the toolkit. This module makes rival-counting automatic — every
 future seat claim gets a density column the way every arithmetic
 claim gets a test.

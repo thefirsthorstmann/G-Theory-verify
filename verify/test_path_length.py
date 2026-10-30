@@ -1,4 +1,4 @@
-"""test_path_length.py — the author's demand, 2026-08-05: formalize how we are stating this.
+"""test_path_length.py — CC's demand, 2026-08-05: formalize how we are stating this.
 
 His words: "we still have to work out that the decimal extension of a 7th as count is
 dimensioned even though the scalar is dimensionless. If the ordering and reordering of
@@ -105,7 +105,7 @@ def test_the_shortest_arc_is_unambiguous():
 def test_the_multiset_and_extent_are_invariant_but_the_path_is_not():
     for o in (REPTEND, DOUBLING, HARMONIC):
         assert sorted(o) == list(DIGITS)          # same multiset
-        assert sum(o) == 27                       # same sum, as the author says
+        assert sum(o) == 27                       # same sum, as CC says
         assert len(o) == 6                        # same extent
     assert length(REPTEND) == 16
     assert length(DOUBLING) == 14
@@ -114,7 +114,7 @@ def test_the_multiset_and_extent_are_invariant_but_the_path_is_not():
 
 
 def test_the_transform_is_workless_and_its_endpoints_differ_in_extent():
-    """the exact shape of the author's tension, pinned"""
+    """the exact shape of CC's tension, pinned"""
     def T(s):
         return (s[0], s[2], s[1], s[3], s[5], s[4])
     assert T(REPTEND) == DOUBLING
@@ -166,7 +166,7 @@ def test_the_excess_above_the_geodesic_is_an_integer():
     assert 12 not in {length(b) for b in BRACELETS}
 
 
-# ------------------------------------- the author 2026-08-05: run it on 17, 19, 23 (and more)
+# ------------------------------------- CC 2026-08-05: run it on 17, 19, 23 (and more)
 
 def _rep(k, q):
     p, x, seen = "", k % q, {}
@@ -202,7 +202,7 @@ def test_the_zero_step_is_zero():
 
 
 def test_the_sort_is_the_geodesic_on_every_address():
-    """the author's generalisation question, answered: yes, and it is not about seven"""
+    """CC's generalisation question, answered: yes, and it is not about seven"""
     for q in (7, 17, 19, 23, 29, 47):
         d = [int(c) for c in _rep(1, q)]
         s = sorted(d)
@@ -241,7 +241,7 @@ def test_the_geodesic_splits_three_and_six_on_the_rest_set():
     assert set(HARMONIC) & {3, 6, 9} == set()
 
 
-# ----------------------------- the author 2026-08-05: "and this is a field you are describing?"
+# ----------------------------- CC 2026-08-05: "and this is a field you are describing?"
 
 def _nbrs(t):
     """one adjacent transposition — the minimal change to an ordering"""
@@ -318,7 +318,7 @@ def test_the_transform_descends_but_not_steepest():
     assert walk == [16, 15, 11, 9] and cur == H_
 
 
-# ------------------------------- the author 2026-08-05: "check the six ledge forms" — they are
+# ------------------------------- CC 2026-08-05: "check the six ledge forms" — they are
 # ------------------------------- the floor of a sector, and both process orders live in it
 
 def _anti(t):
@@ -380,7 +380,7 @@ def test_the_sector_is_closed_under_the_antipode():
     assert len(strict) == 2
 
 
-# --------------------------- the author 2026-08-05: test the step-sum against the banked charge
+# --------------------------- CC 2026-08-05: test the step-sum against the banked charge
 # --------------------------- structure. IT FAILS — kept as a negative, with what survives.
 
 def wsum(o):
@@ -445,14 +445,14 @@ def test_the_parity_law_and_where_the_fourteen_comes_from():
     assert sorted({length(b) for b in BRACELETS}) == [9, 11, 13, 14, 15, 16, 17, 18, 19, 20]
 
 
-# ===================== the author 2026-08-05, third pass: the mi-fa/si-do catch, the three at
+# ===================== CC 2026-08-05, third pass: the mi-fa/si-do catch, the three at
 # ===================== 16, and 51 tested for robustness rather than for meaning.
 
 AXIS = {3, 6, 9}
 
 
 def test_the_hexad_has_two_step_sizes_and_the_large_one_crosses_the_axis():
-    """the author: 'are you accounting for the known gaps like mi-fa and si-do?' The hexad IS a
+    """CC: 'are you accounting for the known gaps like mi-fa and si-do?' The hexad IS a
     scale with two step sizes, and the distinction is forced, not decorative."""
     small, large = [], []
     for a, b in zip(HARMONIC, HARMONIC[1:] + HARMONIC[:1]):
@@ -541,7 +541,7 @@ def test_storage_is_the_middle_rung_of_the_midy_class():
     assert (16 - 14, 20 - 16) == (2, 4)
 
 
-# ================== the author 2026-08-05, fourth pass: price the axis-crossings separately.
+# ================== CC 2026-08-05, fourth pass: price the axis-crossings separately.
 # ================== The geodesic hardens; and the crossing register has 17 sectors.
 
 def crossings(o, n=N):
@@ -574,7 +574,7 @@ def _components(inv):
 
 
 def test_the_geodesic_survives_any_axis_price():
-    """the author asked for the reprice. The sort does not lose its crown — it hardens,
+    """CC asked for the reprice. The sort does not lose its crown — it hardens,
     because it is minimal in BOTH terms at once, and uniquely so."""
     assert min(length(b) for b in BRACELETS) == 9
     assert min(crossings(b) for b in BRACELETS) == 3
@@ -639,7 +639,7 @@ def test_fifty_one_refines_seventeen_and_the_refinement_is_forced():
     assert sum(splits) == 51 and len(splits) == 17
 
 
-# ============ the author 2026-08-05, fifth pass: the bridge test — and it fails cleanly.
+# ============ CC 2026-08-05, fifth pass: the bridge test — and it fails cleanly.
 
 def test_the_sectors_do_not_map_onto_fifty_one_consecutive_integers():
     """RETIRED. The proposed bridge from this 51 (a sector count) to the banked 51
@@ -680,7 +680,7 @@ def test_the_density_of_states():
 
 
 def test_what_a_fermi_reading_would_still_need():
-    """the author asked whether this is something like a Fermi surface forming. The pieces a
+    """CC asked whether this is something like a Fermi surface forming. The pieces a
     Fermi surface needs are: a state space (present, 60 forms), an energy (present,
     the cost), a density of states (present, above), a ground state (present, unique).
     THE MISSING PIECE IS OCCUPANCY — nothing here says a form can hold one occupant
@@ -699,7 +699,7 @@ def test_what_a_fermi_reading_would_still_need():
 
 
 def test_the_twelve_is_forced_and_it_is_what_makes_the_sixty():
-    """the author: '12 falls out as a result though, 75 - 12 - 3'. The 12 is indeed not free —
+    """CC: '12 falls out as a result though, 75 - 12 - 3'. The 12 is indeed not free —
     it is |D6| = 2 x 6, the symmetry that turns 720 arrangements into 60 bracelets."""
     from math import factorial
     assert factorial(6) == 720 and len(BRACELETS) == 60
@@ -726,7 +726,7 @@ def test_cc_seventy_five_minus_twelve_minus_three():
     assert 75 - 24 == 51 and 24 + 75 == 99          # the same figure's other quantities
 
 
-# ========== the author 2026-08-05, sixth pass: "actually I think it IS a clean boundary."
+# ========== CC 2026-08-05, sixth pass: "actually I think it IS a clean boundary."
 # ========== He is right, and I had checked the wrong population.
 
 def test_level_fifteen_splits_the_balanced_sector_exactly_in_half():
@@ -745,7 +745,7 @@ def test_level_fifteen_splits_the_balanced_sector_exactly_in_half():
 
 def test_the_boundary_counts_and_cc_arithmetic():
     """32 - 15 = 17, and 32 and 17 are both COUNTS here; 15 is a LEVEL. Recorded with
-    the type distinction stated as an assumption, not as a theorem — see the working record."""
+    the type distinction stated as an assumption, not as a theorem — see the journal."""
     assert len([b for b in BRACELETS if length(b) <= 15]) == 32
     assert len([b for b in BRACELETS if abs(winding(b)) == 1]) == 32
     assert len(_components(crossings)) == 17
@@ -758,7 +758,7 @@ def test_the_boundary_counts_and_cc_arithmetic():
     assert 15 == 3 * 5 and 51 == 3 * 17                 # reversal fixes the 3, sends 5 to 17
 
 
-# ===== the author 2026-08-05: "is it possible a simplified version of the Madelung structure?"
+# ===== CC 2026-08-05: "is it possible a simplified version of the Madelung structure?"
 # ===== The TOTALS coincide strikingly. The level-by-level structure does NOT.
 
 def test_the_sixty_is_the_four_shell_madelung_capacity():
@@ -802,12 +802,12 @@ def test_what_the_object_does_supply_toward_an_exclusion():
     assert sum(sizes) == 60 and len(C) == 17
 
 
-# ===== the author 2026-08-05: assign the four crossing levels to the four shells; and use the
+# ===== CC 2026-08-05: assign the four crossing levels to the four shells; and use the
 # ===== four FSC Midy pairs to label them. Both fail — and the FIRST one fails for a
-# ===== reason that confirms the author's own "octaves before the notes in them".
+# ===== reason that confirms CC's own "octaves before the notes in them".
 
 def test_the_object_counts_in_octaves_not_in_shells():
-    """the author: 'the Madelung is fully developed with electrons, but maybe the octaves
+    """CC: 'the Madelung is fully developed with electrons, but maybe the octaves
     themselves appear in some order before the notes in them.' EXACTLY SO, and it is
     the difference between the two ladders:
         no l-substructure  -> capacities DOUBLE      2, 4, 8, 16   (this object)
@@ -815,7 +815,7 @@ def test_the_object_counts_in_octaves_not_in_shells():
     because 2n^2 = 2 x sum(2l+1 for l < n): the shell total IS the doubled sum of the
     odd numbers, and the odd numbers ARE the l-degeneracies. Strip them and you are
     left with plain doubling. So this landscape sits at the octave stage, before the
-    notes inside the octave differentiate — which is what the author proposed."""
+    notes inside the octave differentiate — which is what CC proposed."""
     C = _components(crossings)
     sizes = sorted({len(c) for c in C})
     assert sizes == [2, 4, 8, 16] == [2 ** n for n in range(1, 5)]
@@ -860,11 +860,11 @@ def test_the_four_fsc_pairs_cannot_label_the_four_levels():
     assert len(touching) == 2 and len(pairs) - len(touching) == 2
 
 
-# ===== the author 2026-08-05: "go find what supplies the l-degeneracies inside the hexad —
+# ===== CC 2026-08-05: "go find what supplies the l-degeneracies inside the hexad —
 # ===== I think the average of 2 and 4 supplies the 3." FOUND, and it is the averaging.
 
 def test_averaging_the_octave_ladder_generates_the_three_ladder():
-    """the author's mechanism, and it is general: the arithmetic mean of two CONSECUTIVE powers
+    """CC's mechanism, and it is general: the arithmetic mean of two CONSECUTIVE powers
     of two is always three times a power of two. (2^n + 2^(n+1))/2 = 2^n x 3/2."""
     from fractions import Fraction as F
     for n in range(0, 8):
@@ -872,7 +872,7 @@ def test_averaging_the_octave_ladder_generates_the_three_ladder():
         assert m == 3 * F(2 ** n, 2)
         assert m % 3 == 0 or m.denominator == 2      # 3 x 2^(n-1)
     assert F(2 + 4, 2) == 3 and F(4 + 8, 2) == 6 and F(8 + 16, 2) == 12
-    assert (42 + 24) // 2 == 33 == 3 * 11            # the author's second example
+    assert (42 + 24) // 2 == 33 == 3 * 11            # CC's second example
 
 
 def test_the_hexad_averages_give_the_axis_and_the_odd_degeneracies():
@@ -880,7 +880,7 @@ def test_the_hexad_averages_give_the_axis_and_the_odd_degeneracies():
          the three LARGE steps average onto 3, 6, 9 — THE AXIS, exactly;
          the three SMALL steps average onto 3/2, 9/2, 15/2 — which is
          (3/2) x {1, 3, 5}: SOL TIMES THE FIRST THREE ODD NUMBERS.
-    So the l-degeneracies are inside the hexad, produced by the same averaging the author
+    So the l-degeneracies are inside the hexad, produced by the same averaging CC
     named, and separated from the axis by exactly the tone/semitone split."""
     from fractions import Fraction as F
     av = []
@@ -901,7 +901,7 @@ def test_the_hexad_supplies_exactly_three_shells_and_they_sum_to_the_modulus():
     """1 + 3 + 5 = 9 — the modulus, the geodesic length, and n^2 at n = 3. Doubling it
     (the octave, which is what this object does instead of an l-structure) gives 18:
     Madelung's third shell AND the transform's own block displacement. Both routes are
-    INSIDE the hexad, which is the first alignment today to pass the author's referee on both
+    INSIDE the hexad, which is the first alignment today to pass CC's referee on both
     sides — so it is recorded as a candidate weld rather than a coincidence."""
     assert 1 + 3 + 5 == 9 == N                       # the modulus
     assert 1 + 3 + 5 == 3 ** 2                       # n^2 at n = 3
@@ -913,7 +913,7 @@ def test_the_hexad_supplies_exactly_three_shells_and_they_sum_to_the_modulus():
     assert len(small) == 3
 
 
-# ===== the author 2026-08-05: does it predict three shells and forbid f? And what carries the
+# ===== CC 2026-08-05: does it predict three shells and forbid f? And what carries the
 # ===== 9 to the 18 — "you mean like a clock maybe? I had thought it was from the
 # ===== transform." BOTH ANSWERED, AND THE SECOND CLOSES.
 
@@ -938,7 +938,7 @@ def test_the_shell_count_is_forced_and_f_is_forbidden_at_this_modulus():
 
 
 def test_the_transform_is_the_octave_read_through_the_clock():
-    """the author: 'you mean like a clock maybe? I had thought it was from the transform.' BOTH,
+    """CC: 'you mean like a clock maybe? I had thought it was from the transform.' BOTH,
     and they are the same thing. The discrete log base 2 on Z/9 assigns each hexad digit
     its OCTAVE COUNT, and the doubling order 1,2,4,8,7,5 IS that index 0..5. Read the
     transform's two swaps in that index and BOTH ARE A STEP OF EXACTLY ONE — one octave.
@@ -958,7 +958,7 @@ def test_the_transform_is_the_octave_read_through_the_clock():
     assert 18 == 9 * 2 == 2 * (1 + 3 + 5)              # one 9, one 2, both now shared
 
 
-# ===== the author 2026-08-05: stress-test the averaging at modulus 12 and 15.
+# ===== CC 2026-08-05: stress-test the averaging at modulus 12 and 15.
 # ===== THE MECHANISM IS GENERAL. THE CLOSURE IS UNIQUE TO NINE.
 
 def test_the_averaging_mechanism_is_general_at_every_modulus():
@@ -995,7 +995,7 @@ def test_but_the_closure_belongs_to_nine_alone():
     assert 4 * 4 == 16 != 12
 
 
-# ===== the author 2026-08-05: "is it the same event as the Catalan kiss... keep in mind we are
+# ===== CC 2026-08-05: "is it the same event as the Catalan kiss... keep in mind we are
 # ===== ultimately after gravity." NO to the first. And the second is where it lands.
 
 def test_the_closure_is_not_the_catalan_kiss():

@@ -33,7 +33,7 @@ clause does not, and is stated.
   derived. Over one record the ledger is L/p + L/q + 1 bits: the two rings'
   own carries plus the single union.
 
-  THE BONUS THEOREM, WHICH IS the author'S CLAVE STRUCTURE MADE EXACT. Two rings are
+  THE BONUS THEOREM, WHICH IS CC'S CLAVE STRUCTURE MADE EXACT. Two rings are
   informationally CO-OCCUPANT when their phases agree — indistinguishable in
   phase, the held pair, superposition. Co-occupancy coincides with the union
   window IF AND ONLY IF the rings are COPRIME. The agreement set is the

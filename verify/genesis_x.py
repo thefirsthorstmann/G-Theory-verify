@@ -62,7 +62,7 @@ def c_rest_form() -> dict:
 
 
 def massless_dispersion_error(k: float) -> float:
-    """THE ANSWER (X open problem #2, and the LIV watch's first datum).
+    """THE PAYMENT (X debt #2, and the LIV watch's first datum).
     The unit-ratio lattice wave recurrence has dispersion
     cos(omega) = cos(k): the massless mode propagates at EXACTLY c
     for ALL k to the zone edge — zero lattice dispersion, zero LIV,

@@ -9,7 +9,7 @@ WEB whose links are pure powers of alpha and closure coefficients (2pi,
 4pi). Every forced link is a rung; the ladder IS the bridge. A magnitude
 question then decomposes as (forced phenomenon ratio) x (one convention
 naming the reference phenomenon) — and the 2019 SI is the world's own
-stated plainly: every unit is now DEFINED by counting a phenomenon and
+confession: every unit is now DEFINED by counting a phenomenon and
 fixing exchange-rate constants.
 
 FLOAT LAYER 🟡: CODATA-2018 values below are memory-sourced; the

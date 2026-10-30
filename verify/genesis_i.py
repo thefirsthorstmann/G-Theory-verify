@@ -10,7 +10,7 @@ orbit mod 9). The transform (hold the 1 and the 8, reverse the
 interior pairs) maps one onto the other: 142857 -> 124875 — and
 124875 IS the doubling orbit read as digits. The transform is an
 INVOLUTION (its own inverse): invertible, hence free of Landauer
-erasure — the first operation asks nothing, and least action at the
+cost — the first operation costs nothing, and least action at the
 origin is an observation, not an assumption. Its ledger: 42 -> 24
 (-18), 57 -> 75 (+18), net 0 — displacement and its conservation
 born in one move.

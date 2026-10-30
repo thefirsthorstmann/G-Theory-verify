@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 2.4.0
 message: "If you reference this verification suite, please cite it as below."
 title: "G-Theory — Verification Suite"
 type: software
@@ -6,10 +6,10 @@ authors:
   - family-names: Horstmann
     given-names: Christian
     orcid: "https://orcid.org/0009-0006-8623-9937"
-version: 2.3.0
-date-released: 2026-09-01
+version: 2.4.0
+date-released: 2026-10-29
 abstract: >-
-  1,213 machine-checked tests underlying the G-Theory research program:
+  1,410 machine-checked tests underlying the G-Theory research program:
   dimensionless structure in physics from the arithmetic relation of 2 and 3,
   with zero adjustable parameters. Each result carries an explicit grade;
   forced structural results and selection-bearing numerical results are kept
@@ -17,7 +17,7 @@ abstract: >-
 references:
   - type: article
     title: "G-Theory — An Introduction"
-    doi: 10.5281/zenodo.21212293
+    doi: 10.5281/zenodo.21212292
   - type: article
     title: "G-Theory: The Origin on Discrete Terms"
     doi: 10.5281/zenodo.21212113

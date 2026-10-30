@@ -1,6 +1,6 @@
 """test_the_helical_sector.py — THE CONSERVATIVE BINARY HAS A COUNT
 DIRECTION, AND THE REST CLOCKS ARE THE MASSES' CONJUGATES (2026-08-22,
-session). Step two of the two-body lane, after the Kerr–Schild check
+Fable session). Step two of the two-body lane, after the Kerr–Schild check
 re-aimed the boundary at Killing reduction.
 
 THE STONE. The open item said the two-body sector is "where no Killing

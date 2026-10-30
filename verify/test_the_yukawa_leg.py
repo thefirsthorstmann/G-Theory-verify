@@ -1,8 +1,8 @@
 """test_the_yukawa_leg.py — THE YUKAWA LEG: THE POSITION OF THE LEPTON
 LADDER IS ONE NUMBER, IT IS OPEN, AND THE PAPER NOW CARRIES IT AS AN OPEN
-ACCOUNT WITH THE ROUTE NAMED (2026-08-22).
+ACCOUNT WITH THE ROUTE NAMED (2026-08-22, Fable session).
 
-the author: "lets do the four papers first then go get the Yukawa leg." The leg is
+CC: "lets do the four papers first then go get the Yukawa leg." The leg is
 the electroweak-to-electron ratio named in §21.12's three-rulers passage,
 which until today said "recorded as a target rather than as a wall" and
 named no route.
@@ -11,10 +11,10 @@ ROPED UP FIRST, NOT RECONSTRUCTED. The position was worked on 2026-08-19
 and the record is decisive: v/m_e = 481839.837 ± 0.124 (0.26 ppm, the bar
 inherited from G_F) is no station of the register at fifteen sigma or
 better, no pure 2-3-7 word, no wheel form with a small numerator, no
-radiative form, no power of alpha, and no integer (working record; pinned in
+radiative form, no power of alpha, and no integer (journal; pinned in
 test_the_yukawa_trail, test_ratio_not_absolute, test_shape_and_position).
 The shape of the lepton ladder — the muon ratio and Koide — is complete.
-Value-matching sweeps have no evidential power (an internal null-model tool), so no
+Value-matching sweeps have no evidential power (tools/pairsweep.py), so no
 new sweep is run here: running one would be the sin the record names.
 
 WHAT THIS BATTERY ADDS, all cold:
@@ -185,7 +185,7 @@ def test_the_paper_states_shape_position_and_the_one_number_reduction():
     assert "holds the shape of the charged-lepton ladder without its position" in FLAT
     assert "v/m_e = 481839.84 ± 0.12" in FLAT
     assert abs(N - 481839.84) < 0.13                    # inside the bar it quotes
-    assert "the nearest banked station lies fifteen standard deviations away" in FLAT
+    assert "the nearest established station lies fifteen standard deviations away" in FLAT
     assert "the three open positions are one number and one derivation would close all three" in FLAT
 
 
@@ -193,11 +193,12 @@ def test_the_paper_names_the_route_and_the_needed_step():
     assert "Froggatt–Nielsen" in FLAT
     assert "parametrizes the spectrum and does not derive it" in FLAT
     assert "the count of electron ticks per electroweak tick" in FLAT
-    assert "places the electroweak tick rate against the electron's, and none is banked" in FLAT
+    assert "places the electroweak tick rate against the electron's, and none is established" in FLAT
 
 
 def test_the_boundary_is_an_open_account_not_a_target():
-    assert "recorded as an open account rather than as a wall" in FLAT
+    # version 4 (October 2026): "open account" is the lab's phrase; the paper says "open problem"
+    assert "recorded as an open problem rather than as a limit" in FLAT
     assert "recorded as a target rather than as a wall" not in FLAT
     
     assert "The position of the lepton ladder, v/m_e, stated above." in FLAT

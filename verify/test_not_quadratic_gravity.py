@@ -1,5 +1,5 @@
 """test_not_quadratic_gravity.py — WHAT THIS ACCOUNT IS NOT (2026-08-18).
-the author asked whether the whole construction is in essence a refined harmonic
+CC asked whether the whole construction is in essence a refined harmonic
 version of quadratic gravity. It is not, the difference is testable, and
 the question is worth answering in the paper because every reader with
 the relevant training will ask it.

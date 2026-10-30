@@ -1,5 +1,5 @@
 """test_the_log_coefficient.py — THE HORIZON COUNT'S LOGARITHMIC COEFFICIENT
-(2026-08-22). the author: "go get the log coefficient, whole hog."
+(2026-08-22, Fable session). CC: "go get the log coefficient, whole hog."
 
 THE TARGET. Every approach to the horizon reproduces S = A/4; they differ
 at the logarithmic correction, which 21.12 names as the decisive
@@ -167,7 +167,7 @@ def test_the_paper_states_the_derivation_and_the_condition():
 
 
 def test_the_hierarchy_passage_carries_the_banked_square_root():
-    """the author's catch: m_e/M_Planck = sqrt(10) x 2^-76 is the wheel read at
+    """CC's catch: m_e/M_Planck = sqrt(10) x 2^-76 is the wheel read at
     amplitude, already banked in section 22; the three-rulers passage must
     not say nobody has anything."""
     flat = " ".join(GRAVITY.split())

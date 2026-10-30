@@ -7,7 +7,7 @@ logged on the face of the document. Version 2 adds three live stakes — the
 Higgs mass from the seated self-coupling, Newton's constant promoted from
 the watched column, the Hubble constant on the declared chain — and a
 five-row table of exact nulls, all from the gravitational volume (DOI
-10.5281/zenodo.22087600). This battery pins the new rows' arithmetic cold,
+10.5281/zenodo.22087599). This battery pins the new rows' arithmetic cold,
 and pins that every version-1 stake still stands verbatim.
 """
 
@@ -48,9 +48,13 @@ def test_the_higgs_razor_row_is_correct():
 # --- stake 9: Newton's constant, promoted ------------------------------------------
 
 def test_stake_nine_matches_the_gravity_paper_and_its_placement():
-    assert "6.6735902(41) × 10⁻¹¹" in FLAT
-    assert "6.6735902(41)" in " ".join(GRAVITY.split())   # same value, same source
-    ppm = (6.6735902 - 6.67430) / 6.67430 * 1e6
+    # 2026-10-04: the printed digits were restated on the CODATA 2022 electron mass with the
+    # Planck constant untruncated (6.673590137(4), where 6.673590151(41) stood); the commitment,
+    # the coupling 5/(2^151 − 1), did not change, and both records log the earlier digits
+    assert "6.673590137(4) × 10⁻¹¹" in FLAT
+    assert "6.673590137(4)" in " ".join(GRAVITY.split())    # same value, same source
+    assert "6.673590151(41)" in FLAT and "6.673590151(41)" in " ".join(GRAVITY.split())   # logged in both
+    ppm = (6.6735901 - 6.67430) / 6.67430 * 1e6
     assert abs(ppm + 106) < 1                      # 106 ppm below the CODATA centre
     assert "promoted to commitment 9" in FLAT           # the watched-column promotion, logged
 
@@ -82,8 +86,11 @@ def test_the_change_log_is_on_the_face():
     assert "## 8 · Change log" in DOC
     assert "Version 2 — August 25th, 2026" in FLAT
     assert "No version-1 commitment was altered or removed" in FLAT
-    assert "Ten live commitments and five exact nulls are registered" in FLAT
-    assert "10.5281/zenodo.22087600" in FLAT
+    # version 3 (2026-10-04) added the nucleon sector; the count on the face is now sixteen,
+    # and the version 2 entry of the log still records the ten of its day; round eight of version 3 (2026-10-08)
+    # registered a sixth exact null, the charge-colour lock (round seven's null was withdrawn on 8 October)
+    assert "Sixteen live commitments and six exact nulls are registered" in FLAT
+    assert "10.5281/zenodo.22087599" in FLAT
 
 
 def test_every_version_one_stake_still_stands_verbatim():

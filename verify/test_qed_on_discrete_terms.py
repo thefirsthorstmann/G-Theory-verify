@@ -12,7 +12,7 @@ and the regulator specifies the reading's depth. This joins a proved
 structure — the lossy map of the companion chapter — to a physical office.
 It is marked as an identification and §8 gives what would sever it.
 
-THE DERIVATION (§6, restated 2026-08-21 after the author observed the paper was
+THE DERIVATION (§6, restated 2026-08-21 after CC observed the paper was
 under-claiming). 137 is the UNIQUE prime whose reciprocal has base-ten
 period eight and seventeen cyclic families. This is not a numerical search:
 a prime of period eight must divide 10**8 - 1 = 3^2 x 11 x 73 x 101 x 137,
@@ -20,7 +20,7 @@ so there are five candidates and the check is exhaustive. Both conditions
 are fixed beforehand — the base by the least-base theorem, and 17 = 3^4 -
 2^6 as the binary-ternary gap. The integer is therefore DERIVED.
 
-WHAT IS ACTUALLY OPEN (corrected 2026-08-21, the author). The first wording said the
+WHAT IS ACTUALLY OPEN (corrected 2026-08-21, CC). The first wording said the
 gap was "a correspondence between a proven integer and a measured quantity".
 That smuggles in the two-realms Platonism this programme explicitly rejects
 (see the banked base-ten position: the universe BUILDS math in its forced
@@ -50,12 +50,12 @@ import math
 
 from sympy import factorint, n_order
 
-ALPHA = 7.2973525693e-3
+ALPHA = 7.2973525643e-3        # CODATA 2022 (version 2 of the paper)
 A_E_MEASURED = 1.159652180590e-3
 ALPHA_INV_MZ = 127.952            # PDG, at the Z mass
 
 # the QED series for a_e in powers of alpha/pi
-SERIES = [0.5, -0.328478965579, 1.181241456, -1.9106, 9.16]
+SERIES = [0.5, -0.328478965579, 1.181241456, -1.912245764, 6.737]
 
 
 # --- the coupling's integer: DERIVED, by exhaustive check ------------------
@@ -91,7 +91,7 @@ def test_both_conditions_are_fixed_before_the_result():
 
 def test_the_open_step_is_the_office_not_the_realm():
     """The integer is proved. What is open is which office the count fills."""
-    assert abs(1 / ALPHA - 137.035999084) < 1e-8
+    assert abs(1 / ALPHA - 137.035999177) < 1e-8
     assert abs(1 / ALPHA - 137) > 0.03
 
 
@@ -259,10 +259,11 @@ def test_the_figure_in_sigma_is_not_stable_and_must_not_be_quoted():
     assert "the placement arrives with the numerator" in doc
     assert "the carbon anchor of the atomic scale" in doc
     assert "That narrower step is what remains open" in doc
-    # the rest value and its dress (the author, 2026-08-26): the seat sits
-    # above every measured approach, and the running moves away from it
-    assert "the rest value, and\nthe measured figure is its dress".replace("\n", " ") in doc
+    # the rest value and the measured value (the author, 2026-08-26; the terms of version 2): the rest
+    # value sits above every measured approach, and the running moves away from it
+    assert "it is the rest value, and the measured figure differs from it by the perturbation offset" in doc
     assert "reached only by\ncalculation".replace("\n", " ") in doc
-    gap = (137 + 36 / 1000) - 137.035999084
-    assert 5e-7 < gap < 1.5e-6              # nine parts in 10^7, as stated
+    gap = (137 + 36 / 1000) - 137.035999177
+    assert 5e-7 < gap < 1.5e-6              # 8.2 parts in 10^7 on CODATA 2022, as stated
+    assert "stands 8.2 parts in 10⁷ below the rest value" in doc
     assert 137.035999084 > 127.952          # the running descends: away from the seat

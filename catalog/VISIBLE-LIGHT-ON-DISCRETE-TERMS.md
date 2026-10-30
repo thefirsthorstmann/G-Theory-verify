@@ -1,28 +1,29 @@
 %%TITLE: Visible Light on Discrete Terms
 %%SUBTITLE: The band without octave equivalence, the circle that closes by mixing, and the wheel of hues read from the arithmetic of one seventh: complementary pairs from the half turn, the two triads as residues and non-residues, the white ray at 0.999999, and black as the unit shortfall.
-%%META: Christian Horstmann · thefirsthorstmann@gmail.com · August 25th, 2026 · manuscript for the public record
-%%ABSTRACT: The band of visible light spans about one octave, and vision has no octave equivalence: where a frequency and its double are both visible, they are different hues, so the spectrum is a segment, not a circle. Perception nevertheless closes it into a wheel, through the purples — colors with no wavelength of their own, made only by mixing the segment's two ends — so the wheel's circularity is a mixing fact, and the discrete account of visible light is an account of mixing. The wheel so closed has a fixed structure that no standard account derives from anything smaller: six hues in a circle, three of them additive primaries and three subtractive, arranged alternately; three complementary pairs standing diametrically opposite; each pair summing to white; and two poles, white and black, that are not hues at all. This paper exhibits the same structure inside the decimal expansion of one seventh. The six fractions k/7 are the six cyclic rotations of the repeating block 142857, and multiplication by ten arranges them in a circle. On that circle the diametrically opposite fraction is the complement to one, because 10³ ≡ −1 (mod 7): the half turn is negation, which is Midy's theorem, and each opposite pair of six-digit blocks sums to 999999. Alternate positions around the circle split the six into the quadratic residues {1, 2, 4} and the non-residues {3, 5, 6} — two interleaved triangles, the first summing to one whole and the second to two. The mixing calculus is exact on both poles: the residue triad alone sums to unity, white by addition, and each non-residue fraction is one minus a residue light, so the three together absorb exactly one unit — black by subtraction. The identification of these six rotations with the six hues, the pair sum 0.999999 with the white ray, and the residue 0.000001 with black is stated as an interpretation, with its freedom declared and located: the arithmetic fixes the structure and the offices — six positions, three antipodal pairs, which triad is additive, and the mixing sums — and leaves free only the naming of hues within an office. With one anchor — which residue is named red — the calculus then computes the standard wheel entire: the hue order, the triads, the complementary pairs, and every pairwise mixing identity, with the remaining freedom exactly the dihedral choice every color system makes. Two closing sections place the wheel in relation to the field and to the quantum of light. The same constant whose orderings the companion volumes identify with electromagnetism's two faces carries the hues as its rotations. And since a photon has a frequency and no hue, color begins at the receptor triad's count; metamerism is that count's many-to-one, and the wheel lives in the quotient the count creates — exactly where the calculus computes. Newton divided the spectrum into seven names on the analogy of the diatonic scale — an artificial count, laid on a continuum that draws no lines. What his analogy pointed at survives in a different place, with a different count. The shared structure of color and music is real; it is the mixing wheel's six, three additive and three subtractive, not the spectrum's seven, and it is arithmetic rather than convention. Every arithmetic claim re-derives in a public suite at github.com/thefirsthorstmann/g-theory-verify.
+%%META: Christian Horstmann · thefirsthorstmann@gmail.com · August 25th, 2026 · version 2, October 2026 · manuscript for the public record
+%%ABSTRACT: The band of visible light spans about one octave, and vision has no octave equivalence: where a frequency and its double are both visible they are different hues, so the spectrum is a segment and not a circle. Perception closes it into a wheel through the purples, which have no wavelength and arise only by mixing the two ends. The mixing wheel has a fixed structure that no standard account derives from anything smaller than the receptor triad. It has six hues in a circle, three additive and three subtractive primaries alternating, three complementary pairs facing each other and each summing to white, and two poles, white and black. This paper exhibits the same structure in the decimal expansion of one seventh. Multiplication by ten arranges the six fractions k/7 in a circle on which the opposite fraction is the complement to one, since 10³ ≡ −1 (mod 7), and each opposite pair of blocks sums to 999999. Alternate positions split the six into the quadratic residues {1, 2, 4}, which sum to one whole, and the non-residues {3, 5, 6}, which sum to two. Taking mixing as addition and a pigment as the complement of its light, the calculus computes the standard wheel from one anchor: the hue order, the triads, the complementary pairs and every pairwise mixing law, with six namings left free. The identification of the rotations with the hues is an interpretation, and the structural findings that would refute it are named. Every exact claim re-derives in a public suite at github.com/thefirsthorstmann/g-theory-verify, where the same statements are also formalized in Lean 4.
 %%
  
 ## 1 · Introduction
 
 Visible light occupies a narrow band — about one octave, and under the common conventions just less than one. The edges of the band are conventional, and nothing is read in them here. What is read is a structural fact no convention moves: vision has no octave equivalence. In pitch, a frequency and its double are the same note again; in color, where a frequency and its double are both visible, they are simply different hues. The spectrum therefore offers perception a segment with two ends and no recurrence. Yet the perceived hues close into a circle. The closure runs through the purples — magenta and its neighbors — which correspond to no wavelength and arise only by mixing the segment's two ends. The circle of hues is therefore not a fact about the spectrum; it is a fact about mixing, and the object of this paper is the mixing wheel.
 
-Color mixing has carried the same diagram for three centuries. Newton passed
-the white ray through a prism, recovered it by recombination, and divided the
-continuous spectrum into seven named colors — by explicit analogy, as he
-records in the Opticks, with the seven notes of the diatonic octave. The
-spectrum itself draws no lines; the count was a reading, and it was a musical
-one. The count was artificial — a continuum accepts any
-segmentation — but the direction of the borrowing pointed somewhere real.
-This paper relocates it: the shared structure of color and music is the
-wheel's six, not the spectrum's seven, and there it is exact. Goethe organized the mixing colors instead as a closed wheel of six with
-two poles. The modern accounts keep exactly that object: three additive
-primaries whose lights sum to white, three subtractive primaries that are
-their complements, the six alternating around a circle, and complementary
-pairs facing each other across it. The perception laboratory studies a
-different object — the opponent structure of unique hues — and this paper
-makes no claim about it; the object here is the mixing wheel.
+Color mixing has carried the same diagram for three centuries. Newton
+passed the white ray through a prism, recovered it by recombination, and
+divided the continuous spectrum into seven named colors — by explicit
+analogy, as he records in the Opticks [1], with the seven notes of the
+diatonic octave. The spectrum itself draws no lines; the count was a
+reading, and it was a musical one. It was an artificial count, since a
+continuum accepts any segmentation, but the direction of the borrowing
+pointed somewhere real. This paper relocates it: the shared structure of
+color and music is the mixing wheel's six, not the spectrum's seven, and
+there it is exact. Goethe organized the mixing colors instead as a
+closed wheel of six with two poles [2]. The modern accounts keep exactly
+that object: three additive primaries whose lights sum to white, three
+subtractive primaries that are their complements, the six alternating
+around a circle, and complementary pairs facing each other across it.
+The perception laboratory studies a different object, the opponent
+structure of unique hues [3]; the object here is the mixing wheel.
 
 The mixing wheel's structure is stated in every textbook, and the standard
 account grounds it in the receptor triad it measures; from anything smaller
@@ -123,12 +124,11 @@ only pair on the page whose sum is exactly one, and neither member is a
 rotation of the block. The poles stand off the wheel, as they do in the
 diagram color practice has always drawn.
 
-One cross-reference is recorded, stated as an interpretation and held to one
-sentence. The unit shortfall at the register's depth — the 0.000001 by which
-the multiples of one seventh decline closure — is the same residue the
-gravitational volume identifies with the deficit that sources the pull. Read
-through the present wheel, the register's darkness and its weight are one
-address.
+One cross-reference is recorded as an interpretation. The unit shortfall
+at the register's depth, the 0.000001 by which the multiples of one
+seventh fall short of closure, is the same residue the gravity record
+identifies with the deficit that sources the pull. Read through the
+present wheel, black and the gravitational deficit are the same residue.
 
 ## 6 · The wheel, computed
 
@@ -160,59 +160,66 @@ blue, magenta between blue and red.
 
 **Corollary (the wheel entire).** Fix one anchor — which residue is
 called red — and one orientation. Every remaining assignment is then
-forced, and the computed wheel reproduces the standard wheel in full.
-It gives the hue order red, yellow, green, cyan, blue, magenta around
-the circle; the additive and subtractive triads; the complementary
-pairs red–cyan, green–magenta, blue–yellow; and every mixing identity
-above.
-The seam is included: magenta, the one secondary that corresponds to no wavelength, is computed as the sum of the segment's two ends — the circle closes in the arithmetic exactly where the spectrum cannot close it. The freedom declared in §9 is thereby located exactly — the dihedral
-choice of anchor and orientation, twelve assignments — and nothing
-else; all relations are computed.
+determined, and the computed wheel reproduces the standard wheel in
+full. It gives the hue order red, yellow, green, cyan, blue, magenta
+around the circle; the additive and subtractive triads; the
+complementary pairs red–cyan, green–magenta, blue–yellow; and every
+mixing identity above. The closure is included: magenta, the one
+secondary that corresponds to no wavelength, is computed as the sum of
+the segment's two ends, so the circle closes in the arithmetic exactly
+where the spectrum cannot close it. The freedom declared in §9 is
+thereby located exactly: which residue is named red, and the
+orientation, six assignments,† and nothing else; all relations are
+computed.
 
-One sentence of standing, so nothing is oversold: these identities
-reproduce established mixing behavior, and they are exhibited as the
+<div class="vnote">† Version 1 counted twelve assignments, the full
+symmetry of the hexagon; the six that keep the additive triad on the
+residues are the free ones.</div>
+
+These identities reproduce established mixing behavior and show the
 identification's coherence under calculation; the constraint that would
-promote the reading past coherence remains the one named in §9.
+take the reading past coherence remains the one named in §9.
 
 ## 7 · In relation to electromagnetism
 
-Visible light is electromagnetic radiation, and the companion volumes derive
-the field's structure from the same six-digit constant this paper reads.
-There, the block 142857 has two canonical orderings: the positional order
-that division writes, and the multiplicative order that doubling walks.
-The companion volumes identify the pair with the electric and magnetic
-faces of the field (The Origin on Discrete Terms,
-doi.org/10.5281/zenodo.22119129; Gravity on Discrete Terms,
-doi.org/10.5281/zenodo.22087600). The faces are the read
-face and the circulation face, exchanged by an involution that is its own
-inverse, and radiation begins at the dipole. Here, the same block is read by its
-fractions: the six sevenths as the wheel of hues. One constant carries both
-readings. The orderings give the field its two faces; the rotations give
-its visible radiation the six hues; and neither reading borrows from the
-other — each is derived where it is derived.
+Visible light is electromagnetic radiation, and the companion records
+derive the field's structure from the same six-digit constant this paper
+reads. There, the block 142857 has two canonical orderings: the
+positional order that division writes, and the multiplicative order that
+doubling walks. The companion records identify the pair with the
+electric and magnetic faces of the field (The Origin on Discrete Terms,
+DOI 10.5281/zenodo.21212112; Gravity on Discrete Terms, DOI
+10.5281/zenodo.22087599). The faces are the read face and the
+circulation face, exchanged by an involution that is its own inverse,
+and radiation begins at the dipole. Here, the same block is read by its
+fractions: the six sevenths as the wheel of hues. One constant carries
+both readings. The orderings give the field its two faces; the rotations
+give its visible radiation the six hues; and neither reading borrows
+from the other — each is derived where it is derived.
 
-One structural echo is recorded as an observation. The faces are exchanged
-by an involution, and the wheel's complementation is the half turn,
-likewise its own inverse: two order-two moves on the one constant. The
-paper notes the rhyme and rests nothing on it. Nothing in this section
-derives the field equations, and no such claim is made; the relation
-exhibited is that of one arithmetic object underlying two accounts.
+One structural echo is recorded as an observation. The faces are
+exchanged by an involution, and the wheel's complementation is the half
+turn, likewise its own inverse: two order-two moves on the one constant.
+The parallel is noted and nothing rests on it. What is exhibited is one
+arithmetic object underlying two accounts; a derivation of the field
+equations from it is open.
 
 ## 8 · In relation to the quantum of light
 
-A photon has a frequency and no hue. Color does not exist at the level of
-the single quantum; it begins where counting begins — at the receptor
+A photon has a frequency and no hue. Color does not exist at the level
+of the single quantum; it begins where counting begins — at the receptor
 triad, whose three tallies are the tristimulus values of standard
-colorimetry. Color is a property of a three-channel count, not of the
-light alone, and the standard account states as much: matching any visible
-spectrum requires exactly three numbers.
+colorimetry [4]. Color is a property of a three-channel count, not of
+the light alone, and the standard account states as much: matching any
+visible spectrum requires exactly three numbers.
 
 The count is many-to-one, and its many-to-one has a name: metamerism.
-Infinitely many spectra produce the same three tallies and are one color,
-indistinguishable in principle to the instrument that counts them. In the
-vocabulary of this series that is commitment — the eye is a counting
-instrument, and a color is what survives its count. The reading is labeled
-as one; the colorimetry it reads is the standard science.
+Infinitely many spectra produce the same three tallies and are one
+color, indistinguishable in principle to the instrument that counts
+them. In the vocabulary of this series that is commitment — the eye is a
+counting instrument, and a color is what remains after its count. The
+reading is labeled as one; the colorimetry it reads is the standard
+science.
 
 This locates the calculus precisely, and answers the question of its use.
 Wavelength arithmetic cannot carry the wheel, because the wheel does not
@@ -233,12 +240,11 @@ term; the difference is economy and status. What the continuous route
 carries as empirical regularity, the fraction carries as arithmetic
 necessity, and what it computes, it computes exactly.
 
-Why the count has three channels is not derived in this paper, and this
-freedom is stated beside the others: the calculus takes the triad of
-channels as the standard science gives it. The subtractive mechanism,
-finally, is the complement identity made physical. A pigment absorbs its
-complementary band and transmits the rest, photon by photon, and
-1 − light is that removal stated exactly.
+Why the count has three channels remains open: the calculus takes the
+triad of channels as the standard science gives it. The subtractive
+mechanism, finally, is the complement identity made physical. A pigment
+absorbs its complementary band and transmits the rest, photon by photon,
+and 1 − light is that removal stated exactly.
 
 ## 9 · What is established, and what is read
 
@@ -248,72 +254,88 @@ the residue subgroup and its coset with sums 7 and 14; white plus black is
 one. The mixing theorems of §6 compute the standard wheel entire from
 one anchor. None of it is adjustable.
 
-The identification — six rotations as the six hues, pair sums as the white
-ray, the residue as black — is an interpretation, and its freedom is
-declared rather than hidden. It does not rest on a resemblance of
+The identification — six rotations as the six hues, pair sums as the
+white ray, the residue as black — is an interpretation, and its freedom
+is declared rather than hidden. It does not rest on a resemblance of
 diagrams, and the reason deserves its own sentence: the two sixes factor
 identically, with matched offices. The wheel of color is, on its own
 terms, two times three — the additive–subtractive polarity times the
-triad of primaries. The hexad is Z/2 × Z/3 with the same assignment:
-the polarity component is the Midy pairing, the triad component is the
-residue split. What is identified is one factorization
-in two realizations, not one picture beside another. The arithmetic fixes the structure and more:
-six positions on a circle, three antipodal complementary pairs, two
-interleaved triads, which triad carries the additive office, and the mixing
-sums that reach both poles. What it leaves free is only the naming — which
-residue is called red — a freedom of rotation and reflection within each
-office. That is the same division every color system makes when it seats
-its zero of hue angle by convention; relations and mixtures are defined
-exactly, names conventionally. An interpretation with the naming freedom
-describes the wheel and computes its mixtures; it does not yet forbid a
-measurement. What would promote it is a constraint: a quantitative
-statement about mixing or about hue spacing that the arithmetic requires
-and measurement could refuse. None is claimed here. What would refute the reading as it stands is
-structural. A mixing wheel of color with complements that do not sum to
-white, or whose primary triads do not interleave, would leave the arithmetic
-with nothing to name; no such wheel is in use.
+triad of primaries. The hexad is Z/2 × Z/3 with the same assignment: the
+polarity component is the Midy pairing, the triad component is the
+residue split. What is identified is one factorization in two
+realizations, not one picture beside another. The arithmetic fixes the
+structure and more: six positions on a circle, three antipodal
+complementary pairs, two interleaved triads, which triad carries the
+additive office, and the mixing sums that reach both poles. What it
+leaves free is only the naming — which residue is called red — a freedom
+of rotation and reflection within each office. That is the same division
+every color system makes when it sets its zero of hue angle by
+convention; relations and mixtures are defined exactly, names
+conventionally. An interpretation with the naming freedom describes the
+wheel and computes its mixtures; it does not yet forbid a measurement.
+What would promote it is a constraint: a quantitative statement about
+mixing or about hue spacing that the arithmetic requires and measurement
+could refuse. No such constraint is yet known, and finding one is the
+open problem. What would refute the reading as it stands is structural.
+A mixing wheel of color with complements that do not sum to white, or
+whose primary triads do not interleave, would leave the arithmetic with
+nothing to name; no such wheel is in use.
 
-**Violet, held as a signpost.** One spectral hue asks for a seventh
-reading. Violet stands at the segment's short end, and perception tinges
-it with the other end: violet is seen as reddish blue, the standard hue
-circle bending the segment's short end back toward the long. The last
-visible hue already leans toward red — the end sounding the beginning.
-The observation is perceptual and standard; no mechanism for it is
-claimed here. The scale of the companion
-volumes carries a matching absence. The harmonic seventh, 7/4, is the
-tone the diatonic figure never seats: on the lattice of 24 its place is
-42, between the submediant at 40 and the leading tone at 45. The gap
-between the two musical sevenths is the septimal comma — the crossing
-from the world of two and three into the world of seven. Whether violet
-is rightly read as the wheel's unseated seventh — the hue of the address
-before closure, as 7/4 is the tone before the octave that the seats
-decline — is recorded as a signpost and nothing more.
+A finding of either kind is recorded as a refutation and is not
+reinterpreted. The program then uses the miss to find why the
+construction failed, and a revised statement enters as a new one under
+its own date.†
 
-Newton's precedent bounds the claim from the other side. His seven spectral
-names were chosen to match the octave, and the choice was fertile for three
-centuries while deriving nothing. A reading of color from arithmetic must
-therefore expect to establish its standing the slow way, by finding the
-constraint the wheel imposes; this paper contributes the structure and the
-plain statement of what remains open.
+<div class="vnote">† Added in version 2.</div>
+
+**Violet, the last spectral hue, is held as a signpost.** One spectral
+hue asks for a seventh reading. Violet stands at the segment's short
+end, and perception tinges it with the other end: violet is seen as
+reddish blue, the standard hue circle bending the segment's short end
+back toward the long. The last visible hue is already seen with a trace
+of red. The observation is perceptual and standard, and its mechanism
+remains open. The scale of the companion records carries a matching
+absence. The harmonic seventh, 7/4, is the tone the diatonic figure
+never occupies: on the lattice of 24 its place is 42, between the
+submediant at 40 and the leading tone at 45. The gap between the two
+musical sevenths is the septimal comma, the crossing from the world of
+two and three into the world of seven. Whether violet is rightly read as
+the wheel's unoccupied seventh, the hue of the address before closure,
+as 7/4 is the tone before the octave that the figure's positions leave
+out, is recorded as a signpost and nothing more.
+
+Newton's precedent bounds the claim from the other side. His seven
+spectral names were chosen to match the octave, and the choice was
+fertile for three centuries while deriving nothing. A reading of color
+from arithmetic must therefore expect to establish its standing the slow
+way, by finding the constraint the wheel imposes; this paper contributes
+the structure and the statement of what remains open.
 
 ## 10 · Verification
 
-Every arithmetic statement in this paper is encoded as a re-runnable test
-in `verify/test_the_color_wheel.py` within the program's suite. The battery
-covers the six rotations, the orbit order, the half-turn negation, the
-three pair sums, the residue split with its two totals, and the closure
-values of white and black. The battery and this paper's source are public at
-github.com/thefirsthorstmann/g-theory-verify. The identification of §9 pins
-nothing; it is the part of the paper that is read rather than proved, and it
-is labeled where it stands.
+Every arithmetic statement in this paper is encoded as a re-runnable
+test in `verify/test_the_color_wheel.py` within the program's suite. The
+battery covers the six rotations, the orbit order, the half-turn
+negation, the three pair sums, the residue split with its two totals,
+and the closure values of white and black. The same statements, with the
+count of the free namings, are formalized as eight theorems in Lean 4
+with Mathlib. The battery, the Lean file and the source of this paper
+are all public, at github.com/thefirsthorstmann/g-theory-verify. The
+identification of §9 pins nothing; it is the part of the paper that is
+read rather than proved, and it is labeled where it stands.
 
 ---
 
-*Companions: Gravity on Discrete Terms (the unit shortfall as the deficit;
-doi.org/10.5281/zenodo.22087600) · Tonal Function on Discrete Terms (the
-functions of the scale from the same seats;
-doi.org/10.5281/zenodo.22119147) · Sevenths — A Constant Hidden
-in Plain Sight (the reptend itself; doi.org/10.5281/zenodo.21432733) · The
-Origin on Discrete Terms (the figure; doi.org/10.5281/zenodo.22119129).*
+*Companions: Gravity on Discrete Terms, the unit shortfall as the
+deficit, DOI 10.5281/zenodo.22087599 · Tonal Function on Discrete Terms,
+the functions of the scale from the same positions, DOI
+10.5281/zenodo.22119146 · The Seventh — A Constant Hidden in Plain Sight,
+the reptend itself, DOI 10.5281/zenodo.21206863 · The Origin on Discrete
+Terms, the figure, DOI 10.5281/zenodo.21212112.*
 
-<div class="copyright" style="margin-top:80pt">Copyright<br>Christian Horstmann · August 25th, 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>
+*References: [1] I. Newton, Opticks (1704) · [2] J. W. von Goethe, Zur
+Farbenlehre (1810) · [3] E. Hering, Grundzüge der Lehre vom Lichtsinn
+(1920); L. M. Hurvich, D. Jameson, Psychological Review 64 (1957) 384 ·
+[4] G. Wyszecki, W. S. Stiles, Color Science, 2nd edition (1982).*
+
+<div class="copyright" style="margin-top:24pt">Copyright<br>Christian Horstmann · August 25th, 2026 · version 2, October 2026<br>thefirsthorstmann@gmail.com<br>All rights reserved</div>

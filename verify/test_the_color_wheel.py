@@ -108,7 +108,7 @@ def test_the_paper_states_the_theorems_and_labels_the_reading():
     assert "an interpretation" in FLAT                 # the reading typed at the statement
     assert "rotation and reflection within each office" in FLAT   # the freedom, located
     assert "only the naming" in FLAT                   # relations exact, names conventional
-    assert "None is claimed here" in FLAT              # no constraint overclaimed
+    assert "No such constraint is yet known, and finding one is the open problem." in FLAT   # no constraint overclaimed
     # CC's sharpening (2026-08-25): not diagram-resemblance — one factorization,
     # two realizations, with the polarity and triad offices matched
     assert "the two sixes factor identically, with matched offices" in FLAT
@@ -118,7 +118,7 @@ def test_the_paper_states_the_theorems_and_labels_the_reading():
     assert "photon has a frequency and no hue" in FLAT
     assert "metamerism" in FLAT
     assert "the quotient the count creates" in FLAT           # where the calculus computes
-    assert "Why the count has three channels is not derived" in FLAT   # the freedom stated
+    assert "Why the count has three channels remains open" in FLAT   # the freedom stated
     # CC's two notes (2026-08-25): the Newton stance made plain; the continuum comparison scoped
     assert "an artificial count" in FLAT               # Newton's seven, called plainly
     assert "the mixing wheel's six" in FLAT and "not the spectrum's seven" in FLAT

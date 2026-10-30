@@ -10,8 +10,8 @@ from fractions import Fraction as F
 
 from mpmath import mp
 
-mp.dps = 70
-D = mp.nstr(mp.pi, 65)[2:]           # pi decimals; position n = D[n-1]
+with mp.workdps(70):                 # scoped: ambient precision untouched
+    D = mp.nstr(mp.pi, 65)[2:]       # pi decimals; position n = D[n-1]
 
 
 def test_first_zero_at_32():

@@ -1,4 +1,4 @@
-"""test_the_held_form.py — THE NOTATION the author ASKED FOR (2026-08-14). He wrote the
+"""test_the_held_form.py — THE NOTATION CC ASKED FOR (2026-08-14). He wrote the
 ladder's zeroth row as minus one point nought nought one rather than zero, "so
 that it did not give the appearance of changing sides," and asked what
 definition would make that mean what it says.
@@ -35,7 +35,7 @@ definition would make that mean what it says.
   doctrine refuses the open bottom, this refuses the open top, and both are
   refusals of the half-open convention at opposite ends.
 
-  WHAT THE ASYMMETRY FORBIDS — added the same day, after the author pushed back on the
+  WHAT THE ASYMMETRY FORBIDS — added the same day, after CC pushed back on the
   first version's "it forbids nothing," which is RETRACTED. Against the banked
   arrow clause (the arrow of time is the stack of irreversible roundings;
   entropy is the count of collisions taken), the held form is the notation in
@@ -163,7 +163,7 @@ def test_the_carry_costs_exactly_one_bit_because_an_interval_has_two_ends():
 
 
 def test_zero_and_one_are_the_same_address_and_the_bit_is_the_receipt():
-    """the author's reading. The bounded register is an address on a circle, so its two
+    """CC's reading. The bounded register is an address on a circle, so its two
     endpoints are one point; the bit is whether the turn has been credited."""
     origin_from_below, origin_from_above = F(1), F(0)
     assert origin_from_below != origin_from_above       # two writings

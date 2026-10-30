@@ -2,7 +2,7 @@
 QUADRUPOLE'S IS CLEAN (2026-08-18). Two Schur ratios had turned up by
 accident, so the question was how many the account actually carries. The
 sweep found more, rejected two candidates, refuted a prediction of mine,
-and — following the author's observation that thirty-two is Fa — landed on a
+and — following CC's observation that thirty-two is Fa — landed on a
 double uniqueness at the quadrupole that explains the whole coefficient.
 
 WHAT A SCHUR RATIO IS. If an average over a group acts on an irreducible
@@ -33,7 +33,7 @@ the democratic axis), not an average; an isotropic vector would give one
 third and a ratio of one. Neither is a Schur ratio and neither is
 recorded as one.
 
-the author'S OBSERVATION, MADE RIGOROUS. Thirty-two is Fa. More than that: on the
+CC'S OBSERVATION, MADE RIGOROUS. Thirty-two is Fa. More than that: on the
 root-24 scale **32 = 2⁵ is the only pure power of two in the octave, and
 27 = 3³ the only pure power of three** — so a coefficient that is a pure
 two-power can seat nowhere but Fa. The quadrupole's numerator is a pure
@@ -164,7 +164,7 @@ def test_koide_is_a_constraint_not_an_average():
     assert abs(K - isotropic) > 0.3                # so it is not that average
 
 
-# ── the author's observation, and what it opened ─────────────────────────────
+# ── CC's observation, and what it opened ─────────────────────────────
 
 def test_fa_is_the_only_pure_power_of_two_in_the_octave():
     """And Re the only pure power of three — so a pure two-power
@@ -178,7 +178,7 @@ def test_fa_is_the_only_pure_power_of_two_in_the_octave():
 
 
 def test_the_octupole_is_not_a_pure_power_of_three():
-    """The prediction that followed from the author's point, refuted: the
+    """The prediction that followed from CC's point, refuted: the
     octupole's contracted fourth derivative carries a foreign prime."""
     t, w, a = sp.symbols('t omega a', positive=True)
     x = [a * sp.cos(w * t), a * sp.sin(w * t), sp.Integer(0)]

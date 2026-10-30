@@ -1,6 +1,6 @@
 """test_the_clause_coefficient.py — THE QUADRUPOLE CLAUSE'S COEFFICIENT IS
 FIXED BY THE STATIONARY FIELD EQUATIONS, NOT BY COMPARISON (2026-08-22,
-session). the author: "see if you can get any further with what's open." This
+Fable session). CC: "see if you can get any further with what's open." This
 was the second of three open items in §21.12.
 
 THE STANDING BEFORE TODAY (§21.5, test_the_quadrupole.py). At second order
@@ -147,5 +147,5 @@ def test_the_paper_states_the_derivation_and_closes_the_item():
     assert "a consequence rather than the source" in FLAT
     assert "comparison-fixed coefficient" not in FLAT
     assert "the register supplies no independent reason for the one" not in FLAT
-    assert "**Open, named.** Two items." in FLAT
+    assert "**Two items remain open.**" in FLAT          # the head as a statement (version 4, October 2026)
     assert "The quadrupole clause's coefficient, fixed by comparison rather than derived." not in FLAT

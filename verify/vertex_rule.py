@@ -32,7 +32,7 @@ replaces every list with one criterion and one attribute table:
 
 One criterion, one table, zero case-lists. The generator's output is
 tested cell-for-cell against the banked TARGET_EDGES (the plate).
-Removing the color attribute removes exactly the two [input] cells —
+Removing the color attribute kills exactly the two [input] cells —
 the wiring layer, like the content layer, owes exactly one object.
 """
 

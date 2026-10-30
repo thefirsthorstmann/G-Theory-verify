@@ -20,7 +20,7 @@ def test_gauge_part_at_three_colors_is_eleven():
 
 
 def test_one_octave_step_is_the_tick():
-    """Delta(alpha^-1) for one octave = b0 ln2 / 2pi — one tick's share."""
+    """Delta(alpha^-1) for one octave = b0 ln2 / 2pi — one tick's worth."""
     step = run_alpha_inv(0.0, 1.0, F(23, 3))
     assert abs(step - float(F(23, 3)) * math.log(2) / (2 * math.pi)) < 1e-15
 

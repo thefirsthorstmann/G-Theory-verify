@@ -20,7 +20,7 @@ flagged for re-check): seat = sqrt(62947/81000) = 0.8815461.
        two-tier law reaches the EW sector;
     vs CDF-II (80.4335): -1.02 cents; the field is split by 1.38
        cents and THE CONSTRUCTION SIDES WITH PDG (as with r_M: a side
-       is taken, falsification band pre-registered).
+       is taken, kill-band pre-registered).
 The raw whole tone alone is +14.7 cents from measurement: the 9/8 is
 the SKELETON, not the seat; the seat is the dressed construction.
 The angle inherits the mass dress amplified by 2cos^2/sin^2 ~ 7.
